@@ -1,0 +1,4 @@
+baseURL = 'https://dinosoeren.github.io/walls.dev'
+languageCode = 'en-us'
+title = 'walls.dev'
+theme = 'ananke'
