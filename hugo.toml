@@ -1,4 +1,4 @@
-baseURL = 'https://dinosoeren.github.io/walls.dev'
+baseURL = 'https://walls.dev'
 languageCode = 'en-us'
 title = 'Software Engineer (ex-Google)'
 # theme = 'anatole'
