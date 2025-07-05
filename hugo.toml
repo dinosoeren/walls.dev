@@ -1,4 +1,68 @@
 baseURL = 'https://dinosoeren.github.io/walls.dev'
 languageCode = 'en-us'
-title = 'walls.dev'
-theme = 'ananke'
+title = 'Software Engineer (ex-Google)'
+# theme = 'anatole'
+
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
+
+[params]
+  title = "Soeren Walls"
+  author = "Soeren Walls"
+  description = "NJ-born Software Engineer from Pueblo, CO with a\nliberal arts degree in CS & Theatre, and a passion for\nstorytelling, travel, and singing a-capella."
+  profilePicture = "images/profile.jpeg"
+
+  relatedPosts = true
+  readMore = true
+  numberOfRelatedPosts = 3
+  # disableTitleCapitalization = true
+  oldContentWarning = true
+  oldContentDuration = 365
+
+  contactFormAction = "https://formspree.io/f/mgvybvzd"
+
+  pygmentsCodeFences = true
+  pygmentsUseClasses = true
+
+  ## Math settings
+  [params.math]
+    enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+    use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://linkedin.com/in/soerenw"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/dinosoeren"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 400
+  identifier = "contact"
+  url = "/contact/"
