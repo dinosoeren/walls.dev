@@ -13,8 +13,7 @@ thumbnail = "images/collaborative-canvas/featured.png"
 | **Timeline** | May 8-13, 2015 |
 | **Languages Used** | JavaScript (Node.js), HTML, CSS |
 | **School** | Colorado College |
-| **Course** | CP215 Application Design
- |
+| **Course** | CP215 Application Design |
 
 
 Ever wanted to draw online together with your friends? This app is perfect for that! ... but not much else. It doesn't even have a function to save/download the masterpieces you create, let alone do most things expected of sophisticated drawing applications these days.

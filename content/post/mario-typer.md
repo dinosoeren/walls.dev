@@ -13,8 +13,7 @@ thumbnail = "http://img.youtube.com/vi/I_i6VN_9p4s/maxresdefault.jpg"
 | **Timeline** | Nov 21-26, 2015 |
 | **Languages Used** | C++ (OpenGL) |
 | **School** | Aquincum Institute of Technology |
-| **Course** | CP360 Computer Graphics
- |
+| **Course** | CP360 Computer Graphics |
 
 I've always loved typing games. My favorite is [Ztype](http://zty.pe/), which you can play directly in your browser. It's a little sad how many hours I've spent playing this game. Mario Typer, a simple PC game I made in a weekend for my Computer Graphics course at AIT-Budapest, is heavily inspired by Ztype, as well as the cult classic *Super Mario 64*, obviously. Nintendo, if you're reading this, please don't sue me!
 

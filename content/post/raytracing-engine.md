@@ -13,8 +13,7 @@ thumbnail = "images/raytracing-engine/chessboard.png"
 | **Timeline** | Nov 10-24, 2015 |
 | **Languages Used** | C++ |
 | **School** | Aquincum Institute of Technology |
-| **Course** | CP360 Computer Graphics
- |
+| **Course** | CP360 Computer Graphics |
 
 ![undefined](../../images/raytracing-engine/cylinder.png)
 
