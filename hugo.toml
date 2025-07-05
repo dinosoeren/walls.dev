@@ -41,6 +41,14 @@ title = 'Software Engineer (ex-Google)'
     icon = "fab fa-github"
     title = "GitHub"
     url = "https://github.com/dinosoeren"
+  [[params.socialIcons]]
+    icon = "fab fa-youtube"
+    title = "YouTube"
+    url = "https://youtube.com/@dinosoeren"
+  [[params.socialIcons]]
+    icon = "fab fa-spotify"
+    title = "Spotify"
+    url = "https://open.spotify.com/track/1cHVzM29SkVmIdqR1F3xem"
 
 [menu]
   [[menu.main]]
