@@ -3,8 +3,8 @@ date = "2013-11-24T13:28:00-06:00"
 draft = true
 title = "Now Fluent in 9 Computer Languages - Just Learned Java"
 # original_title = "Now Fluent in 9 Computer Languages - Just Learned Java"
-tags = ["Computer Science", "Education", "Game Development", "Java", "Mobile Development", "Professional", "Project"]
-categories = ["Business & Entrepreneurship", "Education & Learning", "Game Development", "Programming"]
+tags = ["Education", "Game Development", "Java", "Mobile Development"]
+categories = ["Academic", "Blog", "Programming"]
 thumbnail = "images/learned-java/featured.jpg"
 +++
 
@@ -14,4 +14,4 @@ Being fluent in 8 computer languages already feels awesome, but why not keep goi
 
 Learning this language helped reinforce my recent epiphany that the number of programming languages I know will never be enough. Not only because I love the satisfaction of being fluent in a language after working hard to achieve a certain level of proficiency, but also because there are just so many damn languages out there to learn.
 
-I'm happy to make this announcement, and I've already posted [my first Java project](/SoerenWalls/blog/post/space-warz/) for you to see, a 2D space shooter videogame!
+I'm happy to make this announcement, and I've already posted [my first Java project](../space-warz/) for you to see, a 2D space shooter videogame!

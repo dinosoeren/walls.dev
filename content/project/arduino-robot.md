@@ -3,17 +3,21 @@ date = "2015-06-23T14:00:09-06:00"
 draft = false
 title = "Arduino Robot Solves Mazes Using Subsumption Architecture"
 # original_title = "Arduino-Powered Robot Solves a Maze Using Subsumption Architecture in C"
-tags = ["Academic", "Computer Science", "Education", "Game Development", "Mobile Development", "Open Source", "Professional", "Project", "Robotics", "Web Design"]
-categories = ["Education & Learning", "Game Development", "Hardware & Robotics", "Programming"]
+tags = ["Education", "Game Development", "Open Source", "Programming", "Hardware", "Robotics"]
+categories = ["Academic", "Games", "Robots", "Project"]
 thumbnail = "images/arduino-robot/featured.jpg"
 +++
 
 | | |
 | --- | --- |
-| **Timeline** | April-May, 2015 |
-| **Languages Used** | C |
-| **School** | Colorado College |
-| **Course** | CP248 Introduction to Robotics |
+| **Timeline:** | April-May, 2015 |
+| **Languages Used:** | C |
+| **School:** | Colorado College |
+| **Course:** | CP248 Introduction to Robotics |
+
+## Watch the Demo
+
+{{< youtube zHynd7FIxx0 >}}
 
 
 My robot, lovingly named **Pyat** after a certain [Warlock](http://gameofthrones.wikia.com/wiki/Pyat_Pree), had never seen this particular maze before solving it, and it didn't anticipate the maze's - admittedly simple - structure. Pyat was able to complete the whole thing from start to finish using little more than some basic encoded behaviors. It's programmed to complete any maze (theoretically), but unlike other robots that simply [follow one wall](https://en.wikipedia.org/wiki/Maze_solving_algorithm#Wall_follower) to the end of the maze, Pyat uses a widely-known concept in robotics called **Subsumption Architecture** to navigate mazes in the same way that a human might.

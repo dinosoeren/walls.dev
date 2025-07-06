@@ -15,7 +15,9 @@ title = 'Software Engineer (ex-Google)'
   author = "Soeren Walls"
   description = "NJ-born Software Engineer from Pueblo, CO with a liberal arts degree in CS & Theatre, and a passion for storytelling, travel, and singing a-capella."
   profilePicture = "images/profile.jpeg"
+  images = ["images/profile.jpeg"]
 
+  mainSections = ["blog", "project"]
   relatedPosts = true
   readMore = true
   numberOfRelatedPosts = 3
@@ -23,6 +25,7 @@ title = 'Software Engineer (ex-Google)'
   oldContentWarning = true
   oldContentDuration = 365
 
+  gtagId = "G-NX48YN18V3"
   contactFormAction = "https://formspree.io/f/mgvybvzd"
 
   pygmentsCodeFences = true
@@ -52,25 +55,31 @@ title = 'Software Engineer (ex-Google)'
 
 [menu]
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
 
   [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
+    name = "Projects"
+    weight = 200
+    identifier = "projects"
+    url = "/project/"
 
   [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
+    name = "Blog"
+    weight = 400
+    identifier = "blog"
+    url = "/blog/"
 
   [[menu.main]]
-  name = "Contact"
-  weight = 400
-  identifier = "contact"
-  url = "/contact/"
+    name = "About"
+    weight = 500
+    identifier = "about"
+    url = "/about/"
+
+  [[menu.main]]
+    name = "Contact"
+    weight = 600
+    identifier = "contact"
+    url = "/contact/"

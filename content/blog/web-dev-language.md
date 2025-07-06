@@ -3,8 +3,8 @@ date = "2015-06-14T03:50:41-06:00"
 draft = false
 title = "What's the Most Important Language for Web Development?"
 # original_title = "What is the Most Important Language to Learn for Web Development?"
-tags = ["3D Graphics", "Academic", "Computer Science", "HTML/CSS", "Java", "JavaScript", "Mobile Development", "Open Source", "PHP", "Professional", "Project", "Web Design"]
-categories = ["Education & Learning", "Programming", "Web Development"]
+tags = ["HTML/CSS", "JavaScript", "PHP", "Programming", "Web Design"]
+categories = ["Blog", "Web"]
 thumbnail = "images/web-dev-language/featured.jpg"
 +++
 
@@ -26,32 +26,39 @@ There's this handy feature on Github you may know about, which gives you a brief
 
 That's the private repository in which I keep the code for all the websites I've ever made, including this one. And if you didn't already notice, there's an interesting statistic lurking in there. Apparently, **42%** of the code that makes up all my websites is CSS. That's almost **half**!
 
-![undefined](http://media.giphy.com/media/HFdZPf52z9x4s/giphy.gif)
+![Ron Weasley says Wicked...](http://media.giphy.com/media/HFdZPf52z9x4s/giphy.gif)
 
 Sorry, I'll stop with the Harry Potter gifs now.
 
 But seriously, *what*?! If someone put a gun up to my head and told me I had 10 seconds to live unless I told them the #1 language I use as a web developer, I would have probably guessed Javascript or PHP, and then gotten shot! (I know, some of you would shoot me for just mentioning either of those languages. But they're really useful, okay? Get over it!)
 
-![undefined](http://media.giphy.com/media/hOk0elg1CmHKw/giphy.gif)
+![Hermione says Excuse me I have to go vomit](http://media.giphy.com/media/hOk0elg1CmHKw/giphy.gif)
 
 I know, I said I'd stop. I'm really really done, I promise. They're just so fun!
 
 It's possible that I'm just really weird, and that most other web devs don't use as much CSS, but I must say... If they don't, then they're dumb! CSS used to be just a tool for giving borders and colors to things, but ever since the release of CSS version 3, it has taken on entirely new role as possibly the most powerful (and most abused) language in the world of web design. You basically don't even need JavaScript anymore to build scalable, [cross-browser compatible](/post/7-easy-css-tricks-you-need-for-cross-browser-compatible-web-design/) web apps. Check out some of the neat things you can do with CSS3:
 
-- [Animations](http://www.w3schools.com/css/css3_animations.asp) and [Transitions](http://www.w3schools.com/css/css3_transitions.asp)
-Yeah, for real. Practically any CSS property of any HTML element is animatable. They can even be infinitely looping, like this:  or this: . It's all CSS, my friends. Disable javascript in your browser and refresh, if you don't believe me. (And if you're unfamiliar with those icons, they're from a neat open-source css library called [font awesome](http://fontawesome.io/). I use 'em everywhere.)
+### [Animations](http://www.w3schools.com/css/css3_animations.asp) and [Transitions](http://www.w3schools.com/css/css3_transitions.asp).
 
-- Generate content with [pseudo-classes](http://www.w3schools.com/css/css_pseudo_classes.asp)
-Some examples of pseudo-classes are `:after`, `:hover`, and `:invalid`. They allow you to conditionally alter properties of elements, usually when specific user-interactions occur. But even more impressively, you can actually put text into these elements using the CSS `content` property. Click that link to find out what I'm talking about.
+   Yeah, for real. Practically any CSS property of any HTML element is animatable. They can even be infinitely looping.
 
-- Calculate values with [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
-That's right. CSS isn't just a simple declarative language anymore. You can perform calculations! ... In some browsers :-(
+### Generate content with [pseudo-classes](http://www.w3schools.com/css/css_pseudo_classes.asp)
 
-- [3D Transformations](http://www.w3schools.com/css/css3_3dtransforms.asp)
-Yup. You can rotate, translate, and transform elements on all 3 axis. If you use this in an animation, you can create some [pretty spectacular visuals](https://desandro.github.io/3dtransforms/examples/cube-02-show-sides.html).
+   Some examples of pseudo-classes are `:after`, `:hover`, and `:invalid`. They allow you to conditionally alter properties of elements, usually when specific user-interactions occur. But even more impressively, you can actually put text into these elements using the CSS `content` property. Click that link to find out what I'm talking about.
 
-- [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/calc) for different devices
-Ever heard of responsive or mobile friendly design? This is how it's done. You can specify different properties for devices based on width, height, pixel density, device type, and more.
+### Calculate values with [`calc()`](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+
+   That's right. CSS isn't just a simple declarative language anymore. You can perform calculations! ... In some browsers :-(
+
+### [3D Transformations](http://www.w3schools.com/css/css3_3dtransforms.asp)
+
+   Yup. You can rotate, translate, and transform elements on all 3 axis. If you use this in an animation, you can create some [pretty spectacular visuals](https://desandro.github.io/3dtransforms/examples/cube-02-show-sides.html).
+
+### [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/calc) for different devices
+
+   Ever heard of responsive or mobile-friendly design? This is how it's done. You can specify different properties for devices based on width, height, pixel density, device type, and more.
+
+## Conclusion
 
 Not impressed? You should be.
 
