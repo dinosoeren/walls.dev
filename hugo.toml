@@ -4,6 +4,7 @@ title = 'Software Engineer (ex-Google)'
 # theme = 'anatole'
 enableEmoji = true
 enableRobotsTXT = true
+summaryLength = 30
 
 [module]
   # uncomment line below for temporary local development of module
