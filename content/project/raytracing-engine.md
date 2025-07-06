@@ -11,10 +11,10 @@ summary = "A custom raytracing 3D graphics engine built in C++ for a Computer Gr
 
 | | |
 | --- | --- |
-| **Timeline:** | Nov 10-24, 2015 |
-| **Languages Used:** | C++ |
-| **School:** | Aquincum Institute of Technology |
-| **Course:** | CP360 Computer Graphics |
+| **Timeline** | Nov 10-24, 2015 |
+| **Languages Used** | C++ |
+| **School** | Aquincum Institute of Technology |
+| **Course** | CP360 Computer Graphics |
 
 ![cylinder in front of code](../../images/raytracing-engine/cylinder.png)
 

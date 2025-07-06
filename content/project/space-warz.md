@@ -11,10 +11,10 @@ summary = "A 2D top-down space shooter game built in Java over a weekend for Com
 
 | | |
 | --- | --- |
-| **Timeline:** | Nov 16-20, 2013 |
-| **Languages Used:** | Java |
-| **School:** | Colorado College |
-| **Course:** | CP122 Computer Science I |
+| **Timeline** | Nov 16-20, 2013 |
+| **Languages Used** | Java |
+| **School** | Colorado College |
+| **Course** | CP122 Computer Science I |
 
 ## Watch the Demo
 

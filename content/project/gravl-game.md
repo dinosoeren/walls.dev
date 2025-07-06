@@ -11,10 +11,10 @@ summary = "An independently developed Android puzzle platformer where players co
 
 | | |
 | --- | --- |
-| **Timeline:** | Summer 2014 |
-| **Languages Used:** | Java (Android), SQL, HTML, CSS |
-| **Reason:** | To learn Java and Android Development |
-| **Role:** | Independent Android Developer, Graphic Designer, Level Designer, Story Writer, and Game Creator |
+| **Timeline** | Summer 2014 |
+| **Languages Used** | Java (Android), SQL, HTML, CSS |
+| **Reason** | To learn Java and Android Development |
+| **Role** | Independent Android Developer, Graphic Designer, Level Designer, Story Writer, and Game Creator |
 
 ## Watch the Trailer
 

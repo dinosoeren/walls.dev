@@ -12,10 +12,10 @@ summary = "A weekend project creating a real-time collaborative drawing web app 
 
 | | |
 | --- | --- |
-| **Timeline:** | May 8-13, 2015 |
-| **Languages Used:** | JavaScript (Node.js), HTML, CSS |
-| **School:** | Colorado College |
-| **Course:** | CP215 Application Design |
+| **Timeline** | May 8-13, 2015 |
+| **Languages Used** | JavaScript (Node.js), HTML, CSS |
+| **School** | Colorado College |
+| **Course** | CP215 Application Design |
 
 ## Watch the Demo
 

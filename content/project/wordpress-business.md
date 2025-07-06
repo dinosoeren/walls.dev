@@ -11,10 +11,10 @@ summary = "A WordPress conversion project for a chiropractic health center, feat
 
 | | |
 | --- | --- |
-| **Timeline:** | Oct-Nov, 2012 |
-| **Languages Used:** | PHP (WordPress), HTML, CSS, JavaScript, SQL |
-| **Client:** | Chiropractic Health Center |
-| **Role:** | Contracted Web Developer |
+| **Timeline** | Oct-Nov, 2012 |
+| **Languages Used** | PHP (WordPress), HTML, CSS, JavaScript, SQL |
+| **Client** | Chiropractic Health Center |
+| **Role** | Contracted Web Developer |
 
 I converted this website from standard HTML to WordPress at the client's request. It features a modified WordPress theme, and functions as a basic informational business website with pages for publications, medications, and products.
 

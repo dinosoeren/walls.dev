@@ -11,10 +11,10 @@ summary = "A custom PHP CMS built for a fencing business featuring product pages
 
 | | |
 | --- | --- |
-| **Timeline:** | Summer 2012 |
-| **Languages Used:** | PHP, HTML, CSS, JavaScript, SQL |
-| **Client:** | Front Range Fencing & Decks |
-| **Role:** | Contracted Web Developer |
+| **Timeline** | Summer 2012 |
+| **Languages Used** | PHP, HTML, CSS, JavaScript, SQL |
+| **Client** | Front Range Fencing & Decks |
+| **Role** | Contracted Web Developer |
 
 An entirely original site made for a fencing business, featuring product pages, Spanish and English translations for all pages, a custom-made admin backend, and user login/registration. It's made like any good website. HTML, CSS, Javascript, PHP, and SQL. Done, done, and done.
 

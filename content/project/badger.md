@@ -3,7 +3,7 @@ date = "2015-05-21T23:46:55-06:00"
 draft = false
 title = "Badger: Enterprise Security App for Brick-and-Mortar"
 # original_title = "Badger Prototype: Enterprise Web Application for Brick and Mortar Security"
-tags = ["HTML/CSS", "C#", "VB", "JavaScript", "Mobile Development", "Professional", "Programming", "Web Design"]
+tags = ["HTML/CSS", ".NET", "VB", "JavaScript", "Mobile Development", "Professional", "Programming", "Web Design"]
 categories = ["App", "Business", "Project", "Mobile", "Web"]
 thumbnail = "images/badger/featured.png"
 summary = "An enterprise web application for brick-and-mortar business security that allows visitors to sign in via mobile devices or kiosks to receive printed nametags with real-time tracking and administrative oversight."
@@ -11,10 +11,10 @@ summary = "An enterprise web application for brick-and-mortar business security 
 
 | | |
 | --- | --- |
-| **Timeline:** | May 2013 - July 2016 |
-| **Languages Used:** | C#.NET, JavaScript, VB, SQL, HTML, CSS |
-| **Employer:** | Foxfeather Software (Baber Technical Consulting) |
-| **Position:** | Software Engineer and Designer |
+| **Timeline** | May 2013 - July 2016 |
+| **Languages Used** | C#.NET, JavaScript, VB, SQL, HTML, CSS |
+| **Employer** | Foxfeather Software (Baber Technical Consulting) |
+| **Position** | Software Engineer and Designer |
 
 Nametags?? That's right. Badger is proprietary software in the form of a web app designed to secure brick and mortar businesses. It's fun and intuitive, and to be clear, it was NOT my idea. I worked on Badger as part of a team at [Foxfeather Software](http://www.foxfeathersoftware.com/); I was the lead programmer and created the user interface.
 

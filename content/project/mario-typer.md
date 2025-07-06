@@ -11,10 +11,10 @@ summary = "A 3D typing game inspired by Ztype and Super Mario 64, featuring Mari
 
 | | |
 | --- | --- |
-| **Timeline:** | Nov 21-26, 2015 |
-| **Languages Used:** | C++ (OpenGL) |
-| **School:** | AIT at Budapest University of Technology and Economics |
-| **Course:** | CP360 Computer Graphics |
+| **Timeline** | Nov 21-26, 2015 |
+| **Languages Used** | C++ (OpenGL) |
+| **School** | AIT at Budapest University of Technology and Economics |
+| **Course** | CP360 Computer Graphics |
 
 ## Watch the Demo
 

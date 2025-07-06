@@ -11,10 +11,10 @@ summary = "A 12-inch functioning 3D scale model of Leonardo da Vinci's scythed c
 
 | | |
 | --- | --- |
-| **Timeline:** | Jan-Feb, 2011 |
-| **School:** | School of Engineering & Biomedical Science |
-| **Course:** | Integrated Project |
-| **Software Used:** | Autodesk Inventor, Autodesk 3dsMax Design |
+| **Timeline** | Jan-Feb, 2011 |
+| **School** | School of Engineering & Biomedical Science |
+| **Course** | Integrated Project |
+| **Software Used** | Autodesk Inventor, Autodesk 3dsMax Design |
 
 ## Watch the Animation
 

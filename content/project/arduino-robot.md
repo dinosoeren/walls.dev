@@ -11,10 +11,10 @@ summary = "An Arduino-powered robot named Pyat that solves mazes using subsumpti
 
 | | |
 | --- | --- |
-| **Timeline:** | April-May, 2015 |
-| **Languages Used:** | C |
-| **School:** | Colorado College |
-| **Course:** | CP248 Introduction to Robotics |
+| **Timeline** | April-May, 2015 |
+| **Languages Used** | C |
+| **School** | Colorado College |
+| **Course** | CP248 Introduction to Robotics |
 
 ## Watch the Demo
 

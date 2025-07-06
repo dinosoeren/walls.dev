@@ -11,10 +11,10 @@ summary = "A WordPress e-commerce conversion for a textbook publisher featuring 
 
 | | |
 | --- | --- |
-| **Timeline:** | Dec 2012 - Jan 2013 |
-| **Languages Used:** | PHP (WordPress), HTML, CSS, JavaScript, SQL |
-| **Client:** | The Gangasas Press |
-| **Role:** | Contracted Web Developer |
+| **Timeline** | Dec 2012 - Jan 2013 |
+| **Languages Used** | PHP (WordPress), HTML, CSS, JavaScript, SQL |
+| **Client** | The Gangasas Press |
+| **Role** | Contracted Web Developer |
 
 I converted this website from standard HTML to WordPress at the client's request. It includes a modified WordPress theme, e-merchant capabilities including a shopping cart and checkout process, integration of an SSL certificate to legally allow handling of transaction info, a familiar WordPress-powered CMS, and more client-friendly features.
 
