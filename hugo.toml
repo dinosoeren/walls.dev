@@ -2,6 +2,8 @@ baseURL = 'https://walls.dev'
 languageCode = 'en-us'
 title = 'Software Engineer (ex-Google)'
 # theme = 'anatole'
+enableEmoji = true
+enableRobotsTXT = true
 
 [module]
   # uncomment line below for temporary local development of module
@@ -32,7 +34,7 @@ title = 'Software Engineer (ex-Google)'
   pygmentsUseClasses = true
 
   ## Math settings
-  [[params.math]]
+  [params.math]
     enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
     use = "katex"  # options: "katex", "mathjax". default is "katex".
 
@@ -52,12 +54,6 @@ title = 'Software Engineer (ex-Google)'
     icon = "fab fa-spotify"
     title = "Spotify"
     url = "https://open.spotify.com/track/1cHVzM29SkVmIdqR1F3xem"
-
-  [[params.giscus]]
-    repo = "dinosoeren/walls.dev"
-    repoID = "R_kgDOOVK_og"
-    category = "General"
-    categoryID = "DIC_kwDOOVK_os4Csicl"
 
 [menu]
   [[menu.main]]
@@ -89,3 +85,9 @@ title = 'Software Engineer (ex-Google)'
     weight = 600
     identifier = "contact"
     url = "/contact/"
+
+[params.giscus]
+  repo = "dinosoeren/walls.dev"
+  repoID = "R_kgDOOVK_og"
+  category = "Comments"
+  categoryID = "DIC_kwDOOVK_os4Csinc"
