@@ -6,6 +6,7 @@ title = "Badger: Enterprise Security App for Brick-and-Mortar"
 tags = ["HTML/CSS", "C#", "VB", "JavaScript", "Mobile Development", "Professional", "Programming", "Web Design"]
 categories = ["App", "Business", "Project", "Mobile", "Web"]
 thumbnail = "images/badger/featured.png"
+summary = "An enterprise web application for brick-and-mortar business security that allows visitors to sign in via mobile devices or kiosks to receive printed nametags with real-time tracking and administrative oversight."
 +++
 
 | | |

@@ -7,6 +7,7 @@ tags = ["Education", "HTML/CSS", "JavaScript", "Open Source", "Programming", "We
 categories = ["App", "Academic", "Project", "Web"]
 thumbnail = "images/collaborative-canvas/featured.png"
 toc = true
+summary = "A weekend project creating a real-time collaborative drawing web app using Node.js, featuring pixel-level synchronization across multiple devices with conflict resolution based on recency of user actions."
 +++
 
 | | |

@@ -6,6 +6,7 @@ title = "Building a Fully-Featured CMS in PHP for a Local Business"
 tags = ["Entrepreneurship", "CMS", "HTML/CSS", "JavaScript", "PHP", "Professional", "Programming", "Web Design"]
 categories = ["Business", "Project", "Web"]
 thumbnail = "images/php-cms-business/homepage.png"
+summary = "A custom PHP CMS built for a fencing business featuring product pages, bilingual support (English/Spanish), custom admin backend, and user authentication system with full e-commerce capabilities."
 +++
 
 | | |

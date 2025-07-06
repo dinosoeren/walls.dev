@@ -6,6 +6,7 @@ title = "Writing a Raytracing 3D Graphics Engine in C++"
 tags = ["3D Graphics", "Computer Graphics", "C++", "Education", "Programming"]
 categories = ["Academic", "Games", "Project"]
 thumbnail = "images/raytracing-engine/chessboard.png"
+summary = "A custom raytracing 3D graphics engine built in C++ for a Computer Graphics course, featuring realistic rendering of various materials including dielectric surfaces and complex objects like chess pieces."
 +++
 
 | | |

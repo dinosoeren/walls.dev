@@ -6,6 +6,7 @@ title = "3D Printing Leonardo da Vinci's Scythed Chariot"
 tags = ["3D Graphics", "3D Printing", "Hardware", "Education"]
 categories = ["Academic", "CAD", "Project"]
 thumbnail = "https://i.ytimg.com/vi/LS3j3vAg5gM/sddefault.jpg"
+summary = "A 12-inch functioning 3D scale model of Leonardo da Vinci's scythed chariot war machine, designed in Autodesk Inventor, 3D printed and laser engraved, with animated demonstration using 3dsMax Design."
 +++
 
 | | |

@@ -6,6 +6,7 @@ title = "E-commerce WordPress Site for Textbook Publisher"
 tags = ["HTML/CSS", "JavaScript", "PHP", "Professional", "Programming", "Web Design", "WordPress"]
 categories = ["Business", "Project", "Web"]
 thumbnail = "images/gangasas-press/featured.png"
+summary = "A WordPress e-commerce conversion for a textbook publisher featuring shopping cart functionality, SSL certificate integration, and a client-friendly CMS for managing products and transactions."
 +++
 
 | | |

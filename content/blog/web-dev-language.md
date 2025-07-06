@@ -6,6 +6,7 @@ title = "What's the Most Important Language for Web Development?"
 tags = ["HTML/CSS", "JavaScript", "PHP", "Programming", "Web Design"]
 categories = ["Blog", "Web"]
 thumbnail = "images/web-dev-language/featured.jpg"
+summary = "An analysis of programming language usage in web development, revealing that CSS makes up 42% of website code and highlighting the underestimated power of modern CSS3 features."
 +++
 
 My compatriots and friends often ask me, "**Soeren, what's the best programming language to learn?**"

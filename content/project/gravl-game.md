@@ -6,6 +6,7 @@ title = "GRAVL: Gravity Puzzle Platformer for Android"
 tags = ["2D Graphics", "Computer Graphics", "Game Development", "HTML/CSS", "Java", "Mobile Development", "Physics", "Professional"]
 categories = ["App", "Business", "Games", "Mobile", "Project", "Web"]
 thumbnail = "images/gravl-game/featured.png"
+summary = "An independently developed Android puzzle platformer where players control astronaut Phil manipulating gravity to navigate icy terrain, built entirely in Java without game engines over 800 hours of development."
 +++
 
 | | |

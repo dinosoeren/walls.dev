@@ -6,6 +6,7 @@ title = "WordPress E-commerce Site for Healthcare Business"
 tags = ["Entrepreneurship", "HTML/CSS", "JavaScript", "PHP", "Professional", "Programming", "WordPress"]
 categories = ["Business", "Project", "Web"]
 thumbnail = "images/wordpress-business/featured.png"
+summary = "A WordPress conversion project for a chiropractic health center, featuring a modified theme with informational pages for publications, medications, and products to serve as a comprehensive business website."
 +++
 
 | | |

@@ -6,6 +6,7 @@ title = "Laser Engraved Victorian House Model"
 tags = ["3D Graphics", "3D Printing", "Laser Engraving"]
 categories = ["Academic", "CAD", "Project"]
 thumbnail = "images/victorian-house/featured.png"
+summary = "A laser engraved and painted scale model of a Victorian house created using CAD design and precision laser cutting techniques."
 +++
 
 ![CAD drawing](../../images/victorian-house/featured.png)
