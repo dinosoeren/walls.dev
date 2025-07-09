@@ -5,7 +5,7 @@ title = "Real-Time Multi-User Drawing App with Node.js"
 # original_title = "Collaborative Canvas: A Simple Multi-User Drawing Web App Built Using Node.js"
 tags = ["Education", "HTML/CSS", "JavaScript", "Open Source", "Programming", "Web Design"]
 categories = ["App", "Academic", "Project", "Web"]
-thumbnail = "images/collaborative-canvas/featured.png"
+thumbnail = "images/collaborative-canvas/screenshot.png"
 toc = true
 summary = "A weekend project creating a real-time collaborative drawing web app using Node.js, featuring pixel-level synchronization across multiple devices with conflict resolution based on recency of user actions."
 +++

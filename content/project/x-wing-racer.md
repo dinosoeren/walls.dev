@@ -24,7 +24,7 @@ toc = true
 
 ## The Origin Story: Star Wars Meets F1 (in High School)
 
-Back in my senior year at SEBS, I found myself in CADD 4, tasked with designing, 3D printing, and racing a CO2-powered F1 car. But why settle for a generic racer when you can channel the spirit of George Lucas? The side-view chassis of my F1 Racer was inspired by the iconic hull of the X-Wing Fighter from Star Wars. (Sadly, no R2-D2 included.)
+It's my senior year at SEBS, and a couple months ago, I found myself in CADD 4, tasked with designing, 3D printing, and racing a CO2-powered F1 car. But why settle for a generic racer when you can channel the spirit of George Lucas? The side-view chassis of my F1 Racer was inspired by the iconic hull of the X-Wing Fighter from Star Wars. (Sadly, no R2-D2 included.)
 
 While the rear engines of the X-Wing couldn’t make the cut due to design constraints (and, let’s be honest, the laws of physics), the top-view of the car still pays homage to the starfighter’s unmistakable silhouette. If you squint, you might just hear John Williams’ score in the background.
 
