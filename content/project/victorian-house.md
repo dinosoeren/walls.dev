@@ -1,7 +1,7 @@
 +++
 date = "2012-11-29T18:42:32-06:00"
 draft = false
-title = "The Victorian House Laser-Engraved for a Christmas Village"
+title = "Laser-Engraving a Victorian House for a Christmas Village"
 # original_title = "Victorian House: Laser Engraved and Painted Scale House Model"
 tags = ["3D Graphics", "3D Printing", "Laser Engraving"]
 categories = ["Academic", "CAD", "Project"]
