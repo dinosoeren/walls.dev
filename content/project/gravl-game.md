@@ -20,8 +20,10 @@ summary = "An independently developed Android puzzle platformer where players co
 
 {{< youtube CqwfEolrxec >}}
 
+- [Visit the website](https://dinosoeren.github.io/gravlgame/)
 
-More than 800 hours over the course of 6 months went into making [**GRAVL**](http://www.gravlgame.com/), my first independently developed Android game, from start to finish. As you may have noticed from the article's title, it's a platform game (like Super Mario Bros.), except each level is a puzzle that can only be solved using one thing... gravity.
+
+More than 800 hours over the course of 6 months went into making [**GRAVL**](https://dinosoeren.github.io/gravlgame/), my first independently developed Android game, from start to finish. As you may have noticed from the article's title, it's a platform game (like Super Mario Bros.), except each level is a puzzle that can only be solved using one thing... gravity.
 
 You play as Phil, a stranded astronaut who's trying to collect fuel for his spaceship, while traversing the bizarre icy terrain of an unknown planet. You encounter many different types of **Gravity Switches** along the way, which allow Phil to freely manipulate the laws of physics, to help you avoid falling to your death.
 
