@@ -1,7 +1,7 @@
 +++
 date = "2012-09-17T02:26:25-06:00"
 draft = false
-title = "Building a Fully-Featured CMS in PHP for a Local Business"
+title = "Building a Lightweight CMS in PHP for a Local Business"
 # original_title = "Front Range Fence & Decks: Ecommerce and Business Website in PHP"
 tags = ["Entrepreneurship", "CMS", "HTML/CSS", "JavaScript", "PHP", "Professional", "Programming", "Web Design"]
 categories = ["Business", "Project", "Web"]
