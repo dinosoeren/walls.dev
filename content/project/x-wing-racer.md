@@ -20,6 +20,12 @@ toc = true
 | **Race Time** | 0.15 seconds |
 | **Top Speed** | 33.3 ft/s (≈22.7 mph) |
 
+## Watch the Race Video
+
+{{< youtube wV-1Isp7d2E >}}
+
+If a picture is worth a thousand words, a video is worth at least a million. Check out the race video to see the X-Wing F1 in action.
+
 # 3D Printed CO2-Powered X-Wing F1 Racer
 
 ## The Origin Story: Star Wars Meets F1 (in High School)
@@ -58,10 +64,6 @@ Race day arrived, and my X-Wing F1 was ready for launch. While it wasn’t the f
 | Back View | ![Back](../../images/x-wing-racer/co2-racer-back-2013-05-15%2011.41.12.jpg) |
 | Bottom View | ![Bottom](../../images/x-wing-racer/co2-racer-bottom-2013-05-15%2011.39.24.jpg) |
 | Angle View | ![Angle](../../images/x-wing-racer/co2-racer-angle-2013-05-15%2011.38.55.jpg) |
-
-## Bonus: Race Video
-
-If a picture is worth a thousand words, a video is worth at least a million. Check out the [race video here](../../images/x-wing-racer/video-2013-05-15-14-12-50.mp4) to see the X-Wing F1 in action.
 
 ---
 
