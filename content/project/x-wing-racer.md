@@ -26,8 +26,6 @@ toc = true
 
 If a picture is worth a thousand words, a video is worth at least a million. Check out the race video to see the X-Wing F1 in action.
 
-# 3D Printed CO2-Powered X-Wing F1 Racer
-
 ## The Origin Story: Star Wars Meets F1 (in High School)
 
 It's my senior year at SEBS, and a couple months ago, I found myself in CADD 4, tasked with designing, 3D printing, and racing a CO2-powered F1 car. But why settle for a generic racer when you can channel the spirit of George Lucas? The side-view chassis of my F1 Racer was inspired by the iconic hull of the X-Wing Fighter from Star Wars. (Sadly, no R2-D2 included.)

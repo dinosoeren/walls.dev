@@ -65,9 +65,6 @@ The result was a fully custom CMS, built from scratch, that let my teacher manag
 ### Interactive UI Elements
 - JavaScript is used for input field behaviors, tooltips, and dynamic UI feedback (e.g., enabling/disabling buttons, mouse-follow tooltips).
 
-### Screenshots & Visual Documentation
-- The screenshots above illustrate the homepage, admin interface, and contact form in action, capturing the look and feel of the finished product.
-
 ---
 
 Building this site taught me more than any classroom ever could—about code, about clients, and about the satisfaction of shipping something real. If you have questions about the process or want to see more, feel free to reach out.
