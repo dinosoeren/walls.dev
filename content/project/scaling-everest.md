@@ -29,7 +29,7 @@ With just a few days to make something worth presenting to the class, I locked m
 
 I wish I could share the source code, but somewhere between high school and adulthood, it vanished into the digital ether. All that's left is the original Windows executable. So, if you're on a Mac or Linux, you'll have to borrow a friend's PC (or try your luck with Wine).
 
-- [Download `.exe`](../../static/bin/ScalingEverest.exe) - Windows only
+- [Download `.exe`](../../bin/ScalingEverest.exe) - Windows only
 
 ## Reflections
 
