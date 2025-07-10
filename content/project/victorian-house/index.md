@@ -27,14 +27,14 @@ The journey began in late October, when I presented my initial CAD drawings for 
 
 By the end of October, our teacher began accepting IDW files for engraving. I finalized my design, double-checked every measurement, and nervously submitted my files. There’s something magical about watching a laser cutter trace the lines you drew on a screen, transforming sheets of wood into intricate gingerbread trim and delicate window frames. The smell of burnt wood and the whir of the machine became the soundtrack of that week.
 
-![Front with lights](./images/front-with-lights-2012-12-03 06.01.09.jpg)
+![Front with lights](./images/front-with-lights-2012-12-03%2006.01.09.jpg)
 
 ## Assembly: The Puzzle Comes Together (November 12th)
 
 Physical assembly was due just after Veterans Day. I spent evenings hunched over my desk, carefully slotting together the engraved pieces, gluing, clamping, and occasionally cursing when a wall didn’t quite fit. The house slowly took shape—first the main structure, then the ornate porch, and finally the roof. Each piece was a small victory.
 
-![Left side](./images/left-side-2012-12-03 06.01.24.jpg)
-![Right side](./images/right-side-2012-12-03 06.01.55.jpg)
+![Left side](./images/left-side-2012-12-03%2006.01.24.jpg)
+![Right side](./images/right-side-2012-12-03%2006.01.55.jpg)
 
 ## Painting and Details
 
@@ -44,8 +44,8 @@ With the structure complete, I turned to painting. Folk Victorian style is all a
 
 The Thursday after Thanksgiving, we installed our houses in the school’s Christmas village display. My model, now fully painted and wired with tiny lights, joined a street of classmates’ creations. When the lights flicked on for the first time, the whole village glowed. There’s a special kind of pride in seeing your work nestled among others, each house telling its own story.
 
-![In village, front](./images/in-village-front-2013-02-23 09.09.08.jpg)
-![In village, back](./images/in-village-back-2013-02-23 09.09.27.jpg)
+![In village, front](./images/in-village-front-2013-02-23%2009.09.08.jpg)
+![In village, back](./images/in-village-back-2013-02-23%2009.09.27.jpg)
 
 ## Reflections
 

@@ -47,9 +47,11 @@ Meanwhile, the client employs *event listeners* to wait for input (clicks) from 
 Additionally, every 100 milliseconds, the client will (in a sense) poll itself, to determine whether or not anything has changed on its child canvas. If the local `changed_cells_array` contains any objects (meaning those corresponding pixels have been somehow locally altered since the last request), then the client sends an XHR to the server containing this array of ONLY altered pixels (as opposed to all pixels in the table) in the form of a JSON object.
 
 ### Pixel Conflict Resolution
-** At any point during the user experience - particularly when the user makes a long brush stroke - it is entirely possible that the following scenario will occur:
+At any point during the user experience - particularly when the user makes a long brush stroke - it is entirely possible that the following scenario will occur:
 
-During the time period between the `mousedown` event and the `mouseup` event, the client has requested and received an updated parent canvas from the server which contains new color values for the same cells **currently being painted over** by the user. In other words, in the current brushstroke, the user has painted Cell [43, 586] **green**, but at some point during the brushstroke (perhaps even after said pixel has been painted), the server has informed the client that Cell [43, 586] should be painted **blue** in accordance with another user's changes. These events can occur in any order, and to more than one cell simultaneously. How does the client know what to do? Can it choose between green and blue in a *predictable* way? Or does it just crash?
+> During the time period between the `mousedown` event and the `mouseup` event, the client has requested and received an updated parent canvas from the server which contains new color values for the same cells **currently being painted over** by the user. In other words, in the current brushstroke, the user has painted Cell [43, 586] **green**, but at some point during the brushstroke (perhaps even after said pixel has been painted), the server has informed the client that Cell [43, 586] should be painted **blue** in accordance with another user's changes.
+
+These events can occur in any order, and to more than one cell simultaneously. How does the client know what to do? Can it choose between green and blue in a *predictable* way? Or does it just crash?
 
 Thankfully, it does not crash. In accordance with our rules of prioritizing recency, if the client's child canvas contains local cells which are currently being manipulated by the user, then the client will **not** apply the server's changes to those cells until the `mouseup` event has fired, signaling the end of the user's brushstroke.
 
@@ -57,8 +59,8 @@ Remember the `changed_cells_array`? This array is only ever filled with the alte
 
 This delayed response is important for two reasons:
 
-- All cells currently being changed but not yet inserted into the `changed_cells_array` take priority over changes from the server, because they are considered more **recent**.
-- If two or more clients manipulate the same cells at the same time, the client who waits the longest to end the brushstroke with a `mouseup` event is the "winner."
+1. All cells currently being changed but not yet inserted into the `changed_cells_array` take priority over changes from the server, because they are considered more **recent**.
+2. If two or more clients manipulate the same cells at the same time, the client who waits the longest to end the brushstroke with a `mouseup` event is the "winner."
 
 ## Server-Side Operations
 ### The Parent Canvas
