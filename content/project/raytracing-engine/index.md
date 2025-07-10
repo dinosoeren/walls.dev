@@ -39,15 +39,7 @@ The assignment: create a physically plausible chessboard with all the pieces, ea
 
 ## Screenshots
 
-![cylinder in front of code](./images/cylinder.png)
-
-![gray material](./images/gray.png)
-
-![dielectric material](./images/dielectric.png)
-
-![chess pieces](./images/chesspieces.png)
-
-![full chess board](./images/chessboard.png)
+{{< lightgallery glob="images/*.png" >}}
 
 ## Source Code
 

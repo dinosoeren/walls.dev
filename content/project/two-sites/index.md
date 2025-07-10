@@ -32,7 +32,7 @@ Though the businesses have since closed and the sites are no longer live, the le
 ## Screenshots
 
 ### Chiropractic Health Center
-[![](./images/chiropractic-center/homepage.png)](./images/chiropractic-center/homepage.png)[![](./images/chiropractic-center/contact.png)](./images/chiropractic-center/contact.png)[![](./images/chiropractic-center/search.png)](./images/chiropractic-center/search.png)
+{{< lightgallery glob="images/chiropractic-center/*.png" >}}
 
 ### The Gangasas Press
-[![](./images/gangasas-press/homepage.png)](./images/gangasas-press/homepage.png)[![](./images/gangasas-press/cart.png)](./images/gangasas-press/cart.png)[![](./images/gangasas-press/checkout.png)](./images/gangasas-press/checkout.png)[![](./images/gangasas-press/product.png)](./images/gangasas-press/product.png)
+{{< lightgallery glob="images/gangasas-press/*.png" >}}

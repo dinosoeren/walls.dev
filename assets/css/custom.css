@@ -1,3 +1,9 @@
+/** Ensure gallery images are inline-block */
+.post__content div > a[data-src] > img {
+  display: inline-block;
+  cursor: zoom-in;
+}
+
 /* Common Custom Button Styles */
 .custom-button {
   display: inline-flex;

@@ -32,7 +32,8 @@ It's my senior year at SEBS, and a couple months ago, I found myself in CADD 4, 
 
 While the rear engines of the X-Wing couldn’t make the cut due to design constraints (and, let’s be honest, the laws of physics), the top-view of the car still pays homage to the starfighter’s unmistakable silhouette. If you squint, you might just hear John Williams’ score in the background.
 
-![featured](./images/featured.png)
+![Angle view](./images/angle%202013-05-15%2011.38.55.jpg)
+![Bottom view](./images/bottom%202013-05-15%2011.39.24.jpg)
 
 ## From Inventor to Reality: The Design & Build
 
@@ -46,8 +47,7 @@ Armed with Autodesk Inventor and a healthy dose of caffeine, I set out to create
 
 The full flow simulation and chassis flow simulation (see below) show the F1 Racer’s aerodynamics in action. Air travels smoothly along the body, with the side air pods channeling flow and the front airfoil generating much-needed downforce. (Because nothing ruins a race like your car taking flight.)
 
-![Airflow Simulation (Full)](./images/co2-racer-angle-2013-05-15 11.38.55.jpg)
-![Airflow Simulation (Chassis)](./images/co2-racer-bottom-2013-05-15 11.39.24.jpg)
+![Airflow Simulation (Full)](./images/featured.png)
 
 ## The Big Race: Not the Fastest, But a Finalist
 
@@ -55,13 +55,7 @@ Race day arrived, and my X-Wing F1 was ready for launch. While it wasn’t the f
 
 ## Gallery: The X-Wing F1 in All Its Glory
 
-| Angle | Image |
-|---|---|
-| Side View | ![Side](./images/co2-racer-side-2013-05-15 11.43.26.jpg) |
-| Front View | ![Front](./images/co2-racer-front-2013-05-15 11.44.25.jpg) |
-| Back View | ![Back](./images/co2-racer-back-2013-05-15 11.41.12.jpg) |
-| Bottom View | ![Bottom](./images/co2-racer-bottom-2013-05-15 11.39.24.jpg) |
-| Angle View | ![Angle](./images/co2-racer-angle-2013-05-15 11.38.55.jpg) |
+{{< lightgallery glob="images/*.{jpg,png}" >}}
 
 ---
 

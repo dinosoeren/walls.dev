@@ -37,8 +37,7 @@ Looking back, Scaling Everest was less about the code and more about the climbâ€
 
 ## Screenshots
 
-![gameplay](./images/everest-gameplay.jpg)
-![start screen](./images/everest-start-screen.png)
+{{< lightgallery glob="images/*.{jpg,png}" >}}
 
 ---
 

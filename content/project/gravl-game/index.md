@@ -55,4 +55,5 @@ I also had to use some concepts from trigonometry, like **Pythagorean Theorem** 
 If you want to read or hear more, I was [**interviewed by Literary Video Games**](http://www.literaryvideogames.com/2014/07/interview-soeren-walls-creator-of-gravl.html) about GRAVL; feel free to check that out. I must say, this is one of my projects I'm most proud of, just because of how ridiculous of an undertaking it was. The day I released GRAVL was one of the most satisfying days of my life. But I can guarantee you, I will never attempt make a game without an engine again. Still, it was fun.
 
 ## Screenshots
-[![](./images/screenshot2.png)](./images/screenshot2.png)[![](./images/screenshot1.png)](./images/screenshot1.png)[![](./images/screenshot3.png)](./images/screenshot3.png)[![](./images/screenshot4.png)](./images/screenshot4.png)[![](./images/screenshot5.png)](./images/screenshot5.png)[![](./images/screenshot6.png)](./images/screenshot6.png)[![](./images/screenshot7.png)](./images/screenshot7.png)[![](./images/screenshot8.png)](./images/screenshot8.png)[![](./images/screenshot9.png)](./images/screenshot9.png)[![](./images/screenshot10.png)](./images/screenshot10.png)[![](./images/screenshot11.png)](./images/screenshot11.png)
+
+{{< lightgallery glob="images/*.png" >}}

@@ -12,4 +12,5 @@ summary = "A comprehensive business plan for a fictional online education servic
 This fully fleshed-out conceptual business plan for a fake online education service called eStudii was created by me and my friend for an international high school business competition. In addition to the business description, it features original concept art of the app and website, budget proposals, cash flow projections, detailed market analysis, and more. Stop salivating, I know it sounds absolutely riveting!
 
 ## Screenshots
-[![](./images/frontpage.png)](./images/frontpage.png)[![](./images/contents.png)](./images/contents.png)[![](./images/cashflow.png)](./images/cashflow.png)[![](./images/market-analysis.png)](./images/market-analysis.png)[![](./images/packages.png)](./images/packages.png)[![](./images/projections.png)](./images/projections.png)
+
+{{< lightgallery glob="images/*.png" >}}

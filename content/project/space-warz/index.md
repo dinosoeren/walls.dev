@@ -31,4 +31,5 @@ This was actually my final project for my Computer Science I class, which I comp
 {{< download-button url="../../bin/space-warz.exe" text="Download .exe" ext="exe" >}}
 
 ## Screenshots
-[![](./images/screenshot1.png)](./images/screenshot1.png)[![](./images/screenshot2.png)](./images/screenshot2.png)[![](./images/screenshot3.png)](./images/screenshot3.png)[![](./images/screenshot4.png)](./images/screenshot4.png)[![](./images/screenshot5.png)](./images/screenshot5.png)[![](./images/screenshot6.png)](./images/screenshot6.png)[![](./images/screenshot7.png)](./images/screenshot7.png)[![](./images/welcome.png)](./images/welcome.png)
+
+{{< lightgallery glob="images/*.png" >}}
