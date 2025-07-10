@@ -2,3 +2,5 @@ github.com/dinosoeren/anatole v0.0.0-20250706232201-732712197596 h1:WrZrfWaVW8S5
 github.com/dinosoeren/anatole v0.0.0-20250706232201-732712197596/go.mod h1:WOEDMSMefv/IjxXB+kZH6oYcpZHhTBNML9pX6y1BWt8=
 github.com/lxndrblz/anatole v1.17.1 h1:mvAWo1EnEVK8JNbKvkixigLdPcOHIs3nQzFeVhsnnfo=
 github.com/lxndrblz/anatole v1.17.1/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
+github.com/mfg92/hugo-shortcode-gallery v1.3.0 h1:7wiUUu7adN3JbcshZfZ+Q0ZLDilPoGkquoor0ZcdJVU=
+github.com/mfg92/hugo-shortcode-gallery v1.3.0/go.mod h1:SEdbeBGSMX2lP+4nCqqy9AyTWWktUMWXYnR3r1l01Rw=
