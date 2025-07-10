@@ -1,7 +1,16 @@
-/** Ensure gallery images are inline-block */
+/** Override gallery images styles */
+.post__content div > a[data-src] {
+  display: inline-block;
+  overflow: hidden;
+}
 .post__content div > a[data-src] > img {
   display: inline-block;
   cursor: zoom-in;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.post__content div > a[data-src] > img:hover {
+  transform: scale(1.08);
+  z-index: 2;
 }
 
 /* Common Custom Button Styles */
