@@ -42,7 +42,7 @@ Let's take a look at Pyat's brain while it completes the maze: Pyat creates a gr
 ## What this means
 This maze-solving technique potentially allows my robot to navigate more non-trivial patterns, such as a maze with another "island" maze inside of it, Inception-style. The robot can follow walls, make decisions at intersections, maintain a dynamic grid to mark intersection positions, identify when it's stuck, and remember movements required to return to an intersection where it can make a new choice. (Note: I have not yet seen it attempt to destroy planet Earth, so I did not include this behavior in the diagram, though it may be a problem in the future.)
 
-The video may not seem incredibly impressive, because after all, that's a pretty simple maze. Also, even though my subsumption architecture seems to be well-defined, whether or not I've implemented it correctly in the code is another question entirely. Sadly I cannot post the source code for you to prove me wrong, since this was technically my final exam, and I could be expelled for aiding and abetting cheaters. However, hopefully you believe me, and you're at least a little bit impressed, because this took a lot of work, and I love my little Pyat.
+The video may not seem incredibly impressive, because after all, that's a pretty simple maze. Also, even though my subsumption architecture seems to be well-defined, whether or not I've implemented it correctly in the code is another question entirely. Feel free to take a look at the code below and shout at me in the comments. Hopefully you're at least a little bit impressed, because this took a lot of work, and I love my little Pyat.
 
 ## Source Code
 
