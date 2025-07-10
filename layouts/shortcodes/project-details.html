@@ -1,0 +1,63 @@
+{{/*
+Usage:
+{{< project-details
+  timeline="..."
+  languages="..."
+  school="..."
+  course="..."
+  client="..."
+  role="..."
+  employer="..."
+  position="..."
+  software="..."
+  reason="..."
+  race_distance="..."
+  race_time="..."
+  top_speed="..."
+>}}
+*/}}
+<div class="project-details-card">
+  <table>
+    <tbody>
+      {{ with .Get "timeline" }}
+        <tr><td><i class="fa fa-calendar-alt"></i> <span>Timeline:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "languages" }}
+        <tr><td><i class="fa fa-code"></i> <span>Languages Used:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "school" }}
+        <tr><td><i class="fa fa-university"></i> <span>School:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "course" }}
+        <tr><td><i class="fa fa-book"></i> <span>Course:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "client" }}
+        <tr><td><i class="fa fa-user-tie"></i> <span>Client:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "role" }}
+        <tr><td><i class="fa fa-user-cog"></i> <span>Role:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "employer" }}
+        <tr><td><i class="fa fa-building"></i> <span>Employer:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "position" }}
+        <tr><td><i class="fa fa-id-badge"></i> <span>Position:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "software" }}
+        <tr><td><i class="fa fa-desktop"></i> <span>Software Used:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "reason" }}
+        <tr><td><i class="fa fa-lightbulb"></i> <span>Reason:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "race_distance" }}
+        <tr><td><i class="fa fa-ruler-horizontal"></i> <span>Race Distance:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "race_time" }}
+        <tr><td><i class="fa fa-stopwatch"></i> <span>Race Time:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+      {{ with .Get "top_speed" }}
+        <tr><td><i class="fa fa-tachometer-alt"></i> <span>Top Speed:</span></td><td>{{ . }}</td></tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>

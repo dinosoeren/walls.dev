@@ -10,12 +10,12 @@ summary = "A laser engraved and painted scale model of a Victorian house created
 toc = true
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Oct 23 – Nov 29, 2012 |
-| **School** | School of Engineering & Biomedical Science (SEBS) |
-| **Course** | CADD 4 (Senior Year) |
-| **Software Used** | Autodesk Inventor |
+{{< project-details
+  timeline="Oct 23 – Nov 29, 2012"
+  school="School of Engineering & Biomedical Science (SEBS)"
+  course="CADD 4 (Senior Year)"
+  software="Autodesk Inventor"
+>}}
 
 ## Designing a Victorian Dream (October 23rd)
 

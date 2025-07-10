@@ -9,12 +9,12 @@ thumbnail = "images/arduino-robot/featured.jpg"
 summary = "An Arduino-powered robot named Pyat that solves mazes using subsumption architecture, featuring layered behaviors and a dynamic grid system to navigate unknown mazes without prior knowledge of their structure."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | April-May, 2015 |
-| **Languages Used** | C |
-| **School** | Colorado College |
-| **Course** | CP248 Introduction to Robotics |
+{{< project-details
+  timeline="April-May, 2015"
+  languages="C"
+  school="Colorado College"
+  course="CP248 Introduction to Robotics"
+>}}
 
 ## Watch the Demo
 

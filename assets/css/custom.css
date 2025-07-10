@@ -89,3 +89,113 @@
     height: 1.2em;
   }
 }
+
+.project-details-card {
+  background: #23272f;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  padding: 8px 0 8px 0;
+  margin: 24px 0 32px 0;
+  max-width: none;
+  width: 100%;
+  color: #f3f3f3;
+  font-size: 1.08em;
+}
+.project-details-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+.project-details-card li {
+  display: grid;
+  grid-template-columns: minmax(120px, 50%) 1fr;
+  align-items: center;
+  padding: 6px 0 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  width: 100%;
+}
+.project-details-card li:last-child {
+  border-bottom: none;
+}
+.project-details-card i.fa {
+  color: #fbbc04;
+  font-size: 1.25em;
+  min-width: 2.2em;
+  text-align: center;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.18));
+}
+.project-details-card span {
+  font-weight: 600;
+  color: #fff;
+  margin-right: 8px;
+  display: inline-block;
+}
+.project-details-card li > *:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  max-width: 100%;
+  /* Allow wrapping, no white-space or text-overflow */
+}
+.project-details-card li > *:last-child {
+  text-align: left;
+  word-break: break-word;
+}
+.project-details-card table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: none;
+  /* Remove any default table border */
+  border: none;
+}
+.project-details-card tr {
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.project-details-card tr:last-child {
+  border-bottom: none;
+}
+.project-details-card td {
+  padding: 8px 8px 8px 0;
+  vertical-align: top;
+  background: none;
+  font-size: 1em;
+  border: none;
+}
+.project-details-card td:first-child {
+  font-weight: 600;
+  color: #fff;
+  min-width: 120px;
+  max-width: 50%;
+  width: 1%;
+  white-space: nowrap;
+}
+.project-details-card i.fa {
+  color: #fbbc04;
+  font-size: 1.25em;
+  min-width: 2.2em;
+  text-align: center;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.18));
+  margin-right: 0.5em;
+}
+@media (max-width: 600px) {
+  .project-details-card {
+    padding: 4px 0 4px 0;
+    font-size: 1em;
+  }
+  .project-details-card li {
+    grid-template-columns: minmax(90px, 70%) 1fr;
+  }
+  .project-details-card li > *:first-child {
+    max-width: 100%;
+  }
+  .project-details-card td {
+    padding: 6px 4px 6px 0;
+    font-size: 0.98em;
+  }
+  .project-details-card td:first-child {
+    min-width: 80px;
+    max-width: 70%;
+  }
+}

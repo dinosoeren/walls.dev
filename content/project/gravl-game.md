@@ -9,12 +9,12 @@ thumbnail = "images/gravl-game/featured.png"
 summary = "An independently developed Android puzzle platformer where players control astronaut Phil manipulating gravity to navigate icy terrain, built entirely in Java without game engines over 800 hours of development."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Summer 2014 |
-| **Languages Used** | Java (Android), SQL, HTML, CSS |
-| **Reason** | To learn Java and Android Development |
-| **Role** | Independent Android Developer, Graphic Designer, Level Designer, Story Writer, and Game Creator |
+{{< project-details
+  timeline="Summer 2014"
+  languages="Java (Android), SQL, HTML, CSS"
+  reason="To learn Java and Android Development"
+  role="Independent Android Developer, Graphic Designer, Level Designer, Story Writer, and Game Creator"
+>}}
 
 ## Watch the Trailer
 

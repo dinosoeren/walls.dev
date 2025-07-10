@@ -10,15 +10,15 @@ summary = "A 3D printed CO2-powered race car designed in Autodesk Inventor with 
 toc = true
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Spring 2013 |
-| **School** | School of Engineering & Biomedical Science (SEBS) |
-| **Course** | CADD 4 (Senior Year) |
-| **Software Used** | Autodesk Inventor |
-| **Race Distance** | 5 feet |
-| **Race Time** | 0.15 seconds |
-| **Top Speed** | 33.3 ft/s (≈22.7 mph) |
+{{< project-details
+  timeline="Spring 2013"
+  school="School of Engineering & Biomedical Science (SEBS)"
+  course="CADD 4 (Senior Year)"
+  software="Autodesk Inventor"
+  race_distance="5 feet"
+  race_time="0.15 seconds"
+  top_speed="33.3 ft/s (≈22.7 mph)"
+>}}
 
 ## Watch the Race Video
 
@@ -65,6 +65,6 @@ Race day arrived, and my X-Wing F1 was ready for launch. While it wasn’t the f
 
 ---
 
-### Reflections
+## Reflections
 
 This project was a blast (pun intended). It combined my love of Star Wars, engineering, and a little friendly competition. While I didn’t take home the gold, I did walk away with a deeper appreciation for CAD, 3D printing, and the magic of aerodynamic design. And hey, if anyone ever needs a CO2-powered escape vehicle for a galaxy far, far away, you know who to call.

@@ -9,12 +9,12 @@ thumbnail = "images/space-warz/featured.png"
 summary = "A 2D top-down space shooter game built in Java over a weekend for Computer Science I, featuring waves of enemy ships, mini-bosses, shields, and downloadable JAR/EXE versions for cross-platform play."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Nov 16-20, 2013 |
-| **Languages Used** | Java |
-| **School** | Colorado College |
-| **Course** | CP122 Computer Science I |
+{{< project-details
+  timeline="Nov 16-20, 2013"
+  languages="Java"
+  school="Colorado College"
+  course="CP122 Computer Science I"
+>}}
 
 ## Watch the Demo
 

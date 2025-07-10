@@ -8,12 +8,12 @@ thumbnail = "images/scaling-everest/everest-gameplay.jpg"
 summary = "A (sadly) Windows-only videogame created in a single weekend for English 2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as Hillary as you fight yeti monsters and attempt to reach the summit. Download the .exe and relive the adventure."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Nov 13-15, 2010 |
-| **Languages Used** | Game Maker Language (GML) |
-| **School** | School of Engineering & Biomedical Science (SEBS) |
-| **Course** | English 2 (Sophomore Year) |
+{{< project-details
+  timeline="Nov 13-15, 2010"
+  languages="Game Maker Language (GML)"
+  school="School of Engineering & Biomedical Science (SEBS)"
+  course="English 2 (Sophomore Year)"
+>}}
 
 ## Watch the Demo
 

@@ -10,12 +10,12 @@ toc = true
 summary = "A weekend project creating a real-time collaborative drawing web app using Node.js, featuring pixel-level synchronization across multiple devices with conflict resolution based on recency of user actions."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | May 8-13, 2015 |
-| **Languages Used** | JavaScript (Node.js), HTML, CSS |
-| **School** | Colorado College |
-| **Course** | CP215 Application Design |
+{{< project-details
+  timeline="May 8-13, 2015"
+  languages="JavaScript (Node.js), HTML, CSS"
+  school="Colorado College"
+  course="CP215 Application Design"
+>}}
 
 ## Watch the Demo
 

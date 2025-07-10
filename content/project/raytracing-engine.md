@@ -9,12 +9,12 @@ summary = "A custom raycaster built in C++ for a Computer Graphics course at AIT
 toc = true
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Nov 10-24, 2015 |
-| **Languages Used** | C++ |
-| **School** | Aquincum Institute of Technology |
-| **Course** | CP360 Computer Graphics |
+{{< project-details
+  timeline="Nov 10-24, 2015"
+  languages="C++"
+  school="Aquincum Institute of Technology"
+  course="CP360 Computer Graphics"
+>}}
 
 ## Project Overview
 

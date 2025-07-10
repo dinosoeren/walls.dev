@@ -9,12 +9,12 @@ thumbnail = "https://i.ytimg.com/vi/LS3j3vAg5gM/sddefault.jpg"
 summary = "A 12-inch functioning 3D scale model of Leonardo da Vinci's scythed chariot war machine, designed in Autodesk Inventor, 3D printed and laser engraved, with animated demonstration using 3dsMax Design."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Jan-Feb, 2011 |
-| **School** | School of Engineering & Biomedical Science |
-| **Course** | Integrated Project |
-| **Software Used** | Autodesk Inventor, Autodesk 3dsMax Design |
+{{< project-details
+  timeline="Jan-Feb, 2011"
+  school="School of Engineering & Biomedical Science"
+  course="Integrated Project"
+  software="Autodesk Inventor, Autodesk 3dsMax Design"
+>}}
 
 ## Watch the Animation
 

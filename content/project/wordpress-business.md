@@ -9,12 +9,12 @@ thumbnail = "images/wordpress-business/featured.png"
 summary = "A WordPress conversion project for a chiropractic health center, featuring a modified theme with informational pages for publications, medications, and products to serve as a comprehensive business website."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Oct-Nov, 2012 |
-| **Languages Used** | PHP (WordPress), HTML, CSS, JavaScript, SQL |
-| **Client** | Chiropractic Health Center |
-| **Role** | Contracted Web Developer |
+{{< project-details
+  timeline="Oct-Nov, 2012"
+  languages="PHP (WordPress), HTML, CSS, JavaScript, SQL"
+  client="Chiropractic Health Center"
+  role="Contracted Web Developer"
+>}}
 
 I converted this website from standard HTML to WordPress at the client's request. It features a modified WordPress theme, and functions as a basic informational business website with pages for publications, medications, and products.
 

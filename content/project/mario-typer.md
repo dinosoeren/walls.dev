@@ -9,12 +9,12 @@ thumbnail = "http://img.youtube.com/vi/I_i6VN_9p4s/maxresdefault.jpg"
 summary = "A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario fighting Boo ghosts by typing words, with a detailed account of fixing critical bugs in the provided OBJ parser library to support custom 3D models."
 +++
 
-| | |
-| --- | --- |
-| **Timeline** | Nov 21-26, 2015 |
-| **Languages Used** | C++ (OpenGL) |
-| **School** | AIT at Budapest University of Technology and Economics |
-| **Course** | CP360 Computer Graphics |
+{{< project-details
+  timeline="Nov 21-26, 2015"
+  languages="C++ (OpenGL)"
+  school="AIT at Budapest University of Technology and Economics"
+  course="CP360 Computer Graphics"
+>}}
 
 ## Watch the Demo
 
