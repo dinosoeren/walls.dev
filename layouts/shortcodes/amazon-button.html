@@ -1,0 +1,7 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "Amazon App Store" }}
+
+<a href="{{ $url }}" class="amazon-button custom-button" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-amazon amazon-icon button-icon"></i>
+  <span class="button-text">{{ $text }}</span>
+</a>

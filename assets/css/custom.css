@@ -1,57 +1,46 @@
-/* Custom GitHub Button Styles */
-.github-button {
+/* Common Custom Button Styles */
+.custom-button {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   padding: 9px 18px;
-  background: linear-gradient(135deg, #24292e 0%, #2f363d 50%, #24292e 100%);
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
   font-size: 17px;
   line-height: 1.3;
-  border: 1px solid #444d56;
+  border-width: 1px;
+  border-style: solid;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  background: #444;
 }
-
-.github-button::before {
+.custom-button::before {
   content: '';
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
   transition: left 0.5s;
 }
-
-.github-button:hover::before {
+.custom-button:hover::before {
   left: 100%;
 }
-
-.github-button:hover {
+.custom-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(135deg, #2f363d 0%, #3f474e 50%, #2f363d 100%);
-  border-color: #586069;
 }
-
-.github-button:active {
+.custom-button:active {
   transform: translateY(0);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
-.github-button .github-icon {
+.custom-button .button-icon {
   font-size: 1.5em;
   width: 1.5em;
   height: 1.5em;
@@ -62,34 +51,133 @@
   line-height: 1;
   margin-bottom: 0px;
 }
-
-.github-button .button-text {
+.custom-button .button-text {
   position: relative;
   z-index: 1;
   display: inline-block;
   vertical-align: middle;
   line-height: 1.3;
+  color: inherit;
 }
-
-/* Add a subtle glow effect on hover */
-.github-button:hover .github-icon {
-  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
+.custom-button:hover .button-icon {
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.3));
   text-shadow: 0 2px 6px rgba(0,0,0,0.7);
 }
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
-  .github-button {
+  .custom-button {
     padding: 7px 12px;
     font-size: 15px;
   }
-  .github-button .github-icon {
+  .custom-button .button-icon {
     font-size: 1.2em;
     width: 1.2em;
     height: 1.2em;
   }
 }
 
+/* Specific Button Variants */
+.github-button {
+  @extend .custom-button;
+  background: linear-gradient(135deg, #24292e 0%, #2f363d 50%, #24292e 100%);
+  border-color: #444d56;
+  color: #fff;
+}
+.github-button:hover {
+  background: linear-gradient(135deg, #2f363d 0%, #3f474e 50%, #2f363d 100%);
+  border-color: #586069;
+}
+.github-button .github-icon { color: #fff; }
+
+.website-button {
+  @extend .custom-button;
+  background: linear-gradient(135deg, #1e90ff 0%, #3fa7ff 50%, #1e90ff 100%);
+  border-color: #2176bd;
+  color: #fff;
+}
+.website-button:hover {
+  background: linear-gradient(135deg, #3fa7ff 0%, #5fcfff 50%, #3fa7ff 100%);
+  border-color: #2176bd;
+}
+.website-button .website-icon { color: #fff; }
+
+.amazon-button {
+  @extend .custom-button;
+  background: linear-gradient(135deg, #ff9900 0%, #ffb84d 50%, #ff9900 100%);
+  border-color: #b37400;
+  color: #232f3e;
+}
+.amazon-button:hover {
+  background: linear-gradient(135deg, #ffb84d 0%, #ffd699 50%, #ffb84d 100%);
+  border-color: #b37400;
+  color: #232f3e;
+}
+.amazon-button .amazon-icon { color: #232f3e; }
+
+.googleplay-button {
+  @extend .custom-button;
+  background: linear-gradient(135deg, #34a853 0%, #b8e994 50%, #34a853 100%);
+  border-color: #2c8c47;
+  color: #fff;
+}
+.googleplay-button:hover {
+  background: linear-gradient(135deg, #b8e994 0%, #d4f8e8 50%, #b8e994 100%);
+  border-color: #2c8c47;
+}
+.googleplay-button .googleplay-icon { color: #fff; }
+
+.github-button, .github-button .github-icon, .github-button .button-text {
+  color: #fff !important;
+}
+
+.website-button, .website-button .website-icon, .website-button .button-text {
+  color: #fff !important;
+}
+
+.amazon-button, .amazon-button .amazon-icon, .amazon-button .button-text {
+  color: #232f3e !important;
+}
+
+.googleplay-button, .googleplay-button .googleplay-icon, .googleplay-button .button-text {
+  color: #111 !important;
+}
+
+.download-exe-button {
+  background: linear-gradient(135deg, #0078d7 0%, #4fc3f7 100%);
+  border-color: #005fa3;
+  color: #fff !important;
+}
+.download-exe-button .button-icon { color: #fff !important; }
+.download-exe-button .button-text { color: #fff !important; }
+.download-exe-button:hover {
+  background: linear-gradient(135deg, #4fc3f7 0%, #b3e5fc 100%);
+  border-color: #005fa3;
+}
+
+.download-jar-button {
+  background: linear-gradient(135deg, #f89820 0%, #ffe0b2 100%);
+  border-color: #b36b00;
+  color: #222 !important;
+}
+.download-jar-button .button-icon { color: #222 !important; }
+.download-jar-button .button-text { color: #222 !important; }
+.download-jar-button:hover {
+  background: linear-gradient(135deg, #ffe0b2 0%, #fff3e0 100%);
+  border-color: #b36b00;
+}
+
+.download-generic-button {
+  background: linear-gradient(135deg, #607d8b 0%, #b0bec5 100%);
+  border-color: #455a64;
+  color: #fff !important;
+}
+.download-generic-button .button-icon { color: #fff !important; }
+.download-generic-button .button-text { color: #fff !important; }
+.download-generic-button:hover {
+  background: linear-gradient(135deg, #b0bec5 0%, #eceff1 100%);
+  border-color: #455a64;
+}
+
+/* Project Details Table Styles */
 .project-details-card {
   background: #23272f;
   border-radius: 12px;

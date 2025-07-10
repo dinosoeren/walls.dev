@@ -18,7 +18,7 @@ summary = "A WordPress conversion project for a chiropractic health center, feat
 
 I converted this website from standard HTML to WordPress at the client's request. It features a modified WordPress theme, and functions as a basic informational business website with pages for publications, medications, and products.
 
-- [Visit live site](http://www.pueblochiropracticcenter.com/)
+{{< website-button url="http://www.pueblochiropracticcenter.com/" >}}
 
 ## Screenshots
 [![](../../images/wordpress-business/homepage.png)](../../images/wordpress-business/homepage.png)[![](../../images/wordpress-business/contact.png)](../../images/wordpress-business/contact.png)[![](../../images/wordpress-business/search.png)](../../images/wordpress-business/search.png)

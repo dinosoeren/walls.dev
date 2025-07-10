@@ -1,0 +1,22 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "Download" }}
+{{ $ext := .Get "ext" | lower }}
+
+{{/* Determine icon and button class based on extension */}}
+{{ $icon := "fa-download" }}
+{{ $iconStyle := "fas" }}
+{{ $btnClass := "download-generic-button" }}
+{{ if eq $ext "exe" }}
+  {{ $icon = "fa-windows" }}
+  {{ $iconStyle = "fab" }}
+  {{ $btnClass = "download-exe-button" }}
+{{ else if eq $ext "jar" }}
+  {{ $icon = "fa-java" }}
+  {{ $iconStyle = "fab" }}
+  {{ $btnClass = "download-jar-button" }}
+{{ end }}
+
+<a href="{{ $url }}" class="custom-button {{ $btnClass }}" target="_blank" rel="noopener noreferrer">
+  <i class="{{ $iconStyle }} {{ $icon }} button-icon"></i>
+  <span class="button-text">{{ $text }}</span>
+</a>

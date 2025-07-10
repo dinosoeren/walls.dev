@@ -20,15 +20,14 @@ summary = "An independently developed Android puzzle platformer where players co
 
 {{< youtube CqwfEolrxec >}}
 
-- [Visit the website](https://dinosoeren.github.io/gravlgame/)
-
+{{< website-button url="https://dinosoeren.github.io/gravlgame/" >}}
 
 More than 800 hours over the course of 6 months went into making [**GRAVL**](https://dinosoeren.github.io/gravlgame/), my first independently developed Android game, from start to finish. As you may have noticed from the article's title, it's a platform game (like Super Mario Bros.), except each level is a puzzle that can only be solved using one thing... gravity.
 
 You play as Phil, a stranded astronaut who's trying to collect fuel for his spaceship, while traversing the bizarre icy terrain of an unknown planet. You encounter many different types of **Gravity Switches** along the way, which allow Phil to freely manipulate the laws of physics, to help you avoid falling to your death.
 
-- [Amazon App Store](http://www.amazon.com/Neros-Studios-GRAVL/dp/B00L8S0SR8)
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.soerenwalls.gravlpaid)
+{{< amazon-button url="http://www.amazon.com/Neros-Studios-GRAVL/dp/B00L8S0SR8" >}}
+{{< googleplay-button url="https://play.google.com/store/apps/details?id=com.soerenwalls.gravlpaid" >}}
 
 This game was more of a programming experiment for me than anything else. I chose not to use any game or physics engines like Unity, and instead chose to program every aspect of the game in pure Java, starting from scratch. This is the primary reason it took so damn long, and also why I wouldn't recommend this approach to anyone whose goal is to efficiently develop a functional game. Don't reinvent the wheel unless you have to, or in my case, unless you want to just for the lolz.
 

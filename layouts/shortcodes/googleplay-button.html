@@ -1,0 +1,7 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "Google Play Store" }}
+
+<a href="{{ $url }}" class="googleplay-button custom-button" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-google-play googleplay-icon button-icon"></i>
+  <span class="button-text">{{ $text }}</span>
+</a>

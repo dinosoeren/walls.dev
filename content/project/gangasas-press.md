@@ -18,7 +18,7 @@ summary = "A WordPress e-commerce conversion for a textbook publisher featuring 
 
 I converted this website from standard HTML to WordPress at the client's request. It includes a modified WordPress theme, e-merchant capabilities including a shopping cart and checkout process, integration of an SSL certificate to legally allow handling of transaction info, a familiar WordPress-powered CMS, and more client-friendly features.
 
-- [Visit live site](https://www.thegangasaspress.com/)
+{{< website-button url="https://www.thegangasaspress.com/" >}}
 
 ## Screenshots
 [![](../../images/gangasas-press/homepage.png)](../../images/gangasas-press/homepage.png)[![](../../images/gangasas-press/cart.png)](../../images/gangasas-press/cart.png)[![](../../images/gangasas-press/checkout.png)](../../images/gangasas-press/checkout.png)[![](../../images/gangasas-press/product.png)](../../images/gangasas-press/product.png)

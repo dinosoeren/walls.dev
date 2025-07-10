@@ -27,8 +27,8 @@ A simple Java experiment, this is a 2D top-down space shooter videogame made for
 
 This was actually my final project for my Computer Science I class, which I completed in a weekend. It's a little buggy, but it was ridiculously fun to make. If you want to try it out, feel free to download it below (requires Java to run).
 
-- [Download `.jar`](../../bin/space-warz.jar) - All operating systems
-- [Download `.exe`](../../bin/space-warz.exe) - Windows only
+{{< download-button url="../../bin/space-warz.jar" text="Download .jar" ext="jar" >}}
+{{< download-button url="../../bin/space-warz.exe" text="Download .exe" ext="exe" >}}
 
 ## Screenshots
 [![](../../images/space-warz/screenshot1.png)](../../images/space-warz/screenshot1.png)[![](../../images/space-warz/screenshot2.png)](../../images/space-warz/screenshot2.png)[![](../../images/space-warz/screenshot3.png)](../../images/space-warz/screenshot3.png)[![](../../images/space-warz/screenshot4.png)](../../images/space-warz/screenshot4.png)[![](../../images/space-warz/screenshot5.png)](../../images/space-warz/screenshot5.png)[![](../../images/space-warz/screenshot6.png)](../../images/space-warz/screenshot6.png)[![](../../images/space-warz/screenshot7.png)](../../images/space-warz/screenshot7.png)[![](../../images/space-warz/welcome.png)](../../images/space-warz/welcome.png)
