@@ -7,6 +7,7 @@ tags = ["Education", "Game Development", "Open Source", "Programming", "Hardware
 categories = ["Academic", "Games", "Robots", "Project"]
 thumbnail = "/project/arduino-robot/images/featured.jpg"
 summary = "An Arduino-powered robot named Pyat that solves mazes using subsumption architecture, featuring layered behaviors and a dynamic grid system to navigate unknown mazes without prior knowledge of their structure."
+toc = true
 +++
 
 {{< project-details
@@ -38,7 +39,11 @@ The architecture I've defined for Pyat in the above diagram is slightly more com
 
 Let's take a look at Pyat's brain while it completes the maze: Pyat creates a grid on the floor as it moves. When the program starts, it begins at the origin (0,0), and after every subsequent movement, Pyat uses displaced distance and angle to compute the current position's exact coordinates relative to the origin. When an important event or sequence of important events occurs in accordance with the subsumption architecture, Pyat records its current position as a wall or an intersection where a choice (left, right, or forward) was made. This is useful when Pyat gets lost; it can get itself back on track via the two lowest-level behaviors, activated after 15 steps (measured in grid units) of uninterrupted cruising.
 
-### What this means
+## What this means
 This maze-solving technique potentially allows my robot to navigate more non-trivial patterns, such as a maze with another "island" maze inside of it, Inception-style. The robot can follow walls, make decisions at intersections, maintain a dynamic grid to mark intersection positions, identify when it's stuck, and remember movements required to return to an intersection where it can make a new choice. (Note: I have not yet seen it attempt to destroy planet Earth, so I did not include this behavior in the diagram, though it may be a problem in the future.)
 
 The video may not seem incredibly impressive, because after all, that's a pretty simple maze. Also, even though my subsumption architecture seems to be well-defined, whether or not I've implemented it correctly in the code is another question entirely. Sadly I cannot post the source code for you to prove me wrong, since this was technically my final exam, and I could be expelled for aiding and abetting cheaters. However, hopefully you believe me, and you're at least a little bit impressed, because this took a lot of work, and I love my little Pyat.
+
+## Source Code
+
+{{< github-button url="https://github.com/dinosoeren/arduino-maze-bot" >}}
