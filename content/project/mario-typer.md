@@ -69,6 +69,6 @@ The other incorrect assumption made by the `Mesh.cpp` file, though far less fata
 
 So, just for fun, I made sure .OBJ files with **pentagonal** faces could also be successfully rendered from the code. Good luck finding a mesh that uses them, though. If you're interested, you can view the old code, and the changes I made to it, in the github repo linked below. The old file is aptly named `Mesh-old.cpp`.
 
-- [View on Github](https://github.com/dinosoeren/MarioTyper)
+{{< github-button url="https://github.com/dinosoeren/MarioTyper" >}}
 
 Have anything to add? I left out some of the details of .OBJ's on purpose, but if you think there's something important I forgot to mention, please let me know in the comments.

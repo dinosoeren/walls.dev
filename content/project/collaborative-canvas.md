@@ -26,7 +26,7 @@ Ever wanted to draw online together with your friends? This app is perfect for t
 
 Why not? This app was both an experiment in node.js, as well as my collaborative final project for my CP215 Application Design class. So essentially, it was made in a weekend by two people. But that's not to say it isn't a noteworthy project!
 
-- [View on Github](https://github.com/dinosoeren/collaborative-canvas)
+{{< github-button url="https://github.com/dinosoeren/collaborative-canvas" >}}
 
 Without using websockets or anything of the sort, this application synchronizes a drawing canvas across two or more devices almost instantaneously, while gracefully resolving conflicts individually on each pixel, by prioritizing [recency](http://jhigh.co.uk/Higher/expert_systems/conflict_resolution.html) of each user's paint instruction. How? Glad you asked. Well, to start, it's arguably very memory inefficient. But remember, for a weekend project, it's speed of implementation that really counts.
 

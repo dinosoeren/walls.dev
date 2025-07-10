@@ -30,6 +30,7 @@ summaryLength = 30
   oldContentWarning = true
   oldContentDuration = 365
 
+  customCss = ["css/custom.css"]
   gtagId = "G-NX48YN18V3"
   contactFormAction = "https://formspree.io/f/mgvybvzd"
 

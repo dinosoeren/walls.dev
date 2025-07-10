@@ -51,7 +51,7 @@ The assignment: create a physically plausible chessboard with all the pieces, ea
 
 ## Source Code
 
-- [View on Github](https://github.com/dinosoeren/raycaster)
+{{< github-button url="https://github.com/dinosoeren/raycaster" >}}
 
 ## Reflections
 
