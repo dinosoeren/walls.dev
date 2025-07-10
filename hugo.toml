@@ -20,6 +20,7 @@ summaryLength = 30
   profilePicture = "images/profile.jpeg"
   images = ["images/profile.jpeg"]
 
+  displayMode = "dark"
   postSections = ["blog", "project"]
   mainSections = ["blog", "project"]
   relatedPosts = true
