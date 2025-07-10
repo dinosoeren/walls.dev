@@ -12,7 +12,7 @@ toc = true
 {{< project-details
   timeline="Nov 10-24, 2015"
   languages="C++"
-  school="Aquincum Institute of Technology"
+  school="AIT at Budapest University of Technology and Economics"
   course="CP360 Computer Graphics"
 >}}
 
