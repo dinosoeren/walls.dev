@@ -6,6 +6,7 @@ tags = ["3D Graphics", "Computer Graphics", "C++", "Education", "Programming"]
 categories = ["Academic", "Games", "Project"]
 thumbnail = "images/raytracing-engine/chessboard.png"
 summary = "A custom raycaster built in C++ for a Computer Graphics course at AIT, featuring a procedurally textured chessboard and complex chess pieces modeled with quadrics, glass, gold, gemstones, and procedural normal mapping."
+toc = true
 +++
 
 | | |
@@ -48,8 +49,12 @@ The assignment: create a physically plausible chessboard with all the pieces, ea
 
 ![full chess board](../../images/raytracing-engine/chessboard.png)
 
+## Source Code
+
+- [View on Github](https://github.com/dinosoeren/raycaster)
+
 ## Reflections
 
 This project was a crash course in both the beauty and the pain of computer graphics. I learned more about light, materials, and geometry in two weeks than I thought possible. Debugging ray-object intersections at 2am is a special kind of fun, but there’s nothing quite like seeing a glass king refract a pawn for the first time.
 
-If you’re curious about the code or want to see more, let me know! And if you’re ever tempted to write your own raycaster from scratch, my advice: do it. Just keep lots of coffee on hand.
+If you’re curious about the code or want to see more, check it out above! And if you’re ever tempted to write your own raycaster from scratch, my advice: do it. Just keep lots of coffee on hand.
