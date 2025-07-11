@@ -20,8 +20,12 @@ collections:
       - label: Year
         field: date
         pattern: \d{4}
+      - label: Category
+        field: category
+    view_filters:
       - label: Drafts
         field: draft
+        pattern: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -46,8 +50,12 @@ collections:
       - label: Year
         field: date
         pattern: \d{4}
+      - label: Category
+        field: category
+    view_filters:
       - label: Drafts
         field: draft
+        pattern: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
