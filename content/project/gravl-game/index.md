@@ -1,13 +1,28 @@
-+++
-date = "2014-05-31T23:22:45-06:00"
-draft = false
-title = "GRAVL: Gravity Puzzle Platformer for Android"
-# original_title = "GRAVL: A Gravity Puzzle Platformer for Android"
-tags = ["2D Graphics", "Computer Graphics", "Game Development", "HTML/CSS", "Java", "Mobile Development", "Physics", "Professional"]
-categories = ["App", "Business", "Games", "Mobile", "Project", "Web"]
-thumbnail = "/project/gravl-game/images/featured.png"
-summary = "An independently developed Android puzzle platformer where players control astronaut Phil manipulating gravity to navigate icy terrain, built entirely in Java without game engines over 800 hours of development."
-+++
+---
+title: "GRAVL: Gravity Puzzle Platformer for Android"
+date: 2014-05-31T23:22:45-06:00
+draft: false
+summary: An independently developed Android puzzle platformer where players
+  control astronaut Phil manipulating gravity to navigate icy terrain, built
+  entirely in Java without game engines over 800 hours of development.
+thumbnail: /project/gravl-game/images/featured.png
+categories:
+  - App
+  - Business
+  - Games
+  - Mobile
+  - Project
+  - Web
+tags:
+  - 2D Graphics
+  - Computer Graphics
+  - Game Development
+  - HTML/CSS
+  - Java
+  - Mobile Development
+  - Physics
+  - Professional
+---
 
 {{< project-details
   timeline="Summer 2014"
@@ -52,7 +67,7 @@ In order to complete this project (which was really my first attempt to create s
 
 I also had to use some concepts from trigonometry, like **Pythagorean Theorem** (a big middle finger to all my high school classmates who said we'd never use it outside of school), and I had to come up with some pretty hardcore algorithmic solutions for various issues I ran into along the way.
 
-If you want to read or hear more, I was [**interviewed by Literary Video Games**](http://www.literaryvideogames.com/2014/07/interview-soeren-walls-creator-of-gravl.html) about GRAVL; feel free to check that out. I must say, this is one of my projects I'm most proud of, just because of how ridiculous of an undertaking it was. The day I released GRAVL was one of the most satisfying days of my life. But I can guarantee you, I will never attempt make a game without an engine again. Still, it was fun.
+If you want to read or hear more, I was [**interviewed by Literary Video Games**](https://web.archive.org/web/20150113012336/http://www.literaryvideogames.com/2014/07/interview-soeren-walls-creator-of-gravl.html) about GRAVL; feel free to check that out. I must say, this is one of my projects I'm most proud of, just because of how ridiculous of an undertaking it was. The day I released GRAVL was one of the most satisfying days of my life. But I can guarantee you, I will never attempt make a game without an engine again. Still, it was fun.
 
 ## Screenshots
 
