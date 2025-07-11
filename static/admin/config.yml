@@ -8,10 +8,21 @@ collections:
   - name: 'project'
     label: 'Project'
     folder: 'content/project'
+    path: '{{slug}}/index.md'
+    media_folder: images
+    public_folder: /images
     create: true
     slug: '{{slug}}'
+    preview_path: 'project/{{slug}}'
     editor:
-      preview: false
+      preview: true
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
+        pattern: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -24,10 +35,21 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
+    path: '{{slug}}/index.md'
+    media_folder: images
+    public_folder: /images
     create: true
     slug: '{{slug}}'
+    preview_path: 'blog/{{slug}}'
     editor:
-      preview: false
+      preview: true
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
+        pattern: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
