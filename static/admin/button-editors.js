@@ -23,7 +23,7 @@
     // GitHub Button Component
     CMS.registerEditorComponent({
       id: "github-button",
-      label: "GitHub Button",
+      label: "Button - GitHub",
       fields: [
         {
           name: "url",
@@ -75,7 +75,7 @@
     // Website Button Component
     CMS.registerEditorComponent({
       id: "website-button",
-      label: "Website Button",
+      label: "Button - Website",
       fields: [
         {
           name: "url",
@@ -127,7 +127,7 @@
     // Download Button Component
     CMS.registerEditorComponent({
       id: "download-button",
-      label: "Download Button",
+      label: "Button - Download",
       fields: [
         {
           name: "url",
@@ -203,7 +203,7 @@
     // Amazon Button Component
     CMS.registerEditorComponent({
       id: "amazon-button",
-      label: "Amazon Button",
+      label: "Button - Amazon",
       fields: [
         {
           name: "url",
@@ -255,7 +255,7 @@
     // Google Play Button Component
     CMS.registerEditorComponent({
       id: "googleplay-button",
-      label: "Google Play Button",
+      label: "Button - Google Play",
       fields: [
         {
           name: "url",
