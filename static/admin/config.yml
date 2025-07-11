@@ -21,7 +21,7 @@ collections:
         field: date
         pattern: \d{4}
       - label: Category
-        field: category
+        field: categories
     view_filters:
       - label: Drafts
         field: draft
@@ -51,7 +51,7 @@ collections:
         field: date
         pattern: \d{4}
       - label: Category
-        field: category
+        field: categories
     view_filters:
       - label: Drafts
         field: draft
