@@ -48,6 +48,217 @@ This game was more of a programming experiment for me than anything else. I chos
 
 All the graphics in the game are completely original, created by me. The music/sounds are also original; they were composed by my brother Kirby. GRAVL has had its fair share of performance bugs, which have been a pain to fix, but also kinda fun to figure out. I now know the inner workings of Android like never before. You'd be surprised how many different programming and **math** concepts go into developing a game.
 
+## Code Samples
+
+Here are some key code samples from the GRAVL codebase that showcase the technical implementation:
+
+### Gravity System Implementation
+
+The core gravity mechanics are handled in the `Ball` class, which manages the player character's physics:
+
+```java
+public class Ball {
+    private boolean gravityDown = true;
+    private boolean gravityShifting = false;
+    private boolean gravityBeingTimed = false;
+    private int gravityTimerCount = 0;
+    private int gravityTimerMax = 0;
+
+    public void setGravityDown(boolean grdn) {
+        gravityDown = grdn;
+        if(gravityDown) Assets.playFX(3, Gravl.areSoundsMuted());
+        else Assets.playFX(4, Gravl.areSoundsMuted());
+    }
+
+    public void incGravityTimer() {
+        if(gravityTimerCount > 0 && !finishingLevel) {
+            if(gravityTimerCount > 1) {
+                gravityTimerCount--;
+                if(!gravityBeingTimed) gravityBeingTimed = true;
+            } else {
+                if(!gravityDown) {
+                    gravityShifting = true;
+                    gravityDown = true;
+                    bouncingV = false;
+                } else {
+                    gravityShifting = true;
+                    gravityDown = false;
+                    bouncingV = false;
+                }
+                if(gravityDown) Assets.playFX(3, Gravl.areSoundsMuted());
+                else Assets.playFX(4, Gravl.areSoundsMuted());
+                gravityBeingTimed = false;
+                gravityTimerCount = 0;
+            }
+        }
+    }
+}
+```
+
+### Tile Types and Gravity Switches
+
+The game features various tile types, including different gravity switches. Here's how they're defined:
+
+```java
+public class Tile {
+    // Tile types for different gravity mechanics
+    public static final int TYPE_FLOOR = 1;
+    public static final int TYPE_GRAVITY_SWITCH_UP = 2;
+    public static final int TYPE_GRAVITY_SWITCH_DOWN = 3;
+    public static final int TYPE_GRAVITY_SWITCH_ROTATE = 10;
+    public static final int TYPE_TIMED_GRAVITY_SWITCH_UP_5_SEC = 17;
+    public static final int TYPE_TIMED_GRAVITY_SWITCH_UP_3_SEC = 18;
+    public static final int TYPE_TIMED_GRAVITY_SWITCH_DOWN_5_SEC = 19;
+    public static final int TYPE_TIMED_GRAVITY_SWITCH_DOWN_3_SEC = 20;
+    public static final int TYPE_FLOAT_SLIDE_LEFT_RIGHT = 12;
+    public static final int TYPE_FLOAT_SLIDE_UP_DOWN = 13;
+    public static final int TYPE_SPRING_LAUNCH = 15;
+    public static final int TYPE_TELEPORT = 26;
+}
+```
+
+### Collision Detection and Gravity Switch Logic
+
+The collision detection system handles interactions with gravity switches:
+
+```java
+public void checkVerticalCollision(Rect ballvert) {
+    if (Rect.intersects(ballvert, r) && type != TYPE_NOTHING) {
+        // Shift gravity UP
+        if((type==TYPE_GRAVITY_SWITCH_UP ||
+            (!ball.isGravityBeingTimed() &&
+                (type==TYPE_TIMED_GRAVITY_SWITCH_UP_5_SEC ||
+                 type==TYPE_TIMED_GRAVITY_SWITCH_UP_3_SEC))) &&
+            ball.getCenterY() <= tileY + Values.TILE_HEIGHT &&
+            ball.isGravityDown() &&
+            !ball.isExploding() && !ball.isImploding() &&
+            !ball.isRotatingGravity()) {
+
+            ball.setGravityDown(false);
+            ball.setGravityShifting(true);
+            ball.setBouncingV(false);
+            activeCounter = 1;
+
+            if(type==TYPE_TIMED_GRAVITY_SWITCH_UP_5_SEC ||
+               type==TYPE_TIMED_GRAVITY_SWITCH_UP_3_SEC)
+                ball.setGravityTimerCount(GRAVITY_TIMER_MAX);
+
+            ((GameScreen) thisGameScreen).startArrow(0);
+            thisGameScreen.getGameReference().vibrate(0);
+            ((GameScreen) thisGameScreen).addMove();
+        }
+        // Shift gravity DOWN
+        else if((type==TYPE_GRAVITY_SWITCH_DOWN ||
+                (!ball.isGravityBeingTimed() &&
+                    (type==TYPE_TIMED_GRAVITY_SWITCH_DOWN_5_SEC ||
+                     type==TYPE_TIMED_GRAVITY_SWITCH_DOWN_3_SEC))) &&
+                ball.getCenterY() >= tileY && !ball.isGravityDown() &&
+                !ball.isExploding() && !ball.isImploding() &&
+                !ball.isRotatingGravity()) {
+
+            ball.setGravityDown(true);
+            ball.setGravityShifting(true);
+            ball.setBouncingV(false);
+            activeCounter = 1;
+
+            if(type==TYPE_TIMED_GRAVITY_SWITCH_DOWN_5_SEC ||
+               type==TYPE_TIMED_GRAVITY_SWITCH_DOWN_3_SEC)
+                ball.setGravityTimerCount(GRAVITY_TIMER_MAX);
+
+            ((GameScreen) thisGameScreen).startArrow(1);
+            thisGameScreen.getGameReference().vibrate(0);
+            ((GameScreen) thisGameScreen).addMove();
+        }
+    }
+}
+```
+
+### Game Constants and Physics Values
+
+The game uses carefully tuned physics constants for smooth gameplay:
+
+```java
+public class Values {
+    // Ball physics constants
+    public static int BALL_YSPEED = 2;           // Gravity acceleration
+    public static int BALL_MOVESPEED = 7;        // Horizontal movement speed
+    public static int BALL_MAX_BOUNCE_SPEED = 4; // Maximum bounce velocity
+    public static float BALL_LAUNCH_SPEED = 27;  // Spring launch velocity
+
+    // Tile dimensions
+    public static int TILE_WIDTH = 60;
+    public static int TILE_HEIGHT = 60;
+
+    // Background scrolling
+    public static int BGSPEED = 1; // Background scroll speed
+
+    // Frame compensation for different device speeds
+    public static final float FRAME_COMPENSATOR_MULTIPLIER = 0.3f;
+}
+```
+
+### Custom Game Engine Architecture
+
+The game uses a custom framework built from scratch:
+
+```java
+public abstract class AndroidGame extends BaseGameActivity implements Game {
+    AndroidFastRenderView renderView;
+    Graphics graphics;
+    Audio audio;
+    Input input;
+    FileIO fileIO;
+    Screen screen;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // Initialize custom game engine components
+        renderView = new AndroidFastRenderView(this);
+        graphics = new AndroidGraphics(this, getAssets());
+        fileIO = new AndroidFileIO(this);
+        audio = new AndroidAudio(this);
+        input = new AndroidInput(this, renderView);
+        screen = getInitScreen();
+    }
+}
+```
+
+### Level Loading and Map System
+
+Levels are loaded from text-based map files:
+
+```java
+private void loadMap() {
+    String mapString = Gravl.getMap(currentLevel);
+    Scanner scanner = new Scanner(mapString);
+
+    int tileY = 0;
+    while(scanner.hasNextLine()) {
+        String line = scanner.nextLine();
+        for(int tileX = 0; tileX < line.length(); tileX++) {
+            char tileChar = line.charAt(tileX);
+            int tileType = Character.getNumericValue(tileChar);
+
+            if(tileType > 0) {
+                Tile newTile = new Tile(tileX, tileY, tileType, this);
+                tilearray.add(newTile);
+
+                // Special tile handling
+                if(tileType == Tile.TYPE_TELEPORT) {
+                    teleporterTiles.add(newTile);
+                } else if(tileType == Tile.TYPE_POWER_TOGGLE_ALL) {
+                    toggleTiles.add(newTile);
+                }
+            }
+        }
+        tileY++;
+    }
+    scanner.close();
+}
+```
+
 In order to complete this project (which was really my first attempt to create something substantial using Java), I had to learn about:
 
 - Programming for Android
