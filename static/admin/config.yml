@@ -1,3 +1,4 @@
+# local_backend: true # uncomment for local dev and run npx decap-server
 backend:
   name: git-gateway
   repo: dinosoeren/walls.dev
@@ -34,6 +35,7 @@ collections:
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'AI Chat', name: 'ai_chat', widget: 'gemini-chat' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
@@ -64,4 +66,5 @@ collections:
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
+      - { label: 'AI Chat', name: 'ai_chat', widget: 'gemini-chat' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
