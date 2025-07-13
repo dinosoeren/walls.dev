@@ -1,14 +1,13 @@
-+++
-date = "2012-11-29T18:42:32-06:00"
-draft = false
-title = "Laser-Engraving a Victorian House for a Christmas Village"
-# original_title = "Victorian House: Laser Engraved and Painted Scale House Model"
-tags = ["3D Graphics", "3D Printing", "Laser Engraving"]
-categories = ["Academic", "CAD", "Project"]
-thumbnail = "/project/victorian-house/images/featured.png"
-summary = "A laser engraved and painted scale model of a Victorian house created using CAD design and precision laser cutting techniques."
-toc = true
-+++
+---
+date: "2012-11-29T18:42:32-06:00"
+draft: false
+title: "Laser-Engraving a Victorian House for a Christmas Village"
+tags: ["3D Graphics", "3D Printing", "Laser Engraving"]
+categories: ["Academic", "CAD", "Project"]
+thumbnail: "/project/victorian-house/images/featured.png"
+summary: "A laser engraved and painted scale model of a Victorian house created using CAD design and precision laser cutting techniques."
+toc: true
+---
 
 {{< project-details
   timeline="Oct 23 – Nov 29, 2012"

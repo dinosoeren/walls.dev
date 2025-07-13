@@ -1,9 +1,9 @@
-+++
-author = "Soeren Walls"
-title = "About"
-date = "2025-07-13"
-description = "About Soeren Walls"
-+++
+---
+author: "Soeren Walls"
+title: "About"
+date: "2025-07-13"
+description: "About Soeren Walls"
+---
 
 - BA in CS & Theatre from [top-30 liberal arts](https://www.usnews.com/best-colleges/colorado-college-1347)
 - \>10yrs experience in software

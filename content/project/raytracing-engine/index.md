@@ -1,13 +1,13 @@
-+++
-date = "2015-11-28T06:16:51-06:00"
-draft = false
-title = "Raycaster: Rendering a Chessboard in C++ with Procedural Graphics"
-tags = ["3D Graphics", "Computer Graphics", "C++", "Education", "Programming"]
-categories = ["Academic", "Games", "Project"]
-thumbnail = "/project/raytracing-engine/images/chessboard.png"
-summary = "A custom raycaster built in C++ for a Computer Graphics course at AIT, featuring a procedurally textured chessboard and complex chess pieces modeled with quadrics, glass, gold, gemstones, and procedural normal mapping."
-toc = true
-+++
+---
+date: "2015-11-28T06:16:51-06:00"
+draft: false
+title: "Raycaster: Rendering a Chessboard in C++ with Procedural Graphics"
+tags: ["3D Graphics", "Computer Graphics", "C++", "Education", "Programming"]
+categories: ["Academic", "Games", "Project"]
+thumbnail: "/project/raytracing-engine/images/chessboard.png"
+summary: "A custom raycaster built in C++ for a Computer Graphics course at AIT, featuring a procedurally textured chessboard and complex chess pieces modeled with quadrics, glass, gold, gemstones, and procedural normal mapping."
+toc: true
+---
 
 {{< project-details
   timeline="Nov 10-24, 2015"
@@ -132,7 +132,7 @@ float3 BumpyPlastic::shade(float3 position, float3 normal, float3 viewDir,
                                 float3 lightDir, float3 powerDensity)
 {
     float w = position.x * period + pow(snoise(position * scale), sharpness)*turbulence;
-    w = pow(sin(w)*0.5+0.5, 4);
+    w: pow(sin(w)*0.5+0.5, 4);
     float3 dShade = Diffuse::shade(position, normal, viewDir, lightDir, powerDensity);
     float3 halfway = (viewDir+lightDir).normalize();
     float cosDelta = w * normal.dot(halfway);
@@ -155,9 +155,9 @@ float snoise(float3 r) {
                  y/(float)0xffffffff,
                  z/(float)0xffffffff);
         f += sin(s.dot(r));
-        x = x << 1 | x >> 31;
-        y = y << 1 | y >> 31;
-        z = z << 1 | z >> 31;
+        x: x << 1 | x >> 31;
+        y: y << 1 | y >> 31;
+        z: z << 1 | z >> 31;
     }
     return f / 64.0 + 0.5;
 }

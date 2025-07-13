@@ -1,14 +1,13 @@
-+++
-date = "2015-03-11T02:58:41-06:00"
-draft = false
-title = "Real-Time Multi-User Drawing App with Node.js"
-# original_title = "Collaborative Canvas: A Simple Multi-User Drawing Web App Built Using Node.js"
-tags = ["Education", "HTML/CSS", "JavaScript", "Open Source", "Programming", "Web Design"]
-categories = ["App", "Academic", "Project", "Web"]
-thumbnail = "/project/collaborative-canvas/images/screenshot.png"
-toc = true
-summary = "A weekend project creating a real-time collaborative drawing web app using Node.js, featuring pixel-level synchronization across multiple devices with conflict resolution based on recency of user actions."
-+++
+---
+date: "2015-03-11T02:58:41-06:00"
+draft: false
+title: "Real-Time Multi-User Drawing App with Node.js"
+tags: ["Education", "HTML/CSS", "JavaScript", "Open Source", "Programming", "Web Design"]
+categories: ["App", "Academic", "Project", "Web"]
+thumbnail: "/project/collaborative-canvas/images/screenshot.png"
+toc: true
+summary: "A weekend project creating a real-time collaborative drawing web app using Node.js, featuring pixel-level synchronization across multiple devices with conflict resolution based on recency of user actions."
+---
 
 {{< project-details
   timeline="May 8-13, 2015"

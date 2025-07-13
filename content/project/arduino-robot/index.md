@@ -1,14 +1,23 @@
-+++
-date = "2015-06-23T14:00:09-06:00"
-draft = false
-title = "Arduino Robot Solves Mazes Using Subsumption Architecture"
-# original_title = "Arduino-Powered Robot Solves a Maze Using Subsumption Architecture in C"
-tags = ["Education", "Game Development", "Open Source", "Programming", "Hardware", "Robotics"]
-categories = ["Academic", "Games", "Robots", "Project"]
-thumbnail = "/project/arduino-robot/images/featured.jpg"
-summary = "An Arduino-powered robot named Pyat that solves mazes using subsumption architecture, featuring layered behaviors and a dynamic grid system to navigate unknown mazes without prior knowledge of their structure."
-toc = true
-+++
+---
+date: 2015-06-23T14:00:09-06:00
+draft: false
+title: Arduino Robot Solves Mazes Using Subsumption Architecture
+tags:
+  - Education
+  - Game Development
+  - Open Source
+  - Programming
+  - Hardware
+  - Robotics
+categories:
+  - Academic
+  - Games
+  - Robots
+  - Project
+thumbnail: /project/arduino-robot/images/featured.jpg
+summary: An Arduino-powered robot named Pyat that solves mazes using subsumption architecture, featuring layered behaviors and a dynamic grid system to navigate unknown mazes without prior knowledge of their structure.
+toc: true
+---
 
 {{< project-details
   timeline="April-May, 2015"

@@ -1,13 +1,12 @@
-+++
-date = "2015-12-07T03:54:43-06:00"
-draft = true
-title = "9 Reasons to Share Your Startup Ideas Early"
-# original_title = "9 Reasons You Should Tell Other People About Your Genius Startup Idea Early On"
-tags = ["Business", "Education", "Startups"]
-categories = ["Business", "Blog", "Ideas"]
-thumbnail = ""
-summary = "A concise list of nine compelling reasons why entrepreneurs should share their startup ideas early rather than keeping them secret, emphasizing collaboration and execution over secrecy."
-+++
+---
+date: "2015-12-07T03:54:43-06:00"
+draft: true
+title: "9 Reasons to Share Your Startup Ideas Early"
+tags: ["Business", "Education", "Startups"]
+categories: ["Business", "Blog", "Ideas"]
+thumbnail: ""
+summary: "A concise list of nine compelling reasons why entrepreneurs should share their startup ideas early rather than keeping them secret, emphasizing collaboration and execution over secrecy."
+---
 
 - Your idea may be genius, but it is (almost) certainly not unique. Someone else is thinking the same thing.
 - To see how people react to first hearing the idea. (this of course requires crafting a great elevator pitch)

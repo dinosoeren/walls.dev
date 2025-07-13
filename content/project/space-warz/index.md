@@ -1,13 +1,12 @@
-+++
-date = "2013-11-23T02:12:13-06:00"
-draft = false
-title = "Space Warz: Java Game Inspired by Space Invaders"
-# original_title = "Space Warz: Weekend Java Project (PC Game Inspired by Space Invaders)"
-tags = ["2D Graphics", "Education", "Game Development", "Java", "Open Source", "Programming"]
-categories = ["Academic", "Games", "Project"]
-thumbnail = "/project/space-warz/images/featured.png"
-summary = "A 2D top-down space shooter game built in Java over a weekend for Computer Science I, featuring waves of enemy ships, mini-bosses, shields, and downloadable JAR/EXE versions for cross-platform play."
-+++
+---
+date: "2013-11-23T02:12:13-06:00"
+draft: false
+title: "Space Warz: Java Game Inspired by Space Invaders"
+tags: ["2D Graphics", "Education", "Game Development", "Java", "Open Source", "Programming"]
+categories: ["Academic", "Games", "Project"]
+thumbnail: "/project/space-warz/images/featured.png"
+summary: "A 2D top-down space shooter game built in Java over a weekend for Computer Science I, featuring waves of enemy ships, mini-bosses, shields, and downloadable JAR/EXE versions for cross-platform play."
+---
 
 {{< project-details
   timeline="Nov 16-20, 2013"

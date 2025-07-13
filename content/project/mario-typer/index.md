@@ -1,13 +1,12 @@
-+++
-date = "2015-11-26T02:37:00-06:00"
-draft = false
-title = "Mario Typer: Rewriting a Buggy OBJ Parser for 3D Games"
-# original_title = "Mario Typer: How I Rewrote a Buggy .OBJ Parser for my 3D Game in OpenGL"
-tags = ["3D Graphics", "C++", "Computer Graphics", "Education", "Game Development", "Open Source", "Programming"]
-categories = ["Academic", "Games", "Project"]
-thumbnail = "http://img.youtube.com/vi/I_i6VN_9p4s/maxresdefault.jpg"
-summary = "A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario fighting Boo ghosts by typing words, with a detailed account of fixing critical bugs in the provided OBJ parser library to support custom 3D models."
-+++
+---
+date: "2015-11-26T02:37:00-06:00"
+draft: false
+title: "Mario Typer: Rewriting a Buggy OBJ Parser for 3D Games"
+tags: ["3D Graphics", "C++", "Computer Graphics", "Education", "Game Development", "Open Source", "Programming"]
+categories: ["Academic", "Games", "Project"]
+thumbnail: "http://img.youtube.com/vi/I_i6VN_9p4s/maxresdefault.jpg"
+summary: "A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario fighting Boo ghosts by typing words, with a detailed account of fixing critical bugs in the provided OBJ parser library to support custom 3D models."
+---
 
 {{< project-details
   timeline="Nov 21-26, 2015"
