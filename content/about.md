@@ -1,7 +1,7 @@
 +++
 author = "Soeren Walls"
 title = "About"
-date = "2025-07-04"
+date = "2025-07-13"
 description = "About Soeren Walls"
 +++
 
