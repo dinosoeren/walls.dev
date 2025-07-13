@@ -21,6 +21,8 @@ description = "About Soeren Walls"
 
 ## Resume / CV
 
-- [Software Resume (2024)](../resumes/swalls_software_2024.pdf)
-- [Robotics Resume (2024)](../resumes/swalls_robotics_2024.pdf)
-- [Acting Resume (2024)](../resumes/swalls_acting_2024.pdf)
+{{< resume-button url="../resumes/swalls_software_2024.pdf" text="Software Resume (2024)" type="software" >}}
+
+{{< resume-button url="../resumes/swalls_robotics_2024.pdf" text="Robotics Resume (2024)" type="robotics" >}}
+
+{{< resume-button url="../resumes/swalls_acting_2024.pdf" text="Acting Resume (2024)" type="acting" >}}

@@ -192,6 +192,52 @@
   border-color: #455a64;
 }
 
+/* Resume Button Styles */
+.resume-software-button {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  border-color: #1a252f;
+  color: #fff !important;
+  display: inline-block !important;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.resume-software-button .button-icon { color: #fff !important; }
+.resume-software-button .button-text { color: #fff !important; }
+.resume-software-button:hover {
+  background: linear-gradient(135deg, #34495e 0%, #5d6d7e 100%);
+  border-color: #1a252f;
+}
+
+.resume-robotics-button {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  border-color: #a93226;
+  color: #fff !important;
+  display: inline-block !important;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.resume-robotics-button .button-icon { color: #fff !important; }
+.resume-robotics-button .button-text { color: #fff !important; }
+.resume-robotics-button:hover {
+  background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+  border-color: #a93226;
+}
+
+.resume-acting-button {
+  background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+  border-color: #6c3483;
+  color: #fff !important;
+  display: inline-block !important;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.resume-acting-button .button-icon { color: #fff !important; }
+.resume-acting-button .button-text { color: #fff !important; }
+.resume-acting-button:hover {
+  background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%);
+  border-color: #6c3483;
+}
+
 /* Project Details Table Styles */
 .project-details-card {
   background: #23272f;

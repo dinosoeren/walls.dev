@@ -1,0 +1,18 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "Download Resume" }}
+{{ $type := .Get "type" | default "software" }}
+
+{{/* Determine icon and button class based on resume type */}}
+{{ $icon := "fa-file-pdf" }}
+{{ $iconStyle := "fas" }}
+{{ $btnClass := "resume-software-button" }}
+{{ if eq $type "robotics" }}
+  {{ $btnClass = "resume-robotics-button" }}
+{{ else if eq $type "acting" }}
+  {{ $btnClass = "resume-acting-button" }}
+{{ end }}
+
+<a href="{{ $url }}" class="custom-button {{ $btnClass }}" target="_blank" rel="noopener noreferrer">
+  <i class="{{ $iconStyle }} {{ $icon }} button-icon"></i>
+  <span class="button-text">{{ $text }}</span>
+</a>

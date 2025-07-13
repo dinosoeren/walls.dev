@@ -303,6 +303,79 @@
 `;
       },
     });
+
+    // Resume Button Component
+    CMS.registerEditorComponent({
+      id: "resume-button",
+      label: "Button - Resume",
+      fields: [
+        {
+          name: "url",
+          label: "Resume PDF URL",
+          widget: "string",
+          required: true,
+        },
+        {
+          name: "text",
+          label: "Button Text",
+          widget: "string",
+          default: "Download Resume",
+          required: false,
+        },
+        {
+          name: "type",
+          label: "Resume Type",
+          widget: "select",
+          options: [
+            { label: "Software", value: "software" },
+            { label: "Robotics", value: "robotics" },
+            { label: "Acting", value: "acting" },
+          ],
+          default: "software",
+          required: false,
+        },
+      ],
+      pattern: /{{<\s*resume-button\s+([\s\S]*?)\s*>}}/m,
+      fromBlock: function (match) {
+        const attributes = match[1];
+        const data = {};
+
+        const attrRegex = /(\w+)="([^"]*)"/g;
+        let attrMatch;
+
+        while ((attrMatch = attrRegex.exec(attributes)) !== null) {
+          const [, name, value] = attrMatch;
+          data[name] = value;
+        }
+
+        return data;
+      },
+      toBlock: function (data) {
+        const attributes = Object.entries(data)
+          .filter(([, value]) => value && value.trim() !== "")
+          .map(([key, value]) => `\n  ${key}="${value}"`)
+          .join(" ");
+
+        return `{{< resume-button ${attributes} \n>}}`;
+      },
+      toPreview: function (data) {
+        const type = data.type || "software";
+        let bgColor = "#2c3e50";
+
+        if (type === "robotics") {
+          bgColor = "#e74c3c";
+        } else if (type === "acting") {
+          bgColor = "#9b59b6";
+        }
+
+        return `
+<button style="background: ${bgColor}; color: white; padding: 8px 16px; border: none; border-radius: 4px; display: inline-flex; align-items: center; gap: 8px;">
+  <span>📄</span>
+  <span>${data.text || "Download Resume"}</span>
+</button>
+`;
+      },
+    });
   }
 
   // Start the registration process
