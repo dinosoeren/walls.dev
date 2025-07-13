@@ -1,14 +1,26 @@
 ---
-date: "2012-09-17T02:26:25-06:00"
+date: '2012-09-17T02:26:25-06:00'
 draft: false
-title: "Building a Lightweight CMS in PHP for a Local Business"
-tags: ["Entrepreneurship", "CMS", "HTML/CSS", "JavaScript", "PHP", "Professional", "Programming", "Web Design"]
-categories: ["Business", "Project", "Web"]
-thumbnail: "/project/php-cms-business/images/homepage.png"
-summary: "A custom PHP CMS built for a fencing business featuring product pages, bilingual support (English/Spanish), custom admin backend, and user authentication system with full e-commerce capabilities."
+title: Building a Lightweight CMS in PHP for a Local Business
+tags:
+- Entrepreneurship
+- CMS
+- HTML/CSS
+- JavaScript
+- PHP
+- Professional
+- Programming
+- Web Design
+categories:
+- Business
+- Project
+- Web
+thumbnail: /project/php-cms-business/images/homepage.png
+summary: A custom PHP CMS built for a fencing business featuring product pages, bilingual
+  support (English/Spanish), custom admin backend, and user authentication system
+  with full e-commerce capabilities.
 toc: true
 ---
-
 {{< project-details
   timeline="Summer 2012"
   languages="PHP, HTML, CSS, JavaScript, SQL"

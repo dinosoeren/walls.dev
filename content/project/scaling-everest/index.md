@@ -1,13 +1,21 @@
 ---
-date: "2010-11-16"
+date: '2010-11-16'
 draft: false
-title: "Scaling Everest: A Videogame Created for an English Assignment"
-tags: ["Game Development", "Education", "Programming"]
-categories: ["Academic", "Games", "Project"]
-thumbnail: "/project/scaling-everest/images/everest-gameplay.jpg"
-summary: "A (sadly) Windows-only videogame created in a single weekend for English 2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as Hillary as you fight yeti monsters and attempt to reach the summit. Download the .exe and relive the adventure."
+title: 'Scaling Everest: A Videogame Created for an English Assignment'
+tags:
+- Game Development
+- Education
+- Programming
+categories:
+- Academic
+- Games
+- Project
+thumbnail: /project/scaling-everest/images/everest-gameplay.jpg
+summary: A (sadly) Windows-only videogame created in a single weekend for English
+  2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as
+  Hillary as you fight yeti monsters and attempt to reach the summit. Download the
+  .exe and relive the adventure.
 ---
-
 {{< project-details
   timeline="Nov 13-15, 2010"
   languages="Game Maker Language (GML)"

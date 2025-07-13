@@ -1,29 +1,28 @@
 ---
-title: "GRAVL: Gravity Puzzle Platformer for Android"
-date: 2014-05-31T23:22:45-06:00
+date: 2014-05-31 23:22:45-06:00
 draft: false
-summary: An independently developed Android puzzle platformer where players
-  control astronaut Phil manipulating gravity to navigate icy terrain, built
-  entirely in Java without game engines over 800 hours of development.
+title: 'GRAVL: Gravity Puzzle Platformer for Android'
+summary: An independently developed Android puzzle platformer where players control
+  astronaut Phil manipulating gravity to navigate icy terrain, built entirely in Java
+  without game engines over 800 hours of development.
 thumbnail: /project/gravl-game/images/featured.png
 categories:
-  - App
-  - Business
-  - Games
-  - Mobile
-  - Project
-  - Web
+- App
+- Business
+- Games
+- Mobile
+- Project
+- Web
 tags:
-  - 2D Graphics
-  - Computer Graphics
-  - Game Development
-  - HTML/CSS
-  - Java
-  - Mobile Development
-  - Physics
-  - Professional
+- 2D Graphics
+- Computer Graphics
+- Game Development
+- HTML/CSS
+- Java
+- Mobile Development
+- Physics
+- Professional
 ---
-
 {{< project-details
   timeline="Summer 2014"
   languages="Java (Android), SQL, HTML, CSS"

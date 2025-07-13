@@ -1,13 +1,27 @@
 ---
-date: "2015-05-21T23:46:55-06:00"
+date: '2015-05-21T23:46:55-06:00'
 draft: false
-title: "Badger: Enterprise Security App for Brick-and-Mortar"
-tags: ["HTML/CSS", ".NET", "VB", "JavaScript", "Mobile Development", "Professional", "Programming", "Web Design"]
-categories: ["App", "Business", "Project", "Mobile", "Web"]
-thumbnail: "/project/badger/images/featured.png"
-summary: "An enterprise web application for brick-and-mortar business security that allows visitors to sign in via mobile devices or kiosks to receive printed nametags with real-time tracking and administrative oversight."
+title: 'Badger: Enterprise Security App for Brick-and-Mortar'
+tags:
+- HTML/CSS
+- .NET
+- VB
+- JavaScript
+- Mobile Development
+- Professional
+- Programming
+- Web Design
+categories:
+- App
+- Business
+- Project
+- Mobile
+- Web
+thumbnail: /project/badger/images/featured.png
+summary: An enterprise web application for brick-and-mortar business security that
+  allows visitors to sign in via mobile devices or kiosks to receive printed nametags
+  with real-time tracking and administrative oversight.
 ---
-
 {{< project-details
   timeline="May 2013 - July 2016"
   languages="C#.NET, JavaScript, VB, SQL, HTML, CSS"

@@ -1,13 +1,21 @@
 ---
-date: "2015-06-14T03:50:41-06:00"
+date: '2015-06-14T03:50:41-06:00'
 draft: false
-title: "What's the Most Important Language for Web Development?"
-tags: ["HTML/CSS", "JavaScript", "PHP", "Programming", "Web Design"]
-categories: ["Blog", "Web"]
-thumbnail: "/blog/web-dev-language/images/featured.jpg"
-summary: "An analysis of programming language usage in web development, revealing that CSS makes up 42% of website code and highlighting the underestimated power of modern CSS3 features."
+title: What's the Most Important Language for Web Development?
+tags:
+- HTML/CSS
+- JavaScript
+- PHP
+- Programming
+- Web Design
+categories:
+- Blog
+- Web
+thumbnail: /blog/web-dev-language/images/featured.jpg
+summary: An analysis of programming language usage in web development, revealing that
+  CSS makes up 42% of website code and highlighting the underestimated power of modern
+  CSS3 features.
 ---
-
 My compatriots and friends often ask me, "**Soeren, what's the best programming language to learn?**"
 
 This scenario is all too familiar to many of my fellow computer science geeks, I suspect. After all, we're programmers! Shouldn't we all know what the best language is? Many people simply do not realize that coding is not like Quidditch. There's no [Nimbus 2000](http://harrypotter.wikia.com/wiki/Nimbus_2000) of programming languages.

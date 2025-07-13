@@ -1,13 +1,23 @@
 ---
-title: "Three and a Half Weeks of AI Challenges"
 date: 2016-10-20
-summary: "A whirlwind tour of the wildest, weirdest, and most rewarding AI projects I built in just 3.5 weeks."
-thumbnail: "/project/ai-block-plan/images/mario-ai.jpg"
-tags: ["Education", "Game Development", "Java", "Python", "Programming", "AI", "Machine Learning"]
-categories: ["Academic", "Games", "Project"]
+title: Three and a Half Weeks of AI Challenges
+summary: A whirlwind tour of the wildest, weirdest, and most rewarding AI projects
+  I built in just 3.5 weeks.
+thumbnail: /project/ai-block-plan/images/mario-ai.jpg
+tags:
+- Education
+- Game Development
+- Java
+- Python
+- Programming
+- AI
+- Machine Learning
+categories:
+- Academic
+- Games
+- Project
 toc: true
 ---
-
 {{< project-details
     timeline="Sep 26 - Oct 19, 2016"
     languages="Python, Java, TensorFlow, Keras"

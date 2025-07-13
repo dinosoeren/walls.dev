@@ -1,14 +1,23 @@
 ---
-date: "2015-11-28T06:16:51-06:00"
+date: '2015-11-28T06:16:51-06:00'
 draft: false
-title: "Raycaster: Rendering a Chessboard in C++ with Procedural Graphics"
-tags: ["3D Graphics", "Computer Graphics", "C++", "Education", "Programming"]
-categories: ["Academic", "Games", "Project"]
-thumbnail: "/project/raytracing-engine/images/chessboard.png"
-summary: "A custom raycaster built in C++ for a Computer Graphics course at AIT, featuring a procedurally textured chessboard and complex chess pieces modeled with quadrics, glass, gold, gemstones, and procedural normal mapping."
+title: 'Raycaster: Rendering a Chessboard in C++ with Procedural Graphics'
+tags:
+- 3D Graphics
+- Computer Graphics
+- C++
+- Education
+- Programming
+categories:
+- Academic
+- Games
+- Project
+thumbnail: /project/raytracing-engine/images/chessboard.png
+summary: A custom raycaster built in C++ for a Computer Graphics course at AIT, featuring
+  a procedurally textured chessboard and complex chess pieces modeled with quadrics,
+  glass, gold, gemstones, and procedural normal mapping.
 toc: true
 ---
-
 {{< project-details
   timeline="Nov 10-24, 2015"
   languages="C++"
