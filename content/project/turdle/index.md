@@ -187,7 +187,6 @@ self.addEventListener('message', (event) => {
 - 42+ years of guaranteed unique puzzles
 - 100% offline functionality
 - Cross-platform PWA support
-- Zero server costs (static hosting)
 
 ## Lessons Learned
 
