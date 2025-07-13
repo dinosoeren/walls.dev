@@ -180,6 +180,10 @@ self.addEventListener('message', (event) => {
 - 1,300 monthly active users (2.5 years post-launch)
 - Global player base across multiple continents
 
+{{< figure src="images/usage-trend.png" alt="Analytics trend over 2 years" caption="Active players trend over 2 years showing the Apr '22 peak" >}}
+
+{{< figure src="images/usage-geo.png" alt="Players across many countries" caption="Top 10 countries: US, UK, Australia, Canada, New Zealand, Spain, Ireland, Germany, China, France" >}}
+
 **Technical Achievements:**
 - 42+ years of guaranteed unique puzzles
 - 100% offline functionality
