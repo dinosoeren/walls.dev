@@ -6,7 +6,6 @@ summary: "A Wordle clone featuring animated turtles instead of letters, with 42 
 thumbnail: /project/turdle/images/featured.png
 categories:
   - App
-  - Business
   - Games
   - Mobile
   - Project
