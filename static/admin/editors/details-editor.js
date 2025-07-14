@@ -34,7 +34,8 @@
           required: true,
         },
       ],
-      pattern: /{{<\s*details(?:\s+"([^"]*)")?\s*>}([\s\S]*?){{<\s*\/details\s*>}}/m,
+      pattern:
+        /{{<\s*details(?:\s+"([^"]*)")?\s*>}}([\s\S]*?){{<\s*\/details\s*>}}/m,
       fromBlock: function (match) {
         return {
           summary: match[1] ? match[1].trim() : "",
@@ -45,7 +46,16 @@
         return `{{< details "${data.summary}" >}}\n${data.body}\n{{< /details >}}`;
       },
       toPreview: function (data) {
-        return `<details><summary>${data.summary}</summary><div>${data.body}</div></details>`;
+        let body = data.body;
+        if (typeof marked === "function") {
+          body = marked(body);
+        } else if (
+          typeof marked === "object" &&
+          typeof marked.parse === "function"
+        ) {
+          body = marked.parse(body);
+        }
+        return `<details><summary>${data.summary}</summary><div>${body}</div></details>`;
       },
     });
   }
