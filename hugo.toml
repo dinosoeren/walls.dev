@@ -75,6 +75,12 @@ summaryLength = 30
     title = "Spotify"
     url = "https://open.spotify.com/track/1cHVzM29SkVmIdqR1F3xem"
 
+# Enable custom html in markdown for e.g. {{% loading %}} shortcode
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     name = "Home"
