@@ -30,6 +30,6 @@ summary: A 12-inch functioning 3D scale model of Leonardo da Vinci's scythed cha
 
 Leonardo da Vinci is famous for much more than just the Mona Lisa. In fact, as you may know, he was not only a painter, but also an engineer and mathematician. One of his lesser known inventions was the "Scythed Chariot". This impressive war machine was never built, but it would have had four giant rotating blades on the front, powered by the turning of the wheels as horses pulled the chariot forward into battle, with the intention of beheading and dismembering soldiers.
 
-![da Vinci's original drawing](https://upload.wikimedia.org/wikipedia/commons/6/6a/Scythed_chariot_by_da_Vinci.jpg)
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Scythed_chariot_by_da_Vinci.jpg" alt="da Vinci's original drawing of the Scythed Chariot" caption="Leonardo da Vinci's original drawing of the Scythed Chariot war machine." attr="Wikimedia Commons" >}}
 
 For a two-month high school project, I designed a functioning 3D scale model of da Vinci's scythed chariot, using nothing but his sketches (like the one above) for inspiration. I designed the individual parts in Autodesk Inventor, printed them using a 3D printer and laser engraver, and assembled them into a real Scythed Chariot, measuring about 12 inches in length. The functioning model is currently displayed at my school. To create the video, I animated the chariot using Autodesk 3dsMax Design.

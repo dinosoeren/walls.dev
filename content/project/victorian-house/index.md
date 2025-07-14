@@ -26,20 +26,20 @@ toc: true
 
 The journey began in late October, when I presented my initial CAD drawings for a Victorian house to my CADD 4 class at SEBS. I’d spent hours poring over references—[Progressive Foam’s folk Victorian guide](http://www.progressivefoam.com/folk-victorian-home-style), [eHow’s how-to’s](http://www.ehow.com/how_5744379_build-folk-victorian-house.html), and a smattering of porch and exterior style articles ([1](http://www.ehow.com/list_6509370_ideas-victorian-house-exterior.html), [2](http://www.ehow.com/list_7389523_porch-styles-folk-victorian-homes.html))—to capture the essence of the era. The goal: a scale model that would feel at home in a Dickensian Christmas village, yet be unmistakably my own.
 
-![CAD drawing](./images/featured.png)
+{{< figure src="images/featured.png" alt="CAD drawing of Victorian house" caption="CAD drawing of the Victorian house to visualize the end result." >}}
 
 ## From Drawing to Laser (October 29th)
 
 By the end of October, our teacher began accepting IDW files for engraving. I finalized my design, double-checked every measurement, and nervously submitted my files. There’s something magical about watching a laser cutter trace the lines you drew on a screen, transforming sheets of wood into intricate gingerbread trim and delicate window frames. The smell of burnt wood and the whir of the machine became the soundtrack of that week.
 
-![Front with lights](./images/front-with-lights-2012-12-03%2006.01.09.jpg)
+{{< figure src="images/front-with-lights-2012-12-03 06.01.09.jpg" alt="Front of Victorian house with lights" caption="Front view of the model with lights installed." >}}
 
 ## Assembly: The Puzzle Comes Together (November 12th)
 
 Physical assembly was due just after Veterans Day. I spent evenings hunched over my desk, carefully slotting together the engraved pieces, gluing, clamping, and occasionally cursing when a wall didn’t quite fit. The house slowly took shape—first the main structure, then the ornate porch, and finally the roof. Each piece was a small victory.
 
-![Left side](./images/left-side-2012-12-03%2006.01.24.jpg)
-![Right side](./images/right-side-2012-12-03%2006.01.55.jpg)
+{{< figure src="images/left-side-2012-12-03 06.01.24.jpg" alt="Left side of Victorian house" caption="Left side of the model." >}}
+{{< figure src="images/right-side-2012-12-03 06.01.55.jpg" alt="Right side of Victorian house" caption="Right side of the model." >}}
 
 ## Painting and Details
 
@@ -49,8 +49,8 @@ With the structure complete, I turned to painting. Folk Victorian style is all a
 
 The Thursday after Thanksgiving, we installed our houses in the school’s Christmas village display. My model, now fully painted and wired with tiny lights, joined a street of classmates’ creations. When the lights flicked on for the first time, the whole village glowed. There’s a special kind of pride in seeing your work nestled among others, each house telling its own story.
 
-![In village, front](./images/in-village-front-2013-02-23%2009.09.08.jpg)
-![In village, back](./images/in-village-back-2013-02-23%2009.09.27.jpg)
+{{< figure src="images/in-village-front-2013-02-23 09.09.08.jpg" alt="Victorian house in village, front view" caption="Front view of the model in the Christmas village display." >}}
+{{< figure src="images/in-village-back-2013-02-23 09.09.27.jpg" alt="Victorian house in village, back view" caption="Back view of the model in the Christmas village display." >}}
 
 ## Reflections
 

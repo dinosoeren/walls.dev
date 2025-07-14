@@ -36,14 +36,14 @@ My robot, lovingly named **Pyat** after a certain [Warlock](http://gameofthrones
 
 When a person gets stuck in a maze, they very rarely have any idea what the maze looks like; otherwise they could just walk right out. So, how do you get out? Well, as I stated before, if the maze is [simply-connected](https://en.wikipedia.org/wiki/Simply_connected_space), you can just keep your hand on one wall and walk forward, and you'll eventually make it to the end. But let's assume you don't know that trick. If you want to make it out before you die of old age, the most important thing is to ensure you're not going in circles. One way to do this is to leave a trail of some sort - breadcrumbs, torches, red paint - whatever works. If you get to a dead end, just follow your trail back to the previous intersection and make a different choice. Repeat this, and eventually you'll find your way out. It may not be the most efficient strategy, but it gets the job done. This is exactly what Pyat is programmed to do.
 
-![Arduino Robot](./images/arduino-robot.jpg)
+{{< figure src="images/arduino-robot.jpg" alt="Arduino robot complete build" caption="Pyat: Arduino-powered robot that solves mazes using subsumption architecture." >}}
 
 For those of you wondering how I accomplished this, I independently built Pyat using servos and other basic electrical components, and programmed it in C over the course of a few weeks, for my Robotics class. If you want, [you can build one just like it](http://learn.parallax.com/ShieldRobot). It runs on an Arduino Microprocessor with the BOE (Board of Education) Shield, two IR sensors, and two front contact whiskers.
 
 ## How it works
 Subsumption Architecture in its simplest form is just layered behaviors. Depending on specific input coming from its sensors, the robot will elevate to a higher behavior, or de-elevate to a lower behavior. Here's the architecture I defined for this robot:
 
-![Soeren Walls Arduino Robot Maze Completion Subsumption Architecture Diagram](./images/architecture.png)
+{{< figure src="images/architecture.png" alt="Subsumption architecture diagram" caption="Subsumption architecture diagram for Pyat's maze-solving logic." >}}
 
 The architecture I've defined for Pyat in the above diagram is slightly more complex than others, due to its conditional structure. For example, the **Cruise** behavior cannot possibly subsume the **Return to wall** behavior or the **Return to intersection** behavior unless a wall or an intersection has previously been detected. If not, Pyat will continue to cruise indefinitely until its behavior is elevated by an event detected by the whiskers or IR sensors. Also, the **Follow the wall** behavior is completely different depending on whether or not one, two, or zero walls are detected.
 

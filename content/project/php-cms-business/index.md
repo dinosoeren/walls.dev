@@ -36,7 +36,7 @@ In the summer before my senior year at SEBS, I took on a project that would beco
 
 I was both excited and terrified. I’d built plenty of personal projects, but this was the first time someone else’s livelihood was on the line. I sketched out wireframes on notebook paper, mapped out the database on sticky notes, and spent late nights learning the quirks of PHP and MySQL. The goal: deliver a site that was robust, easy to use, and professional enough to make my teacher’s business stand out.
 
-![Homepage](./images/homepage.png)
+{{< figure src="images/homepage.png" alt="Homepage screenshot" caption="Homepage of the e-commerce website I built for Front Range Fencing & Decks." >}}
 
 The result was a fully custom CMS, built from scratch, that let my teacher manage products, respond to customer requests, and present his business in both English and Spanish. I even built an in-browser editor so he could update content himself — no more frantic emails to his student web developer. The site went live just before the school year started, and seeing it in action (and hearing from real customers) was a thrill I’ll never forget.
 
@@ -54,7 +54,7 @@ The result was a fully custom CMS, built from scratch, that let my teacher manag
 ### Contact & Support Form
 - A robust contact form allows users to reach out for estimates, questions, advice, or feedback. The form adapts based on the subject (e.g., requesting a product estimate reveals additional fields).
 
-![Contact Form](./images/contact.png)
+{{< figure src="images/contact.png" alt="Contact form screenshot" caption="Contact form for customer inquiries and estimate requests." >}}
 
 ### User Authentication & Session Management
 - Users can register, log in, and manage sessions. Admins have special privileges, including in-browser content editing.
@@ -62,7 +62,7 @@ The result was a fully custom CMS, built from scratch, that let my teacher manag
 ### In-Browser Content Management
 - Admins can edit page sections or entire files directly from the browser, with backup and error handling. This is a lightweight CMS built from scratch.
 
-![Admin Interface](./images/admin.png)
+{{< figure src="images/admin.png" alt="Admin interface screenshot" caption="Admin interface for in-browser content management and editing." >}}
 
 ### Multilingual Support
 - The site supports English and Spanish, with dynamic language switching and content toggling via custom tags.

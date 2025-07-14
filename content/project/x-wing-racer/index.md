@@ -37,8 +37,8 @@ It's my senior year at SEBS, and a couple months ago, I found myself in CADD 4, 
 
 While the rear engines of the X-Wing couldn’t make the cut due to design constraints (and, let’s be honest, the laws of physics), the top-view of the car still pays homage to the starfighter’s unmistakable silhouette. If you squint, you might just hear John Williams’ score in the background.
 
-![Angle view](./images/angle%202013-05-15%2011.38.55.jpg)
-![Bottom view](./images/bottom%202013-05-15%2011.39.24.jpg)
+{{< figure src="images/angle 2013-05-15 11.38.55.jpg" alt="Angle view of X-Wing F1 Racer" caption="Angle view of the 3D-printed X-Wing F1 Racer." >}}
+{{< figure src="images/bottom 2013-05-15 11.39.24.jpg" alt="Bottom view of X-Wing F1 Racer" caption="Bottom view of the 3D-printed X-Wing F1 Racer." >}}
 
 ## From Inventor to Reality: The Design & Build
 
@@ -52,7 +52,7 @@ Armed with Autodesk Inventor and a healthy dose of caffeine, I set out to create
 
 The full flow simulation and chassis flow simulation (see below) show the F1 Racer’s aerodynamics in action. Air travels smoothly along the body, with the side air pods channeling flow and the front airfoil generating much-needed downforce. (Because nothing ruins a race like your car taking flight.)
 
-![Airflow Simulation (Full)](./images/schematic.png)
+{{< figure src="images/schematic.png" alt="Schematic diagram with multiple views" caption="Schematic including airflow simulation for the X-Wing F1 Racer." >}}
 
 ## The Big Race: Not the Fastest, But a Finalist
 

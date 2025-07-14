@@ -40,7 +40,7 @@ Why not? This app was both an experiment in node.js, as well as my collaborative
 
 Without using websockets or anything of the sort, this application synchronizes a drawing canvas across two or more devices almost instantaneously, while gracefully resolving conflicts individually on each pixel, by prioritizing [recency](http://jhigh.co.uk/Higher/expert_systems/conflict_resolution.html) of each user's paint instruction. How? Glad you asked. Well, to start, it's arguably very memory inefficient. But remember, for a weekend project, it's speed of implementation that really counts.
 
-![undefined](./images/screenshot.png)
+{{< figure src="images/screenshot.png" alt="Screenshot of collaborative canvas app" caption="Side by side view of two clients communicating bidirectionally across one server" >}}
 
 ## Client-Side Operations
 In order to more easily understand these operations, it's best to think of each client's canvas as a child, and the server's canvas as the parent, where the parent reflects the "real" current state of the canvas.

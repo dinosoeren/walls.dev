@@ -47,9 +47,7 @@ SET is a card game that’s equal parts logic puzzle and optical illusion. I fig
 
 ### 2. Othello AI: Bots, Boards, and the Joy of Getting Crushed
 
-![Othello player](https://images.ctfassets.net/cnu0m8re1exe/cgQly4C7mo2GhH0Clztts/c871dc032b33c4ecd9553a6a6fbddc9b/black-and-white-Othello-stone-green-board.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill)
-
-*Image credit: Toru Kimura/Shutterstock*
+{{< figure src="https://images.ctfassets.net/cnu0m8re1exe/cgQly4C7mo2GhH0Clztts/c871dc032b33c4ecd9553a6a6fbddc9b/black-and-white-Othello-stone-green-board.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill" alt="Othello player and board" attr="Toru Kimura/Shutterstock" >}}
 
 Othello (a.k.a. Reversi) is a classic strategy game, and for this project, I went all-in: Java GUI, multiple AI bots, and a whole lot of game logic.
 
@@ -65,7 +63,7 @@ Othello (a.k.a. Reversi) is a classic strategy game, and for this project, I wen
 
 This one was part science, part digital art experiment. The goal? Use a genetic algorithm to "evolve" a set of colored polygons that mimic a target image.
 
-![Genetic Algorithm chromosome example](./images/test.jpg)
+{{< figure src="images/test.jpg" alt="4 equally-sized squares of different colors" caption="The starting image from which the genetic algorithm could evolve into the target." >}}
 
 - **What I built:** A Java program that starts with a population of random polygon arrangements and, through crossover and mutation, gradually makes them look more like a given picture.
 - **How it works:** Each "solution" is a set of polygons. The fitness function compares the generated image to the target, and the best solutions get to "reproduce." Over thousands of generations, the results get spookily close to the original.
@@ -79,7 +77,7 @@ This one was part science, part digital art experiment. The goal? Use a genetic 
 
 Who hasn't wanted to build their own Mario bot? For this project, I dove into the MarioAI competition framework and tried to teach an agent to play Super Mario Bros. (or at least, not immediately fall into a pit).
 
-![Mario AI](./images/mario-ai.jpg)
+{{< figure src="images/mario-ai.jpg" alt="Mario AI bot screenshot" caption="Java agent controlling Mario to run, jump, and survive in the MarioAI competition framework." >}}
 
 - **What I built:** A Java agent that controls Mario, using simple logic to decide when to run, jump, and speed up. The agent tries to jump over obstacles and keep moving right—sometimes with hilarious results.
 - **How it works:** The bot checks if Mario can jump or is in the air, and then presses the jump and speed buttons accordingly. It's not exactly AlphaGo, but it gets the job done (most of the time).

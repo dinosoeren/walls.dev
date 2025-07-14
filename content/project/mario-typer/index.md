@@ -75,7 +75,7 @@ Each item in the list usually comes in the format `%d/%d/%d` (position/texture/n
 
 The other incorrect assumption made by the `Mesh.cpp` file, though far less fatal, was that faces would always have either 3 or 4 components in the list of vertex, texture, and normal indices. In other words, it **assumed that faces are always either triangles or quadrilaterals** (quads). But, you see, much like dinosaurs, .OBJ files come in all different shapes and sizes. The 3D objects they represent can be made up of triangles, quads, and, while uncommon, even higher-order polygons like pentagons.
 
-![undefined](./images/screenshot.png)
+{{< figure src="images/screenshot.png" alt="Screenshot of a complex polygonal dinosaur OBJ mesh rendering example" caption="This dinosaur OBJ mesh is rendered with triangles on the left, and quads on the right >}}
 
 So, just for fun, I made sure .OBJ files with **pentagonal** faces could also be successfully rendered from the code. Good luck finding a mesh that uses them, though. If you're interested, you can view the old code, and the changes I made to it, in the github repo linked below. The old file is aptly named `Mesh-old.cpp`.
 

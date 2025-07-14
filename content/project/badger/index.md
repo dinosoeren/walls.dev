@@ -31,26 +31,30 @@ summary: An enterprise web application for brick-and-mortar business security th
 
 Nametags?? That's right. Badger is proprietary software in the form of a web app designed to secure brick and mortar businesses. It's fun and intuitive, and to be clear, it was NOT my idea. I worked on Badger as part of a team at [Foxfeather Software](http://www.foxfeathersoftware.com/); I was the lead programmer and created the user interface.
 
-When a business uses Badger, volunteers, consultants, employees, or any guest in the building can sign in upon arrival via their personal mobile device or the business' kiosk and instantly pick up their printed nametag, featuring their name, role, date verified, and even a selectable avatar. This is a quick and dirty solution for businesses that wish to comply with the highest security standards. Administrators can access the backend of the web application and instantly see a list featuring every person currently signed in and present in the building, including the time they signed in. This information can easily be provided to emergency personnel, as this too is accessible on any authenticated mobile device.
+When a business uses Badger, volunteers, consultants, employees, or any guest in the building can sign in instantly upon arrival via their personal mobile device or the business' kiosk. Through the power of our secure print server, the guest can then pick up their printed nametag within seconds, featuring their name, role, date verified, and even a personalized avatar.
+
+This is a simple but effective solution for businesses that wish to comply with the highest security standards. Administrators can access the backend of the web application and instantly see who signed in/out and when.
 
 ## Simple, Responsive
-![Badger Screenshot](./images/screenshot1.png)
+
+{{< figure src="images/screenshot1.png" alt="Badger app screenshot showing responsive layout" caption="Badger app: Simple, responsive layout for seamless transition to tablets and phones." >}}
 
 Designed with simplicity and ease-of-use in mind for the best user experience. Layout is responsive for a seamless transition to tablets and phones.
 
 ## Secure
-![Badger Screenshot](./images/screenshot2.png)
+
+{{< figure src="images/screenshot2.png" alt="Badger app screenshot showing secure badge" caption="Close-up of the badge preview, including today's date and the visitor's role" >}}
 
 In addition to being attractive and clearly legible, our date-stamped badges are more secure than handwritten nametags and cannot be counterfeited.
 
 ## Convenient
-![Badger Screenshot](./images/screenshot3.png)
+
+{{< figure src="images/screenshot3.png" alt="Badger app screenshot showing visitor database" caption="Visitors are registered in a searchable database organized by date. Admins can sign out visitors when they leave, and share a list of building occupants with emergency personnel." >}}
 
 Automatically registers visitors into a searchable database organized by date. This can be integrated with your own database to enforce unique sign-ins.
 
 ## Customizable
-![Badger Screenshot](./images/screenshot4.png)
 
-Ability to personalize badges with avatars adds a fun factor and promotes team identities.
+{{< figure src="images/screenshot4.png" alt="Badger app screenshot showing customizable badges" caption="Ability to personalize badges with avatars adds a fun factor and promotes team identities." >}}
 
-Isn't the UI nice? My brother Kirby designed it. He also designed much of this website! We make a good team.
+Isn't the UI nice? My brother Kirby designed it. We make a good team.
