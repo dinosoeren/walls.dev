@@ -1,0 +1,10 @@
+{{/*
+Usage:
+{{< details "Summary text" >}}
+Collapsed content (markdown supported)
+{{< /details >}}
+*/}}
+<details>
+  <summary>{{ (.Get 0) | markdownify }}</summary>
+  {{ .Inner | markdownify }}
+</details>

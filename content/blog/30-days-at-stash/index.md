@@ -24,6 +24,7 @@ tags:
 
 ---
 
+{{< details "Post content" >}}
 So, I've officially hit the 30-day mark at my new startup gig at [Stash](https://stash.gg), and it's been a whirlwind! Leaving the comfort of a big company (more on that in another post 😉) has been eye-opening. Here are my 5 biggest takeaways:
 
 1. **The Hybrid Hustle is Real (and Awesome):** I'm appreciating the flexibility of working from home to laser-focus, but I struck GOLD with an invite to a company off-site just before I joined to build relationships in-person. It's a privilege to have both.
@@ -33,3 +34,4 @@ So, I've officially hit the 30-day mark at my new startup gig at [Stash](https:/
 5. **Breaking Things Isn't Failing – It's Fortune in Disguise:** I definitely broke something already 🤦‍♀️. My initial reaction was mortification, but then I realized it was a chance to showcase my problem-solving skills. Turns out, "oops" can be a superpower.
 
 What are YOUR biggest startup lessons? Let's chat in the comments!
+{{< /details >}}
