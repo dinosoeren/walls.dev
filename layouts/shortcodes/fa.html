@@ -1,0 +1,56 @@
+{{/*
+Usage:
+{{< fa icon="heart" class="text-red-500" size="lg" >}}
+{{< fa icon="github" brand="true" class="text-gray-800" >}}
+{{< fa icon="user" solid="true" class="mr-2" >}}
+*/}}
+{{ $icon := .Get "icon" }}
+{{ $class := .Get "class" | default "" }}
+{{ $size := .Get "size" | default "" }}
+{{ $brand := .Get "brand" | default "false" }}
+{{ $solid := .Get "solid" | default "false" }}
+{{ $regular := .Get "regular" | default "false" }}
+{{ $light := .Get "light" | default "false" }}
+{{ $duotone := .Get "duotone" | default "false" }}
+
+{{ $prefix := "fa" }}
+{{ if eq $brand "true" }}
+  {{ $prefix = "fab" }}
+{{ else if eq $solid "true" }}
+  {{ $prefix = "fas" }}
+{{ else if eq $regular "true" }}
+  {{ $prefix = "far" }}
+{{ else if eq $light "true" }}
+  {{ $prefix = "fal" }}
+{{ else if eq $duotone "true" }}
+  {{ $prefix = "fad" }}
+{{ end }}
+
+{{ $sizeClass := "" }}
+{{ if eq $size "xs" }}
+  {{ $sizeClass = "fa-xs" }}
+{{ else if eq $size "sm" }}
+  {{ $sizeClass = "fa-sm" }}
+{{ else if eq $size "lg" }}
+  {{ $sizeClass = "fa-lg" }}
+{{ else if eq $size "2x" }}
+  {{ $sizeClass = "fa-2x" }}
+{{ else if eq $size "3x" }}
+  {{ $sizeClass = "fa-3x" }}
+{{ else if eq $size "4x" }}
+  {{ $sizeClass = "fa-4x" }}
+{{ else if eq $size "5x" }}
+  {{ $sizeClass = "fa-5x" }}
+{{ else if eq $size "6x" }}
+  {{ $sizeClass = "fa-6x" }}
+{{ else if eq $size "7x" }}
+  {{ $sizeClass = "fa-7x" }}
+{{ else if eq $size "8x" }}
+  {{ $sizeClass = "fa-8x" }}
+{{ else if eq $size "9x" }}
+  {{ $sizeClass = "fa-9x" }}
+{{ else if eq $size "10x" }}
+  {{ $sizeClass = "fa-10x" }}
+{{ end }}
+
+<i class="{{ $prefix }} fa-{{ $icon }}{{ if $sizeClass }} {{ $sizeClass }}{{ end }}{{ if $class }} {{ $class }}{{ end }}"></i>
