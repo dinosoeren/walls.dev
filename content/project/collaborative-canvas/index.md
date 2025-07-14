@@ -14,7 +14,7 @@ categories:
 - Academic
 - Project
 - Web
-thumbnail: /project/collaborative-canvas/images/screenshot.png
+thumbnail: /project/collaborative-canvas/images/featured.gif
 toc: true
 summary: A weekend project creating a real-time collaborative drawing web app using
   Node.js, featuring pixel-level synchronization across multiple devices with conflict

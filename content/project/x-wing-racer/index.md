@@ -10,7 +10,7 @@ categories:
 - Academic
 - CAD
 - Project
-thumbnail: /project/x-wing-racer/images/featured.png
+thumbnail: /project/x-wing-racer/images/featured.gif
 summary: A 3D printed CO2-powered race car designed in Autodesk Inventor with an X-Wing
   fighter theme for F1 racing competitions.
 toc: true
@@ -52,7 +52,7 @@ Armed with Autodesk Inventor and a healthy dose of caffeine, I set out to create
 
 The full flow simulation and chassis flow simulation (see below) show the F1 Racer’s aerodynamics in action. Air travels smoothly along the body, with the side air pods channeling flow and the front airfoil generating much-needed downforce. (Because nothing ruins a race like your car taking flight.)
 
-![Airflow Simulation (Full)](./images/featured.png)
+![Airflow Simulation (Full)](./images/schematic.png)
 
 ## The Big Race: Not the Fastest, But a Finalist
 

@@ -10,7 +10,7 @@ categories:
 - Academic
 - Games
 - Project
-thumbnail: /project/scaling-everest/images/everest-gameplay.jpg
+thumbnail: /project/scaling-everest/images/featured.gif
 summary: A (sadly) Windows-only videogame created in a single weekend for English
   2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as
   Hillary as you fight yeti monsters and attempt to reach the summit. Download the
