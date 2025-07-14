@@ -6,9 +6,8 @@ redirectUrl: "https://www.linkedin.com/posts/soerenw_startup-softwareengineer-ca
 thumbnail: /blog/30-days-at-stash/images/featured.png
 categories:
   - Career
-  - Startups
   - Reflection
-  - Blog
+  - External
 tags:
   - Startup
   - Software Engineer
@@ -16,6 +15,7 @@ tags:
   - Big Tech
   - Learning
   - Growth Mindset
+  - LinkedIn
 ---
 
 {{% loading %}}
