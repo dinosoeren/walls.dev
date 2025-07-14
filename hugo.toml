@@ -8,8 +8,9 @@ summaryLength = 30
 
 [module]
   # uncomment line below for temporary local development of module
-  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  # replacements = "github.com/dinosoeren/anatole -> ../../anatole"
   [[module.imports]]
+    # upgrade with: hugo mod get github.com/dinosoeren/anatole@gomod
     path = "github.com/dinosoeren/anatole"
     disable = false
   [[module.imports]]
