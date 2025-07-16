@@ -27,6 +27,6 @@ description: "About Soeren Walls"
 
 {{< resume-button url="../resumes/swalls_acting_2024.pdf" text="Acting Resume (2024)" type="acting" >}}
 
-## Github Contributions
+## Recent Github Contributions
 
 {{< github-calendar >}}
