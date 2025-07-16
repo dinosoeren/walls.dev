@@ -38,7 +38,7 @@ tags:
 
 **Turdle** is a Wordle clone I created during the 2022 Global Game Jam weekend, capitalizing on the world's Wordle obsession at the time. Instead of guessing words, players guess sequences of animated turtles, each with different colors and animation frames. The game features a mathematically generated puzzle system that guarantees unique daily challenges for 42 years.
 
-- **Global Game Jam [Submission Page](https://v3.globalgamejam.org/2022/games/turdlexyz-4)** (39 ♥️s)
+{{< ggj-button url="https://v3.globalgamejam.org/2022/games/turdlexyz-4" hearts="39" >}}
 
 ## The Challenge: 42 Years of Unique Puzzles
 

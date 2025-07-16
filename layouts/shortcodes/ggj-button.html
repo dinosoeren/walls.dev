@@ -1,0 +1,6 @@
+{{ $url := .Get "url" }}
+{{ $hearts := .Get "hearts" }}
+<a class="custom-button ggj-button" href="{{$url}}" target="_blank" rel="noopener">
+  <span class="ggj-icon">🕹️</span> Global Game Jam
+  {{ if $hearts }}<span class="ggj-hearts">{{$hearts}}</span>{{ end }}
+</a>

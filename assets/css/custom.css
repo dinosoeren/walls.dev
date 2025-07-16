@@ -341,3 +341,46 @@
     max-width: 70%;
   }
 }
+
+/* GGJ Button Styles */
+.ggj-button {
+  background: linear-gradient(135deg, #a259ff 0%, #f24e9c 100%);
+  border-color: #a259ff;
+  color: #fff !important;
+}
+.ggj-button:hover {
+  background: linear-gradient(135deg, #f24e9c 0%, #a259ff 100%);
+  border-color: #f24e9c;
+  color: #fff !important;
+}
+.ggj-button .ggj-icon {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.ggj-button .ggj-hearts {
+  margin-left: 0.7em;
+  font-weight: 700;
+  color: #222;
+  font-size: 1.1em;
+  vertical-align: middle;
+  display: inline-block;
+  text-shadow: 0 1px 4px #fff, 0 0 2px #fff;
+  position: relative;
+}
+.ggj-button .ggj-hearts::before {
+  content: '❤️';
+  margin-right: 0.2em;
+  font-size: 1em;
+  vertical-align: middle;
+  color: #ff3366;
+  text-shadow: none;
+}
+@media (max-width: 768px) {
+  .ggj-button .ggj-icon {
+    font-size: 1.2em;
+  }
+  .ggj-button .ggj-hearts {
+    font-size: 1em;
+  }
+}

@@ -376,6 +376,40 @@
 `;
       },
     });
+
+    // GGJ Button Component
+    CMS.registerEditorComponent({
+      id: "ggj-button",
+      label: "GGJ Button",
+      fields: [
+        { name: "url", label: "Submission URL", widget: "string" },
+        { name: "hearts", label: "Heart Count", widget: "number", required: false },
+      ],
+      pattern: /{{<\s*ggj-button\s+url="([^"]+)"(?:\s+hearts="(\d+)")?\s*>}}/,
+      fromBlock: function(match) {
+        return {
+          url: match[1],
+          hearts: match[2] ? parseInt(match[2], 10) : undefined,
+        };
+      },
+      toBlock: function(obj) {
+        let block = `{{< ggj-button url="${obj.url}"`;
+        if (obj.hearts !== undefined && obj.hearts !== "") {
+          block += ` hearts="${obj.hearts}"`;
+        }
+        block += " >}}";
+        return block;
+      },
+      toPreview: function(obj) {
+        return `
+<button style="background: linear-gradient(135deg, #a259ff 0%, #f24e9c 100%); color: white; padding: 8px 16px; border: none; border-radius: 4px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: 17px;">
+  <span>🕹️</span>
+  <span>Global Game Jam</span>
+  ${obj.hearts ? `<span style='margin-left: 0.7em; font-weight: 700; color: #222; text-shadow: 0 1px 4px #fff, 0 0 2px #fff; display: inline-block;'><span style='color: #ff3366; margin-right: 0.2em;'>❤️</span>${obj.hearts}</span>` : ''}
+</button>
+`;
+      },
+    });
   }
 
   // Start the registration process
