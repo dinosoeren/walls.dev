@@ -26,3 +26,7 @@ description: "About Soeren Walls"
 {{< resume-button url="../resumes/swalls_robotics_2024.pdf" text="Robotics Resume (2024)" type="robotics" >}}
 
 {{< resume-button url="../resumes/swalls_acting_2024.pdf" text="Acting Resume (2024)" type="acting" >}}
+
+## Github Contributions
+
+{{< github-calendar >}}
