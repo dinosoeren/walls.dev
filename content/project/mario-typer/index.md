@@ -1,29 +1,29 @@
 ---
-date: '2015-11-26T02:37:00-06:00'
+date: 2015-11-26T02:37:00-06:00
 draft: false
-title: 'Mario Typer: Rewriting a Buggy OBJ Parser for 3D Games'
-tags:
-- 3D Graphics
-- C++
-- Computer Graphics
-- Education
-- Game Development
-- Open Source
-- Programming
-categories:
-- Academic
-- Games
-- Project
+title: "Mario Typer: Rewriting a Buggy OBJ Parser for 3D Games"
+summary: A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario
+  fighting Boo ghosts by typing words, with a detailed account of fixing
+  critical bugs in the provided OBJ parser library to support custom 3D models.
 thumbnail: /project/mario-typer/images/featured.gif
-summary: A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario fighting
-  Boo ghosts by typing words, with a detailed account of fixing critical bugs in the
-  provided OBJ parser library to support custom 3D models.
+categories:
+  - Academic
+  - Games
+  - Project
+tags:
+  - 3D Graphics
+  - C++
+  - Computer Graphics
+  - Education
+  - Game Development
+  - Open Source
+  - Programming
 ---
-{{< project-details
-  timeline="Nov 21-26, 2015"
-  languages="C++ (OpenGL)"
-  school="AIT at Budapest University of Technology and Economics"
-  course="CP360 Computer Graphics"
+{{< project-details 
+  timeline="Nov 21-26, 2015" 
+  languages="C++ (OpenGL)" 
+  school="AIT at Budapest University of Technology and Economics" 
+  course="CP360 Computer Graphics" 
 >}}
 
 ## Watch the Demo
@@ -61,24 +61,32 @@ f 2436/7843/2436 2437/7844/2437 2438/7845/2438
 f 2433/7840 2434/7841 2435/7842
 f 2439/7846/2439 2440/7847/2440 2441/7848/2441
 ```
+
 And here's what it means:
 
-- Lines that start with  `v` are vertices.
-- Lines that start with  `vn` are vertex normals.
-- Lines that start with  `vt` are texture coordinates.
-- Lines that start with  `f` are faces.
+* Lines that start with  `v` are vertices.
+* Lines that start with  `vn` are vertex normals.
+* Lines that start with  `vt` are texture coordinates.
+* Lines that start with  `f` are faces.
 
 There are some other optional line types as well, like `vp`, but this is mostly all you need to know. For the most part, the way these lines are formatted is fairly standard. Since .OBJ's always represent 3D objects, vertices will typically have 3 coordinates (3 numbers after the `v`). Same goes for vertex normals (`vn`). Texture coordinates (`vt`) correspond to 2D uv maps, so these typically have 2 coordinates. But there is one exception: faces (lines that start with `f`). According to Wikipedia:
 
 > Faces are defined using **lists of vertex, texture and normal indices**.
-Each item in the list usually comes in the format `%d/%d/%d` (position/texture/normal), as you can see in the example I gave above. However, it's a bad idea to assume that this will always be the case, which is exactly the mistake that was made in the original code of the `Mesh.cpp` file. In actuality, it's not uncommon for faces to be described without a value for the texture index or for the normal index, so they can look like this: `%d/%d` (position/texture), or like this: `%d//%d` (position//normal), and the .OBJ file will still be completely valid. Moreover, different faces in the same .OBJ file can use different formats. Even though it's nice to know about textures and normal vectors, this information is not required to simply define a face. Besides, giving texture and normal indices for every face would be quite redundant in some cases, especially if the texture mapping is less detailed than the mesh. This was the first order of business when I was correcting the mistakes in the code.
+
+Each item in the list usually comes in the format `%d/%d/%d` (position/texture/normal), as you can see in the example I gave above. However, it's a bad idea to assume that this will always be the case, which is exactly the mistake that was made in the original code of the `Mesh.cpp` file.
+
+In actuality, it's not uncommon for faces to be described without a value for the texture index or for the normal index, so they can look like this: `%d/%d` (position/texture), or like this: `%d//%d` (position//normal), and the .OBJ file will still be completely valid.
+
+Moreover, different faces in the same .OBJ file can use different formats. Even though it's nice to know about textures and normal vectors, this information is not required to simply define a face. Besides, giving texture and normal indices for every face would be quite redundant in some cases, especially if the texture mapping is less detailed than the mesh. This was the first order of business when I was correcting the mistakes in the code.
 
 The other incorrect assumption made by the `Mesh.cpp` file, though far less fatal, was that faces would always have either 3 or 4 components in the list of vertex, texture, and normal indices. In other words, it **assumed that faces are always either triangles or quadrilaterals** (quads). But, you see, much like dinosaurs, .OBJ files come in all different shapes and sizes. The 3D objects they represent can be made up of triangles, quads, and, while uncommon, even higher-order polygons like pentagons.
 
-{{< figure src="images/screenshot.png" alt="Screenshot of a complex polygonal dinosaur OBJ mesh rendering example" caption="This dinosaur OBJ mesh is rendered with triangles on the left, and quads on the right" >}}
+{{< figure src="images/screenshot.png" alt="Screenshot of a complex polygonal dinosaur OBJ mesh rendering example" caption="This dinosaur OBJ mesh is rendered with triangles on the left, and quads on the right">}}
 
 So, just for fun, I made sure .OBJ files with **pentagonal** faces could also be successfully rendered from the code. Good luck finding a mesh that uses them, though. If you're interested, you can view the old code, and the changes I made to it, in the github repo linked below. The old file is aptly named `Mesh-old.cpp`.
 
-{{< github-button url="https://github.com/dinosoeren/MarioTyper" >}}
+{{< github-button 
+  url="https://github.com/dinosoeren/MarioTyper" 
+>}}
 
 Have anything to add? I left out some of the details of .OBJ's on purpose, but if you think there's something important I forgot to mention, please let me know in the comments.
