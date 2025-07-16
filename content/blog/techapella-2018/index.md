@@ -1,6 +1,6 @@
 ---
 date: 2018-10-15T00:00:00-07:00
-title: Singing 'Bottom of the River' at Techapella 2018
+title: Singing for 500 people at Techapella 2018
 summary: Performing as a soloist with Google's Alphabeat at Techapella 2018 was
   nerve-racking, exhilarating, and unforgettable. It led to my first
   professional studio recording session and feature on an album.
