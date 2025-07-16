@@ -5,15 +5,6 @@ summary: "Performing as a soloist with Google's Alphabeat at Techapella 2018 was
 thumbnail: "https://img.youtube.com/vi/N9CBpo_crKE/maxresdefault.jpg"
 categories:
   - Music
-  - Reflection
-  - Performance
-  - A Cappella
-  - Google
-  - Techapella
-  - Spotify
-  - Growth
-  - Nerves
-  - Achievement
 tags:
   - A Cappella
   - Solo
@@ -23,6 +14,7 @@ tags:
   - Delta Rae
   - Performance
   - Spotify
+  - Growth
 ---
 
 Late one October night in 2018, I stepped onto the stage at the Fox Theater in Redwood City, California, as a soloist for [Alphabeat](https://www.techapella.org/alphabeat)—one of Google’s a cappella groups—at the annual Techapella concert. The house was packed with over 500 people, my largest musical audience ever. My heart was pounding, my hands were shaking, and I was about to sing lead on "*Bottom of the River*" by Delta Rae, arranged by our then musical director, Michael Patashnik.

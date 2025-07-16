@@ -7,7 +7,6 @@ thumbnail: /blog/30-days-at-stash/images/featured.png
 categories:
   - Career
   - Reflection
-  - External
 tags:
   - Startup
   - Software Engineer
