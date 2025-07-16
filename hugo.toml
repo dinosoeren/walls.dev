@@ -33,7 +33,8 @@ summaryLength = 30
   oldContentDuration = 365
   enableMediumZoom = false
 
-  customCss = ["css/custom.css"]
+  customJs = ["js/github-calendar.js"]
+  customCss = ["css/custom.css", "css/github-calendar.css"]
   gtagId = "G-NX48YN18V3"
   contactFormAction = "https://formspree.io/f/mgvybvzd"
 
