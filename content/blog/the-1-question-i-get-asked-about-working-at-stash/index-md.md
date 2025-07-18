@@ -4,7 +4,7 @@ draft: true
 title: "The #1 Question I Get Asked About Working at Stash"
 summary: The number one question I get asked may surprise you! Stash also just
   got nominated for an award, and your vote would mean a lot to us!
-thumbnail: https://banner2.cleanpng.com/lnd/20240423/zaq/transparent-moustache-curved-black-metallic-feathers-overlapping-elegant6628798705f8a1.08943558.webp
+thumbnail: /images/1000015050.png
 tags:
   - MobileGameAwards
   - GamingIndustry
