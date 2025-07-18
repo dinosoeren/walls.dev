@@ -38,7 +38,5 @@ If you're in the gaming industry and believe in the power of truly developer-fir
 
 Cast your vote here: https://www.pocketgamer.biz/mga2025/vote/best-payment-service-provider/
 
-And between us, it would mean a lot if you could let me know in the comments or in a DM that you voted!
-
-What do you think makes a payment provider truly 'best-in-class' for the gaming world? Let's chat!
+And between us, it would mean a lot if you could let me know in the comments or in a DM that you voted! What do you think makes a payment provider truly 'best-in-class' for the gaming world? Is it a stylish 'stache, or something else? Let's chat!
 {{< /details >}}
