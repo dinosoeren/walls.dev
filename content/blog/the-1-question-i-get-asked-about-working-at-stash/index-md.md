@@ -5,7 +5,7 @@ title: "The #1 Question I Get Asked About Working at Stash"
 summary: The number one question I get asked may surprise you! Stash also just
   got nominated for an award, and your vote would mean a lot to us!
 redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
-thumbnail: /images/1000015050.png
+thumbnail: /blog/the-1-question-i-get-asked-about-working-at-stash/images/1000015050.png
 tags:
   - MobileGameAwards
   - GamingIndustry
