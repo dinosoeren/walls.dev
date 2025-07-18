@@ -1,0 +1,32 @@
+---
+date: 2025-07-18T13:37:00.000-06:00
+draft: true
+title: "The #1 Question I Get Asked About Working at Stash"
+summary: The number one question I get asked may surprise you! Stash also just
+  got nominated for an award, and your vote would mean a lot to us!
+thumbnail: https://banner2.cleanpng.com/lnd/20240423/zaq/transparent-moustache-curved-black-metallic-feathers-overlapping-elegant6628798705f8a1.08943558.webp
+tags:
+  - MobileGameAwards
+  - GamingIndustry
+  - PaymentProvider
+  - Startup
+  - Stash
+  - VoteNow
+  - MobileGaming
+  - SoftwareEngineer
+categories:
+  - Career
+---
+The question I've been asked most since joining Stash a few months ago isn't about our tech, or our roadmap, or even gaming trends. It's usually, "So, do you have to have a 'stache (mustache) to work at Stash?" 😂 (For the record, the answer is a resounding 'no,' though we do appreciate a good one!).
+
+What truly hit me when I made the leap was the *actual* energy here – a collective drive to genuinely empower game developers and redefine payments in the mobile gaming world. We've been heads-down building, innovating, and dreaming big about creating something truly game-changing. 🚀
+
+Fast forward to today, and that passion and hard work are getting some incredible recognition! I'm excited to share that **Stash has been nominated for 'Best Payment Provider' at the Mobile Game Awards 2025!** 🤩 This isn't just a nomination; it's a huge shout-out to the entire team's dedication to making payments seamless, secure, and truly enabling for the industry.
+
+If you're in the gaming industry and believe in the power of truly developer-first solutions, we'd be incredibly grateful for your vote. It takes just a moment and means the world to us! Let's help Stash bring this home. 🙏
+
+Cast your vote here: https://www.pocketgamer.biz/mga2025/vote/best-payment-service-provider/
+
+And between us, it would mean a lot if you could please let me know in the comments or in a DM that you voted!
+
+What do you think makes a payment provider truly 'best-in-class' for the gaming world? Let's chat!
