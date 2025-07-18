@@ -17,6 +17,16 @@ tags:
 categories:
   - Career
 ---
+{{% loading %}}
+
+
+*Forwarding to my full post on LinkedIn...*
+
+
+---
+
+
+{{< details "Post content" >}}
 The question I've been asked most since joining Stash a few months ago isn't about our tech, or our roadmap, or even gaming trends. It's usually, "So, do you have to have a 'stache (mustache) to work at Stash?" 😂 (For the record, the answer is a resounding 'no,' though we do appreciate a good one!).
 
 What truly hit me when I made the leap was the *actual* energy here – a collective drive to genuinely empower game developers and redefine payments in the mobile gaming world. We've been heads-down building, innovating, and dreaming big about creating something truly game-changing. 🚀
@@ -30,3 +40,4 @@ Cast your vote here: https://www.pocketgamer.biz/mga2025/vote/best-payment-servi
 And between us, it would mean a lot if you could let me know in the comments or in a DM that you voted!
 
 What do you think makes a payment provider truly 'best-in-class' for the gaming world? Let's chat!
+{{< /details >}}
