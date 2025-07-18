@@ -1,9 +1,10 @@
 ---
 date: 2025-07-18T13:37:00.000-06:00
-draft: true
+draft: false
 title: "The #1 Question I Get Asked About Working at Stash"
 summary: The number one question I get asked may surprise you! Stash also just
   got nominated for an award, and your vote would mean a lot to us!
+redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
 thumbnail: /images/1000015050.png
 tags:
   - MobileGameAwards
