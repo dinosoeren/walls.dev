@@ -9,7 +9,7 @@ tags:
 - PHP
 - Professional
 - Programming
-- Web Design
+- WebDesign
 - WordPress
 - Entrepreneurship
 categories:

@@ -11,7 +11,7 @@ tags:
 - PHP
 - Professional
 - Programming
-- Web Design
+- WebDesign
 categories:
 - Business
 - Project

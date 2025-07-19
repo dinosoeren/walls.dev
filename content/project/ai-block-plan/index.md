@@ -7,12 +7,12 @@ summary: A whirlwind tour of the wildest, weirdest, and most rewarding AI projec
 thumbnail: /project/ai-block-plan/images/mario-ai.jpg
 tags:
 - Education
-- Game Development
+- GameDevelopment
 - Java
 - Python
 - Programming
 - AI
-- Machine Learning
+- MachineLearning
 categories:
 - Academic
 - Games

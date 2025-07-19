@@ -19,19 +19,19 @@ tags:
 - Architecture
 - Microservices
 - Monolith
-- Cloud Next
-- Google Cloud
-- App Engine
+- CloudNext
+- GoogleCloud
+- AppEngine
 - Kubernetes
 - GKE
-- Spring Cloud
-- Cloud Datastore
-- Cloud Pub/Sub
+- SpringCloud
+- CloudDatastore
+- CloudPub/Sub
 - Programming
 - Stackdriver
-- Strangler Pattern
-- Saga Pattern
-- Circuit Breaker
+- StranglerPattern
+- SagaPattern
+- CircuitBreaker
 - Architecture
 - Migration
 ---

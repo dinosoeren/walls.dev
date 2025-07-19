@@ -4,8 +4,8 @@ draft: false
 title: 3D Printing Leonardo da Vinci's Scythed Chariot
 slug: scythed-chariot
 tags:
-- 3D Graphics
-- 3D Printing
+- 3DGraphics
+- 3DPrinting
 - Hardware
 - Education
 categories:

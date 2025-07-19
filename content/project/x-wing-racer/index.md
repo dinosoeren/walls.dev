@@ -4,8 +4,8 @@ draft: false
 title: My 23mph 3D-Printed CO2-Powered X-Wing F1 Racer
 slug: x-wing-racer
 tags:
-- 3D Graphics
-- 3D Printing
+- 3DGraphics
+- 3DPrinting
 - Education
 categories:
 - Academic

@@ -5,9 +5,9 @@ title: Now Fluent in 9 Computer Languages - Just Learned Java
 slug: learned-java
 tags:
 - Education
-- Game Development
+- GameDevelopment
 - Java
-- Mobile Development
+- MobileDevelopment
 categories:
 - Academic
 - Blog

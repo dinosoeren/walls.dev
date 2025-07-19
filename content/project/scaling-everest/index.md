@@ -4,7 +4,7 @@ draft: false
 title: 'Scaling Everest: A Videogame Created for an English Assignment'
 slug: scaling-everest
 tags:
-- Game Development
+- GameDevelopment
 - Education
 - Programming
 categories:

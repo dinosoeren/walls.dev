@@ -7,9 +7,9 @@ tags:
 - Education
 - HTML/CSS
 - JavaScript
-- Open Source
+- OpenSource
 - Programming
-- Web Design
+- WebDesign
 categories:
 - App
 - Academic

@@ -4,9 +4,9 @@ draft: false
 title: Laser-Engraving a Victorian House for a Christmas Village
 slug: victorian-house
 tags:
-- 3D Graphics
-- 3D Printing
-- Laser Engraving
+- 3DGraphics
+- 3DPrinting
+- LaserEngraving
 categories:
 - Academic
 - CAD
