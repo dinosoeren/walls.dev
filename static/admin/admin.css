@@ -22,7 +22,7 @@
   /* DateTimeControl has flex relaxed */
   #nc-root
     > div:last-child
-    > div:not(:has(.SplitPane))
+    > div
     > div:last-child
     > div:last-child
     > div
@@ -67,7 +67,7 @@
   /* ControlPaneContainer has max width */
   #nc-root
     > div:last-child
-    > div:not(:has(.SplitPane))
+    > div
     > div:last-child
     > div:last-child
     > div:first-child
