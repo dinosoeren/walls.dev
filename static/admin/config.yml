@@ -9,11 +9,11 @@ collections:
   - name: 'project'
     label: 'Project'
     folder: 'content/project'
-    path: '{{slug}}/index.md'
+    path: '{{slug}}/index'
     media_folder: images
     public_folder: /images
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     preview_path: 'project/{{slug}}'
     editor:
       preview: true
@@ -31,9 +31,10 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', required: false }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string', required: false, pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'], hint: 'The title is used for the slug if none is provided' }
       - { label: 'Summary', name: 'summary', widget: 'string', required: false }
       - { label: 'External URL', name: 'redirectUrl', widget: 'string', required: false }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, media_folder: 'images', public_folder: '/project/{{slug}}/images', media_library: { config: { max_file_size: 10000000 } } }
       - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Table of Contents', name: 'toc', widget: 'boolean', required: false }
@@ -42,11 +43,11 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
-    path: '{{slug}}/index.md'
+    path: '{{slug}}/index'
     media_folder: images
     public_folder: /images
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     preview_path: 'blog/{{slug}}'
     editor:
       preview: true
@@ -64,9 +65,10 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', required: false }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string', required: false, pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'], hint: 'The title is used for the slug if none is provided' }
       - { label: 'Summary', name: 'summary', widget: 'string', required: false }
       - { label: 'External URL', name: 'redirectUrl', widget: 'string', required: false }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, media_folder: 'images', public_folder: '/blog/{{slug}}/images', media_library: { config: { max_file_size: 10000000 } } }
       - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Table of Contents', name: 'toc', widget: 'boolean', required: false }
