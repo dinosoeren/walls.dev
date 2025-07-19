@@ -64,19 +64,32 @@
     display: block;
     min-width: 800px;
   }
-  /* Markdown toolbar has flex relaxed */
+  /* ControlPaneContainer has max width */
   #nc-root
     > div:last-child
     > div:not(:has(.SplitPane))
     > div:last-child
     > div:last-child
-    > div
-    > div
-    > div:last-child
-    > div:last-child
-    > div
-    > div
-    > div {
+    > div:first-child
+    > div:first-child {
+    max-width: calc(100vw - 32px);
+  }
+  /* Markdown editor has max width */
+  #nc-root .cms-editor-visual,
+  #nc-root .cms-editor-raw {
+    max-width: calc(100vw - 32px);
+  }
+  /* Markdown toolbar has flex relaxed */
+  #nc-root
+    .cms-editor-visual
+    > div:first-child
+    > div:first-child
+    > div:first-child,
+  #nc-root
+    .cms-editor-raw
+    > div:first-child
+    > div:first-child
+    > div:first-child {
     flex-direction: column;
   }
 
