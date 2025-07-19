@@ -9,6 +9,28 @@
   #nc-root > div:last-child > div > main > div:last-child > ul > li {
     flex: 0 0 calc(100% - 12px);
   }
+  /* BackCollection has small font */
+  #nc-root
+    > div:last-child
+    > div:not(:has(.SplitPane))
+    > div:first-child
+    > a
+    > div:last-child
+    > div:first-child {
+    font-size: 8px;
+  }
+  /* DateTimeControl has flex relaxed */
+  #nc-root
+    > div:last-child
+    > div:not(:has(.SplitPane))
+    > div:last-child
+    > div:last-child
+    > div
+    > div
+    > div:first-child
+    > div:last-child {
+    flex-direction: column;
+  }
 }
 
 /* Medium mobile devices (481px to 815px) */
@@ -19,7 +41,7 @@
   }
 }
 
-/* Touch-friendly improvements for all mobile devices */
+/* Improvements for all mobile devices */
 @media (max-width: 815px) {
   /* AppMainContainer and AppHeaderContent has no min width */
   #nc-root > div:last-child,
@@ -41,6 +63,21 @@
   #nc-root > div:last-child > div:has(.SplitPane) {
     display: block;
     min-width: 800px;
+  }
+  /* Markdown toolbar has flex relaxed */
+  #nc-root
+    > div:last-child
+    > div:not(:has(.SplitPane))
+    > div:last-child
+    > div:last-child
+    > div
+    > div
+    > div:last-child
+    > div:last-child
+    > div
+    > div
+    > div {
+    flex-direction: column;
   }
 
   /* Main content takes full width */
