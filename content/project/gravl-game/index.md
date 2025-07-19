@@ -2,6 +2,7 @@
 date: 2014-05-31 23:22:45-06:00
 draft: false
 title: "GRAVL: Gravity Puzzle Platformer for Android"
+slug: gravl-game
 summary: An independently developed Android puzzle platformer where players
   control astronaut Phil manipulating gravity to navigate icy terrain, built
   entirely in Java without game engines over 800 hours of development.

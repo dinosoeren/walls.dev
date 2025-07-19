@@ -2,6 +2,7 @@
 date: '2015-03-11T02:58:41-06:00'
 draft: false
 title: Real-Time Multi-User Drawing App with Node.js
+slug: collaborative-canvas
 tags:
 - Education
 - HTML/CSS

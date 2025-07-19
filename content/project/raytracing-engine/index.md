@@ -2,6 +2,7 @@
 date: 2015-11-28T06:16:51-06:00
 draft: false
 title: "Raycaster: Rendering a Chessboard in C++ with Procedural Graphics"
+slug: raytracing-engine
 summary: A custom raycaster built in C++ for a Computer Graphics course at AIT,
   featuring a procedurally textured chessboard and complex chess pieces modeled
   with quadrics, glass, gold, gemstones, and procedural normal mapping.

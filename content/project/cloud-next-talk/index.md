@@ -2,6 +2,7 @@
 date: "2019-12-06"
 draft: false
 title: "Migrating a Monolith to Microservices: Google Cloud Next '19"
+slug: cloud-next-talk
 summary: A deep dive into the journey of migrating two large-scale monolithic applications at Google—Louhi and GlassPane—to microservices, presented at Google Cloud Next in San Francisco and London.
 thumbnail: "https://img.youtube.com/vi/IiJIHG4Qw9M/maxresdefault.jpg"
 categories:

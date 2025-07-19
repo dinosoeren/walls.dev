@@ -2,6 +2,7 @@
 date: '2013-05-09T18:25:27-06:00'
 draft: false
 title: My 23mph 3D-Printed CO2-Powered X-Wing F1 Racer
+slug: x-wing-racer
 tags:
 - 3D Graphics
 - 3D Printing

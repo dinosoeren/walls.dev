@@ -2,6 +2,7 @@
 date: '2013-04-28T00:43:05-06:00'
 draft: true
 title: 'eStudii: A Complete Business Plan for Online Education'
+slug: estudii-business
 tags:
 - Education
 - Entrepreneurship

@@ -2,6 +2,7 @@
 date: '2012-09-17T02:26:25-06:00'
 draft: false
 title: Building a Lightweight CMS in PHP for a Local Business
+slug: php-cms-business
 tags:
 - Entrepreneurship
 - CMS

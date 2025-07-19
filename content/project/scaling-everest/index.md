@@ -2,6 +2,7 @@
 date: '2010-11-16'
 draft: false
 title: 'Scaling Everest: A Videogame Created for an English Assignment'
+slug: scaling-everest
 tags:
 - Game Development
 - Education

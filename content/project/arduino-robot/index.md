@@ -2,6 +2,7 @@
 date: 2015-06-23 14:00:09-06:00
 draft: false
 title: Arduino Robot Solves Mazes Using Subsumption Architecture
+slug: arduino-robot
 summary: An Arduino-powered robot named Pyat that solves mazes using subsumption
   architecture, featuring layered behaviors and a dynamic grid system to
   navigate unknown mazes without prior knowledge of their structure.

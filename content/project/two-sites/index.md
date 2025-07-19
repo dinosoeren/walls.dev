@@ -2,6 +2,7 @@
 date: '2013-06-19T20:50:31-06:00'
 draft: false
 title: 'Wordpressed: A Tale of Two E-commerce Sites'
+slug: two-sites
 tags:
 - HTML/CSS
 - JavaScript

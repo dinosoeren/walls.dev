@@ -2,6 +2,7 @@
 date: 2015-04-10
 draft: false
 title: "Friendlier: Letting a Startup Fail Fast"
+slug: friendlier
 summary: Reflections on building, pitching, and ultimately losing a promising
   social app to a single API dependency.
 thumbnail: /project/friendlier/images/featured.gif

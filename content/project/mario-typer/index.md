@@ -2,6 +2,7 @@
 date: 2015-11-26T02:37:00-06:00
 draft: false
 title: "Mario Typer: Rewriting a Buggy OBJ Parser for 3D Games"
+slug: mario-typer
 summary: A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario
   fighting Boo ghosts by typing words, with a detailed account of fixing
   critical bugs in the provided OBJ parser library to support custom 3D models.

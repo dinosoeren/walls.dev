@@ -2,6 +2,7 @@
 date: '2015-12-07T03:54:43-06:00'
 draft: true
 title: 9 Reasons to Share Your Startup Ideas Early
+slug: startup-ideas
 tags:
 - Business
 - Education

@@ -2,6 +2,7 @@
 date: '2012-11-29T18:42:32-06:00'
 draft: false
 title: Laser-Engraving a Victorian House for a Christmas Village
+slug: victorian-house
 tags:
 - 3D Graphics
 - 3D Printing

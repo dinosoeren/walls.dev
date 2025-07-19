@@ -1,6 +1,7 @@
 ---
 date: 2016-10-20
 title: Three and a Half Weeks of AI Challenges
+slug: ai-block-plan
 summary: A whirlwind tour of the wildest, weirdest, and most rewarding AI projects
   I built in just 3.5 weeks.
 thumbnail: /project/ai-block-plan/images/mario-ai.jpg

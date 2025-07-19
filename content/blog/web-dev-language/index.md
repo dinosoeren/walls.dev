@@ -2,6 +2,7 @@
 date: '2015-06-14T03:50:41-06:00'
 draft: false
 title: What's the Most Important Language for Web Development?
+slug: web-dev-language
 tags:
   - HTML/CSS
   - JavaScript

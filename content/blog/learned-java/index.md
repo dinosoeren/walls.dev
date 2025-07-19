@@ -2,6 +2,7 @@
 date: '2013-11-24T13:28:00-06:00'
 draft: true
 title: Now Fluent in 9 Computer Languages - Just Learned Java
+slug: learned-java
 tags:
 - Education
 - Game Development

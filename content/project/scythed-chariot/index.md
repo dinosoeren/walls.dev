@@ -2,6 +2,7 @@
 date: '2011-02-27T17:40:10-06:00'
 draft: false
 title: 3D Printing Leonardo da Vinci's Scythed Chariot
+slug: scythed-chariot
 tags:
 - 3D Graphics
 - 3D Printing
