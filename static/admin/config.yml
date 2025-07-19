@@ -31,12 +31,12 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', required: false }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string', required: false, pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'], hint: 'The title is used for the slug if none is provided' }
+      - { label: 'Slug', name: 'slug', widget: 'string', pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'] }
       - { label: 'Summary', name: 'summary', widget: 'string', required: false }
       - { label: 'External URL', name: 'redirectUrl', widget: 'string', required: false }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, media_folder: 'images', public_folder: '/project/{{slug}}/images', media_library: { config: { max_file_size: 10000000 } } }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 10000000 } } }
+      - { label: 'Categories', name: 'categories', widget: 'list', hint: 'Academic, App, Business, Games, Mobile, Project, Web' }
+      - { label: 'Tags', name: 'tags', widget: 'list', hint: 'AI, BigTech, Business, ComputerGraphics, Education, GameDevelopment, Hardware, HTML/CSS, Java, MobileDevelopment, OpenSource, Programming, Python, PWA, React, Robotics, TypeScript' }
       - { label: 'Table of Contents', name: 'toc', widget: 'boolean', required: false }
       - { label: 'AI Chat', name: 'ai_chat', widget: 'ai-chat', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -65,12 +65,12 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', required: false }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string', required: false, pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'], hint: 'The title is used for the slug if none is provided' }
+      - { label: 'Slug', name: 'slug', widget: 'string', pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'] }
       - { label: 'Summary', name: 'summary', widget: 'string', required: false }
       - { label: 'External URL', name: 'redirectUrl', widget: 'string', required: false }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, media_folder: 'images', public_folder: '/blog/{{slug}}/images', media_library: { config: { max_file_size: 10000000 } } }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, media_folder: 'images', public_folder: '/blog/{{fields.slug}}/images', media_library: { config: { max_file_size: 10000000 } } }
+      - { label: 'Categories', name: 'categories', widget: 'list', hint: 'Academic, Business, Blog, Career, Games, Ideas, Mobile, Music, Project, Reflection, Web, Video' }
+      - { label: 'Tags', name: 'tags', widget: 'list', hint: 'AI, BigTech, Business, CareerAdvice, Education, GameDevelopment, Learning, MobileGaming, Programming, Startup' }
       - { label: 'Table of Contents', name: 'toc', widget: 'boolean', required: false }
       - { label: 'AI Chat', name: 'ai_chat', widget: 'ai-chat', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
