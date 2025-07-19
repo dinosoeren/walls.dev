@@ -1,7 +1,7 @@
 ---
 date: 2015-06-23 14:00:09-06:00
 draft: false
-title: Arduino Robot Solves Mazes Using Subsumption Architecture
+title: My Arduino Bot Solved a Maze That It's Never Seen
 slug: arduino-robot
 summary: An Arduino-powered robot named Pyat that solves mazes using subsumption
   architecture, featuring layered behaviors and a dynamic grid system to
@@ -22,11 +22,11 @@ tags:
   - Robotics
 toc: true
 ---
-{{< project-details 
-  timeline="April-May, 2015" 
-  languages="C" 
-  school="Colorado College" 
-  course="CP248 Introduction to Robotics" 
+{{< project-details
+  timeline="April-May, 2015"
+  languages="C"
+  school="Colorado College"
+  course="CP248 Introduction to Robotics"
 >}}
 
 ## Watch the Demo
@@ -152,6 +152,6 @@ The video may not seem incredibly impressive, because after all, that's a pretty
 
 ## Source Code
 
-{{< github-button 
-  url="https://github.com/dinosoeren/arduino-maze-bot" 
+{{< github-button
+  url="https://github.com/dinosoeren/arduino-maze-bot"
 >}}
