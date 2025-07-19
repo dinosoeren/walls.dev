@@ -107,4 +107,39 @@
     order: 1;
     position: relative;
   }
+
+  /* Media uploader: Header */
+  .ReactModalPortal div[role="dialog"] h1 {
+    margin: 0;
+  }
+  /* Media uploader: RowContainers */
+  .ReactModalPortal div[role="dialog"] > div:first-child > div {
+    gap: 4px;
+  }
+  /* Media uploader: First ButtonsContainer */
+  .ReactModalPortal
+    div[role="dialog"]
+    > div:first-child
+    > div:first-child
+    > div:last-child {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  /* Media uploader: SearchContainer */
+  .ReactModalPortal
+    div[role="dialog"]
+    > div:first-child
+    > div:last-child
+    > div:first-child {
+    flex: 1 1 auto;
+    min-width: 80px;
+    width: unset;
+  }
+  /* Media uploader: buttons */
+  .ReactModalPortal div[role="dialog"] button,
+  .ReactModalPortal div[role="dialog"] label {
+    flex: 1 1 auto;
+    margin: 0;
+  }
 }
