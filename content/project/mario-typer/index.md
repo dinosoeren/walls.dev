@@ -12,12 +12,12 @@ categories:
   - Games
   - Project
 tags:
-  - 3D Graphics
+  - 3DGraphics
   - C++
-  - Computer Graphics
+  - ComputerGraphics
   - Education
-  - Game Development
-  - Open Source
+  - GameDevelopment
+  - OpenSource
   - Programming
 ---
 {{< project-details 

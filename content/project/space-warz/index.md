@@ -12,11 +12,11 @@ categories:
   - Games
   - Project
 tags:
-  - 2D Graphics
+  - 2DGraphics
   - Education
-  - Game Development
+  - GameDevelopment
   - Java
-  - Open Source
+  - OpenSource
   - Programming
 ---
 {{< project-details 

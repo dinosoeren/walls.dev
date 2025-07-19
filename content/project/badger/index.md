@@ -18,10 +18,10 @@ tags:
   - .NET
   - VB
   - JavaScript
-  - Mobile Development
+  - MobileDevelopment
   - Professional
   - Programming
-  - Web Design
+  - WebDesign
 ---
 {{< project-details
   timeline="May 2013 - July 2016"

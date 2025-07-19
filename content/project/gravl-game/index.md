@@ -15,12 +15,12 @@ categories:
   - Project
   - Web
 tags:
-  - 2D Graphics
-  - Computer Graphics
-  - Game Development
+  - 2DGraphics
+  - ComputerGraphics
+  - GameDevelopment
   - HTML/CSS
   - Java
-  - Mobile Development
+  - MobileDevelopment
   - Physics
   - Professional
 ---

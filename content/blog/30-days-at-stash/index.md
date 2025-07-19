@@ -10,11 +10,11 @@ categories:
   - Reflection
 tags:
   - Startup
-  - Software Engineer
-  - Career Advice
-  - Big Tech
+  - SoftwareEngineer
+  - CareerAdvice
+  - BigTech
   - Learning
-  - Growth Mindset
+  - GrowthMindset
   - LinkedIn
 ---
 

@@ -12,8 +12,8 @@ categories:
   - Games
   - Project
 tags:
-  - 3D Graphics
-  - Computer Graphics
+  - 3DGraphics
+  - ComputerGraphics
   - C++
   - Education
   - Programming

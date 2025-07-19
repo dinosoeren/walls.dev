@@ -14,8 +14,8 @@ categories:
   - Project
 tags:
   - Education
-  - Game Development
-  - Open Source
+  - GameDevelopment
+  - OpenSource
   - Programming
   - Hardware
   - Robotics

@@ -7,12 +7,12 @@ summary: Performing as a soloist with Google's Alphabeat at Techapella 2018 was
   professional studio recording session and feature on an album.
 thumbnail: https://img.youtube.com/vi/N9CBpo_crKE/maxresdefault.jpg
 tags:
-  - A Cappella
+  - ACappella
   - Solo
   - Techapella
   - Google
   - Alphabeat
-  - Delta Rae
+  - DeltaRae
   - Performance
   - Spotify
   - Growth

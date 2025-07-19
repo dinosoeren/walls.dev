@@ -8,7 +8,7 @@ tags:
   - JavaScript
   - PHP
   - Programming
-  - Web Design
+  - WebDesign
 categories:
   - Web
 thumbnail: /blog/web-dev-language/images/featured.jpg

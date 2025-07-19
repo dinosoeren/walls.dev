@@ -14,16 +14,16 @@ categories:
   - Project
   - Web
 tags:
-  - 2D Graphics
-  - Game Development
+  - 2DGraphics
+  - GameDevelopment
   - HTML/CSS
   - React
-  - Mobile Development
+  - MobileDevelopment
   - PWA
   - Programming
   - Tailwind
   - Typescript
-  - Global Game Jam
+  - GlobalGameJam
 ---
 {{< project-details 
   timeline="Jan 27-29, 2022" 
