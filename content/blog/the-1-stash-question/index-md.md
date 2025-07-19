@@ -6,6 +6,8 @@ summary: The most common question I get asked may surprise you. Stash also just
   got nominated for an award, and your vote would mean a lot to us!
 redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
 thumbnail: /blog/the-1-stash-question/images/featured.png
+categories:
+  - Career
 tags:
   - MobileGameAwards
   - GamingIndustry
@@ -15,17 +17,12 @@ tags:
   - VoteNow
   - MobileGaming
   - SoftwareEngineer
-categories:
-  - Career
 ---
 {{% loading %}}
 
-
 *Forwarding to my full post on LinkedIn...*
 
-
 ---
-
 
 {{< details "Post content" >}}
 The question I've been asked most since joining Stash a few months ago isn't about our tech, or our roadmap, or even gaming trends. It's usually, "So, do you have to have a 'stache (mustache) to work at Stash?" 😂 (For the record, the answer is a resounding 'no,' though we do appreciate a good one!).
@@ -36,7 +33,7 @@ Fast forward to today, and that passion and hard work are getting some incredibl
 
 If you're in the gaming industry and believe in the power of truly developer-first solutions, we'd be incredibly grateful for your vote. It takes just a moment and means the world to us! Let's help Stash bring this home. 🙏
 
-Cast your vote here: https://www.pocketgamer.biz/mga2025/vote/best-payment-service-provider/
+Cast your vote here **before July 31** (2 weeks remaining!): https://www.pocketgamer.biz/mga2025/vote/best-payment-service-provider/
 
 And between us, it would mean a lot if you could let me know in the comments or in a DM that you voted! What do you think makes a payment provider truly 'best-in-class' for the gaming world? Is it a stylish 'stache, or something else? Let's chat!
 {{< /details >}}
