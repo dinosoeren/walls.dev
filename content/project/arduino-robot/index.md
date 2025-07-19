@@ -7,6 +7,7 @@ summary: An Arduino-powered robot named Pyat that solves mazes using subsumption
   architecture, featuring layered behaviors and a dynamic grid system to
   navigate unknown mazes without prior knowledge of their structure.
 thumbnail: /project/arduino-robot/images/featured.gif
+thumbnailHd: /project/arduino-robot/images/featured-hd.gif
 categories:
   - Academic
   - Games

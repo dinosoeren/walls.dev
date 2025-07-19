@@ -7,6 +7,7 @@ summary: A Wordle clone featuring animated turtles instead of letters, with 42
   years of unique daily puzzles guaranteed through mathematical permutation
   generation, built for Global Game Jam 2022.
 thumbnail: /project/turdle/images/featured.gif
+thumbnailHd: /project/turdle/images/featured-hd.gif
 categories:
   - App
   - Games

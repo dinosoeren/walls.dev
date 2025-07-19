@@ -12,6 +12,7 @@ categories:
 - CAD
 - Project
 thumbnail: /project/x-wing-racer/images/featured.gif
+thumbnailHd: /project/x-wing-racer/images/featured-hd.gif
 summary: A 3D printed CO2-powered race car designed in Autodesk Inventor with an X-Wing
   fighter theme for F1 racing competitions.
 toc: true

@@ -7,6 +7,7 @@ summary: A 2D top-down space shooter game built in Java over a weekend for
   Computer Science I, featuring waves of enemy ships, mini-bosses, shields, and
   downloadable JAR/EXE versions for cross-platform play.
 thumbnail: /project/space-warz/images/featured.gif
+thumbnailHd: /project/space-warz/images/featured-hd.gif
 categories:
   - Academic
   - Games

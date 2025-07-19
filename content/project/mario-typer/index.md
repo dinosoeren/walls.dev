@@ -7,6 +7,7 @@ summary: A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario
   fighting Boo ghosts by typing words, with a detailed account of fixing
   critical bugs in the provided OBJ parser library to support custom 3D models.
 thumbnail: /project/mario-typer/images/featured.gif
+thumbnailHd: /project/mario-typer/images/featured-hd.gif
 categories:
   - Academic
   - Games

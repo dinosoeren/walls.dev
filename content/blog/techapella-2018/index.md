@@ -5,7 +5,8 @@ slug: techapella-2018
 summary: Performing as a soloist with Google's Alphabeat at Techapella 2018 was
   nerve-racking, exhilarating, and unforgettable. It led to my first
   professional studio recording session and feature on an album.
-thumbnail: https://img.youtube.com/vi/N9CBpo_crKE/maxresdefault.jpg
+thumbnail: https://img.youtube.com/vi/N9CBpo_crKE/hqdefault.jpg
+thumbnailHd: https://img.youtube.com/vi/N9CBpo_crKE/maxresdefault.jpg
 tags:
   - ACappella
   - Solo

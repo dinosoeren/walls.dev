@@ -6,6 +6,7 @@ slug: friendlier
 summary: Reflections on building, pitching, and ultimately losing a promising
   social app to a single API dependency.
 thumbnail: /project/friendlier/images/featured.gif
+thumbnailHd: /project/friendlier/images/featured-hd.gif
 categories:
   - Project
   - Business

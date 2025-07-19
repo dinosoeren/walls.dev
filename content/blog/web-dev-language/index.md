@@ -12,6 +12,7 @@ tags:
 categories:
   - Web
 thumbnail: /blog/web-dev-language/images/featured.jpg
+thumbnailHd: /blog/web-dev-language/images/featured-hd.jpg
 summary: An analysis of programming language usage in web development, revealing that
   CSS makes up 42% of website code and highlighting the underestimated power of modern
   CSS3 features.

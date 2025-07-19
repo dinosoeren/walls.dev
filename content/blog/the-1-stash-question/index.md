@@ -7,6 +7,7 @@ summary: The most common question I get asked may surprise you. Stash also just
   got nominated for an award, and your vote would mean a lot to us!
 redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
 thumbnail: /blog/the-1-stash-question/images/featured.png
+thumbnailHd: /blog/the-1-stash-question/images/featured-hd.png
 categories:
   - Career
 tags:
