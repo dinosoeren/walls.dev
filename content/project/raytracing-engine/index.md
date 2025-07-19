@@ -1,28 +1,28 @@
 ---
-date: '2015-11-28T06:16:51-06:00'
+date: 2015-11-28T06:16:51-06:00
 draft: false
-title: 'Raycaster: Rendering a Chessboard in C++ with Procedural Graphics'
-tags:
-- 3D Graphics
-- Computer Graphics
-- C++
-- Education
-- Programming
-categories:
-- Academic
-- Games
-- Project
+title: "Raycaster: Rendering a Chessboard in C++ with Procedural Graphics"
+summary: A custom raycaster built in C++ for a Computer Graphics course at AIT,
+  featuring a procedurally textured chessboard and complex chess pieces modeled
+  with quadrics, glass, gold, gemstones, and procedural normal mapping.
 thumbnail: /project/raytracing-engine/images/chessboard.png
-summary: A custom raycaster built in C++ for a Computer Graphics course at AIT, featuring
-  a procedurally textured chessboard and complex chess pieces modeled with quadrics,
-  glass, gold, gemstones, and procedural normal mapping.
+categories:
+  - Academic
+  - Games
+  - Project
+tags:
+  - 3D Graphics
+  - Computer Graphics
+  - C++
+  - Education
+  - Programming
 toc: true
 ---
-{{< project-details
-  timeline="Nov 10-24, 2015"
-  languages="C++"
-  school="AIT at Budapest University of Technology and Economics"
-  course="CP360 Computer Graphics"
+{{< project-details 
+  timeline="Nov 10-24, 2015" 
+  languages="C++" 
+  school="AIT at Budapest University of Technology and Economics" 
+  course="CP360 Computer Graphics" 
 >}}
 
 ## Project Overview
@@ -33,25 +33,26 @@ The assignment: create a physically plausible chessboard with all the pieces, ea
 
 ## Features Implemented
 
-- **Procedural Chessboard:** An 8x8 checkerboard, each square procedurally textured so that adjacent squares are visually distinct (not just black and white). This was my first real taste of procedural graphics, and it was surprisingly satisfying to see the pattern emerge from pure math.
-- **Pawns:** Modeled from a cone and a sphere, shaded with a plastic material using diffuse + Phong-Blinn BRDF. Simple, but effective.
-- **Queen:** Built from clipped quadrics, including a hyperboloid for that classic slender waist. Rendered in reflective gold—because why not go for a little bling?
-- **Knights & Bishops:** Also constructed from clipped quadrics, but with a twist: procedural normal mapping. By perturbing the surface normals with gradients of procedural noise, I gave these pieces a bumpy, dented look. Knights are plastic, bishops are shiny silver.
-- **King:** The centerpiece—literally. Modeled with a paraboloid crown, made of glass, and both reflective and refractive. Getting the refractions right was a challenge, but seeing the king bend light like a real crystal was worth it.
-- **Rooks:** Cylindrical, closed surfaces made of gemstone. These pieces reflect and refract light, with exponential attenuation as it passes through—so the deeper the light goes, the more it fades. (Think: a ruby or sapphire rook.)
-- **Multi-bite Clipping:** Some pieces, like the queen’s crown, use quadric surfaces clipped by three or more clippers for extra detail.
+* **Procedural Chessboard:** An 8x8 checkerboard, each square procedurally textured so that adjacent squares are visually distinct (not just black and white). This was my first real taste of procedural graphics, and it was surprisingly satisfying to see the pattern emerge from pure math.
+* **Pawns:** Modeled from a cone and a sphere, shaded with a plastic material using diffuse + Phong-Blinn BRDF. Simple, but effective.
+* **Queen:** Built from clipped quadrics, including a hyperboloid for that classic slender waist. Rendered in reflective gold—because why not go for a little bling?
+* **Knights & Bishops:** Also constructed from clipped quadrics, but with a twist: procedural normal mapping. By perturbing the surface normals with gradients of procedural noise, I gave these pieces a bumpy, dented look. Knights are plastic, bishops are shiny silver.
+* **King:** The centerpiece—literally. Modeled with a paraboloid crown, made of glass, and both reflective and refractive. Getting the refractions right was a challenge, but seeing the king bend light like a real crystal was worth it.
+* **Rooks:** Cylindrical, closed surfaces made of gemstone. These pieces reflect and refract light, with exponential attenuation as it passes through—so the deeper the light goes, the more it fades. (Think: a ruby or sapphire rook.)
+* **Multi-bite Clipping:** Some pieces, like the queen’s crown, use quadric surfaces clipped by three or more clippers for extra detail.
 
 ## Chess Piece Implementations
 
 Below are details of how some of the most interesting chess pieces were constructed in code, using combinations of quadric surfaces (spheres, ellipsoids, cones, cylinders, hyperboloids, paraboloids) and geometric transformations. Each piece is a `MultiClipped` object composed of these primitives.
 
-| Piece   | Main Primitives Used | Notable Features |
-|---------|---------------------|------------------|
-| Pawn    | Sphere, Cone, Ellipsoid, Cylinder | Simple, rounded top, banded base |
-| Queen   | Sphere, Ellipsoid, Hyperboloid    | Crown with ball, layered body    |
-| Knight  | Paraboloid, Sphere, Ellipsoid, Hyperboloid | Head/neck shape, rotated parts |
+| Piece  | Main Primitives Used                       | Notable Features                 |
+| ------ | ------------------------------------------ | -------------------------------- |
+| Pawn   | Sphere, Cone, Ellipsoid, Cylinder          | Simple, rounded top, banded base |
+| Queen  | Sphere, Ellipsoid, Hyperboloid             | Crown with ball, layered body    |
+| Knight | Paraboloid, Sphere, Ellipsoid, Hyperboloid | Head/neck shape, rotated parts   |
 
 ### Example: Pawn
+
 ```cpp
 MultiClipped* MultiClipped::pawn() {
     objects.clear();
@@ -70,6 +71,7 @@ MultiClipped* MultiClipped::pawn() {
 ```
 
 ### Example: Queen
+
 ```cpp
 MultiClipped* MultiClipped::queen() {
     objects.clear();
@@ -88,6 +90,7 @@ MultiClipped* MultiClipped::queen() {
 ```
 
 ### Example: Knight
+
 ```cpp
 MultiClipped* MultiClipped::knight() {
     objects.clear();
@@ -106,13 +109,14 @@ MultiClipped* MultiClipped::knight() {
 
 Each piece is built by combining and transforming these primitives, then grouped as a `MultiClipped` object. This approach allows for highly detailed, mathematically defined models that are both efficient to render and visually accurate.
 
----
+- - -
 
 ## Materials & Procedural Textures
 
 The raycaster features a variety of materials and procedural textures. Here are a few of the most interesting implementations:
 
 ### Procedural Chessboard
+
 ```cpp
 float3 ChessBoard::shade(float3 position, float3 normal, float3 viewDir,
                       float3 lightDir, float3 powerDensity)
@@ -133,9 +137,11 @@ float3 ChessBoard::shade(float3 position, float3 normal, float3 viewDir,
     return kd * powerDensity * cosTheta;
 }
 ```
+
 *This function computes the color of a point on the chessboard by determining which square it falls into, using only math—no textures!*
 
 ### Bumpy Plastic (Procedural Normal Mapping)
+
 ```cpp
 float3 BumpyPlastic::shade(float3 position, float3 normal, float3 viewDir,
                                 float3 lightDir, float3 powerDensity)
@@ -149,9 +155,11 @@ float3 BumpyPlastic::shade(float3 position, float3 normal, float3 viewDir,
     return dShade + (powerDensity * ks * pow(cosDelta, shininess));
 }
 ```
+
 *This material perturbs the normal using a procedural noise function, giving the surface a bumpy, organic look.*
 
 ### Simple Procedural Noise
+
 ```cpp
 float snoise(float3 r) {
     unsigned int x = 0x0625DF73;
@@ -171,22 +179,27 @@ float snoise(float3 r) {
     return f / 64.0 + 0.5;
 }
 ```
+
 *This is a simple hash-based noise function used for procedural texturing and bump mapping.*
 
 If you want to see more examples of materials (like glass, metal, or dielectric), view the full source code below!
 
 ## What I Didn’t Get To
 
-- **Caustic King:** I didn’t have time to implement photon mapping for caustics (tracing rays from a light source through the king to the board), but it’s on my graphics bucket list.
-- **Revolution Quadrics:** I also skipped assembling a piece from five revolution quadrics with C1 continuity. Maybe next time!
+* **Caustic King:** I didn’t have time to implement photon mapping for caustics (tracing rays from a light source through the king to the board), but it’s on my graphics bucket list.
+* **Revolution Quadrics:** I also skipped assembling a piece from five revolution quadrics with C1 continuity. Maybe next time!
 
 ## Screenshots
 
-{{< lightgallery glob="images/*.png" >}}
+{{< lightgallery 
+  glob="images/*.png" 
+>}}
 
 ## Source Code
 
-{{< github-button url="https://github.com/dinosoeren/raycaster" >}}
+{{< github-button 
+  url="https://github.com/dinosoeren/raycaster" 
+>}}
 
 ## Reflections
 

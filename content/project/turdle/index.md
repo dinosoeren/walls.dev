@@ -24,15 +24,20 @@ tags:
   - Typescript
   - Global Game Jam
 ---
-{{< project-details
-  timeline="Jan 27-29, 2022"
-  languages="TypeScript, React, CSS, HTML"
-  reason="To create a unique Wordle variant with mathematical puzzle generation"
-  role="Indie Game Dev, UI/UX Designer"
+{{< project-details 
+  timeline="Jan 27-29, 2022" 
+  languages="TypeScript, React, CSS, HTML" 
+  reason="To create a unique Wordle variant with mathematical puzzle generation" 
+  role="Indie Game Dev, UI/UX Designer" 
 >}}
 
-{{< website-button url="https://turdle.xyz" >}}
-{{< github-button url="https://github.com/dinosoeren/turdle" >}}
+{{< website-button 
+  url="https://turdle.xyz" 
+>}}
+
+{{< github-button 
+  url="https://github.com/dinosoeren/turdle" 
+>}}
 
 ## Overview
 
@@ -70,39 +75,44 @@ function generateAllValidGuesses(): string[] {
 ### Turtle Animation System
 
 Each turtle has:
-- **5 animation frames** (1-5)
-- **5 colors** (White, Blue, Purple, Red, Green)
-- **25 possible combinations** per position
+
+* **5 animation frames** (1-5)
+* **5 colors** (White, Blue, Purple, Red, Green)
+* **25 possible combinations** per position
 
 The system generates all valid 5-turtle sequences where:
-- Each turtle has a unique frame number
-- Colors can repeat but frames cannot
-- Sequences are rotated and shuffled to create variety
+
+* Each turtle has a unique frame number
+* Colors can repeat but frames cannot
+* Sequences are rotated and shuffled to create variety
 
 This generates exactly **15,625 unique puzzles** - enough for 42.8 years of daily games!
 
-{{< figure src="images/howtoplay.png" alt="Turdle game interface showing gameplay instructions" caption="How to play Turdle" >}}
+{{< figure src="images/howtoplay.png" alt="Turdle game interface showing gameplay instructions" caption="How to play Turdle">}}
 
 ## Features
 
 Features tagged with 🖌️ are ones I created beyond the original repository I forked.
 
 ### Accessibility Features
-- **🖌️ High Contrast Mode**: Enhanced visibility for colorblind players
-- **Dark/Light Theme**: Automatic system preference detection
-- **Keyboard Navigation**: Full keyboard support for accessibility
+
+* **🖌️ High Contrast Mode**: Enhanced visibility for colorblind players
+* **Dark/Light Theme**: Automatic system preference detection
+* **Keyboard Navigation**: Full keyboard support for accessibility
 
 ### Fun Extras
-- **🖌️ Meme Mode**: Switch from turtles to 💩 emojis for a humorous twist
-- **🖌️ Hard Mode**: Prevents selecting previously incorrect turtle combinations
-- **Statistics Tracking**: Persistent game statistics with offline storage
+
+* **🖌️ Meme Mode**: Switch from turtles to 💩 emojis for a humorous twist
+* **🖌️ Hard Mode**: Prevents selecting previously incorrect turtle combinations
+* **Statistics Tracking**: Persistent game statistics with offline storage
 
 ### PWA Capabilities
-- **🖌️ Offline Play**: Full offline functionality via service workers
-- **🖌️ Mobile Installation**: Can be installed as a native app on mobile devices
-- **Cross-Device Sync**: Statistics can be transferred between devices
-- **🖌️ Background Updates**: Automatic updates when online
-- **Archive Access**: Play previous daily puzzles through the calendar feature
+
+* **🖌️ Offline Play**: Full offline functionality via service workers
+* **🖌️ Mobile Installation**: Can be installed as a native app on mobile devices
+* **Cross-Device Sync**: Statistics can be transferred between devices
+* **🖌️ Background Updates**: Automatic updates when online
+* **Archive Access**: Play previous daily puzzles through the calendar feature
 
 ## How I Support Offline Play
 
@@ -155,64 +165,75 @@ self.addEventListener('message', (event) => {
 ## Technical Implementation
 
 ### Core Technologies
-- **React 17** with TypeScript
-- **Tailwind CSS** for styling
-- **Workbox** for service worker management
-- **Date-fns** for date calculations
-- **Grapheme Splitter** for Unicode support
+
+* **React 17** with TypeScript
+* **Tailwind CSS** for styling
+* **Workbox** for service worker management
+* **Date-fns** for date calculations
+* **Grapheme Splitter** for Unicode support
 
 ### Key Components
-- **Permutation Generator**: Mathematical algorithm for unique puzzles
-- **Animation System**: CSS-based turtle animations
-- **State Management**: Local storage with encryption
-- **PWA Service Worker**: Offline caching and updates
-- **Statistics Engine**: Persistent game data
+
+* **Permutation Generator**: Mathematical algorithm for unique puzzles
+* **Animation System**: CSS-based turtle animations
+* **State Management**: Local storage with encryption
+* **PWA Service Worker**: Offline caching and updates
+* **Statistics Engine**: Persistent game data
 
 ### Performance Optimizations
-- **Predictable Shuffling**: XOR-based PRNG for consistent daily puzzles
-- **Efficient Caching**: Service worker precaching for fast loads
-- **Minimal Bundle**: Optimized for mobile performance
+
+* **Predictable Shuffling**: XOR-based PRNG for consistent daily puzzles
+* **Efficient Caching**: Service worker precaching for fast loads
+* **Minimal Bundle**: Optimized for mobile performance
 
 ## Success Metrics
 
 **Peak Performance:**
-- 9,500 daily active users (April 2022)
-- 1,300 monthly active users (2.5 years post-launch)
-- Global player base across multiple continents
 
-{{< figure src="images/usage-trend.png" alt="Analytics trend over 2 years" caption="Active players trend over 2 years showing the Apr '22 peak" >}}
+* 9,500 daily active users (April 2022)
+* 1,300 monthly active users (2.5 years post-launch)
+* Global player base across multiple continents
 
-{{< figure src="images/usage-geo.png" alt="Players across many countries" caption="Top 10 countries: US, UK, Australia, Canada, New Zealand, Spain, Ireland, Germany, China, France" >}}
+{{< figure src="images/usage-trend.png" alt="Analytics trend over 2 years" caption="Active players trend over 2 years showing the Apr '22 peak">}}
+
+{{< figure src="images/usage-geo.png" alt="Players across many countries" caption="Top 10 countries: US, UK, Australia, Canada, New Zealand, Spain, Ireland, Germany, China, France">}}
 
 **Technical Achievements:**
-- 42+ years of guaranteed unique puzzles
-- 100% offline functionality
-- Cross-platform PWA support
+
+* 42+ years of guaranteed unique puzzles
+* 100% offline functionality
+* Cross-platform PWA support
 
 ## Lessons Learned
 
 ### Mathematical Game Design
+
 The permutation generation challenge taught me the importance of mathematical rigor in game design. Creating a system that guarantees uniqueness for decades required deep understanding of combinatorics and algorithm design.
 
 ### PWA Development
+
 Building a fully offline-capable game showed the power of modern web technologies. Service workers, local storage, and PWA features can create experiences that rival native apps.
 
 ### Community Engagement
+
 The game's success demonstrated how timing and community engagement can amplify a project's impact. Launching during the Wordle craze and starting a Discord server where players are encouraged to share their daily scores helped reach a massive audience.
 
 ## Future Possibilities
 
 While Turdle continues to serve its daily players, the mathematical framework could be extended to include:
-- Different animation themes
-- Variable puzzle lengths & colors
-- Leaderboards
+
+* Different animation themes
+* Variable puzzle lengths & colors
+* Leaderboards
 
 The core innovation of mathematically generated unique puzzles has applications far beyond word games.
 
 ## Screenshots
 
-{{< lightgallery glob="images/*.png" >}}
+{{< lightgallery 
+  glob="images/*.png" 
+>}}
 
----
+- - -
 
 *Turdle remains active at [turdle.xyz](https://turdle.xyz) with a dedicated community of players who continue to enjoy the daily turtle puzzle challenge.*
