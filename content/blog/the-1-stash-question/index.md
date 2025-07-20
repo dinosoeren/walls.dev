@@ -20,7 +20,7 @@ tags:
 - MobileGaming
 - SoftwareEngineer
 images:
-- /blog/the-1-stash-question/images/featured-hd.png
+- /blog/the-1-stash-question/images/featured-hd.jpg
 ---
 {{% loading %}}
 
