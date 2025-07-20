@@ -1,7 +1,7 @@
 ---
 date: 2025-07-18 13:37:00-06:00
 draft: false
-title: The Most Popular Question About Working at Stash
+title: The Most-Asked Question About Working at Stash
 slug: the-1-stash-question
 summary: The most common question I hear may surprise you. Stash also just got nominated
   for an award, and your vote would mean a lot to us!
