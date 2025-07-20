@@ -6,8 +6,8 @@ slug: the-1-stash-question
 summary: The most common question I hear may surprise you. Stash also just got nominated
   for an award, and your vote would mean a lot to us!
 redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
-thumbnail: /blog/the-1-stash-question/images/featured.png
-thumbnailHd: /blog/the-1-stash-question/images/featured-hd.png
+thumbnail: /blog/the-1-stash-question/images/featured.jpg
+thumbnailHd: /blog/the-1-stash-question/images/featured-hd.jpg
 categories:
 - Career
 tags:
