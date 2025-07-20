@@ -23,6 +23,7 @@ summaryLength = 30
   profilePicture = "images/profile.jpg"
   images = ["images/profile-hd.jpg"] # og site feature image
   favicon = "favicons/"
+  manifest = "site.webmanifest"
 
   postSections = ["blog", "project"]
   mainSections = ["blog", "project"]
