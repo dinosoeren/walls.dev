@@ -261,7 +261,7 @@ Chopin's *Nocturne* playing as dice float toward you showing '3' and '1' (1931),
 
 ### Artistic Influences
 
-A major influence on my approach was the work of video and performance artists like **Gary Hill**, whose explorations of technology, embodiment, and liveness in art challenged me to think beyond traditional theatre. Hill’s installations—along with the work of artists like Bill Viola and George Coates—demonstrated how technology could be used not just as a tool, but as an active participant in the creation of meaning and presence. Their work inspired me to use VR not for spectacle, but as a medium for genuine, unpredictable human connection.
+A major influence on my approach was the work of video and performance artists like [**Gary Hill**](https://en.wikipedia.org/wiki/Gary_Hill), whose explorations of technology, embodiment, and liveness in art challenged me to think beyond traditional theatre. Hill’s installations—along with the work of artists like [Bill Viola](https://en.wikipedia.org/wiki/Bill_Viola) and [George Coates](https://en.wikipedia.org/wiki/George_Coates)—demonstrated how technology could be used not just as a tool, but as an active participant in the creation of meaning and presence. Their work inspired me to use VR not for spectacle, but as a medium for genuine, unpredictable human connection.
 
 *Excerpt from an early draft:*
 
