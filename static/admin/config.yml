@@ -34,9 +34,9 @@ collections:
       - { label: 'Slug', name: 'slug', widget: 'string', pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'] }
       - { label: 'Summary', name: 'summary', widget: 'string', required: false }
       - { label: 'External URL', name: 'redirectUrl', widget: 'string', required: false }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 2000000 } } }
-      - { label: 'HD Thumbnail', name: 'thumbnailHd', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 20000000 } } }
-      - { label: 'OpenGraph Images', name: 'images', widget: 'image', required: false, allow_multiple: true, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 20000000 } } }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 1000000 } } }
+      - { label: 'HD Thumbnail', name: 'thumbnailHd', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 3000000 } } }
+      - { label: 'OpenGraph Images', name: 'images', widget: 'image', required: false, allow_multiple: true, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 3000000 } } }
       - { label: 'Categories', name: 'categories', widget: 'list', hint: 'Academic, App, Business, Games, Mobile, Project, Web' }
       - { label: 'Tags', name: 'tags', widget: 'list', hint: 'AI, BigTech, Business, ComputerGraphics, Education, GameDevelopment, Hardware, HTML/CSS, Java, MobileDevelopment, OpenSource, Programming, Python, PWA, React, Robotics, TypeScript' }
       - { label: 'Table of Contents', name: 'toc', widget: 'boolean', required: false }
@@ -70,9 +70,9 @@ collections:
       - { label: 'Slug', name: 'slug', widget: 'string', pattern: ['^[a-z0-9\\-]+$', 'Must be lowercase, alphanumeric, and hyphens only'] }
       - { label: 'Summary', name: 'summary', widget: 'string', required: false }
       - { label: 'External URL', name: 'redirectUrl', widget: 'string', required: false }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 2000000 } } }
-      - { label: 'HD Thumbnail', name: 'thumbnailHd', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 20000000 } } }
-      - { label: 'OpenGraph Images', name: 'images', widget: 'image', required: false, allow_multiple: true, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 20000000 } } }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 1000000 } } }
+      - { label: 'HD Thumbnail', name: 'thumbnailHd', widget: 'image', required: false, allow_multiple: false, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 3000000 } } }
+      - { label: 'OpenGraph Images', name: 'images', widget: 'image', required: false, allow_multiple: true, media_folder: 'images', public_folder: '/project/{{fields.slug}}/images', media_library: { config: { max_file_size: 3000000 } } }
       - { label: 'Categories', name: 'categories', widget: 'list', hint: 'Academic, Business, Blog, Career, Games, Ideas, Mobile, Music, Project, Reflection, Web, Video' }
       - { label: 'Tags', name: 'tags', widget: 'list', hint: 'AI, BigTech, Business, CareerAdvice, Education, GameDevelopment, Learning, MobileGaming, Programming, Startup' }
       - { label: 'Table of Contents', name: 'toc', widget: 'boolean', required: false }
