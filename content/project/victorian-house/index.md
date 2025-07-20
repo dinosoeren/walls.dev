@@ -15,6 +15,8 @@ thumbnail: /project/victorian-house/images/featured.png
 summary: A laser engraved and painted scale model of a Victorian house created using
   CAD design and precision laser cutting techniques.
 toc: true
+images:
+- /project/victorian-house/images/featured.png
 ---
 {{< project-details
   timeline="Oct 23 – Nov 29, 2012"

@@ -18,6 +18,8 @@ categories:
 - Games
 - Project
 toc: true
+images:
+- /project/ai-block-plan/images/mario-ai.jpg
 ---
 {{< project-details
     timeline="Sep 26 - Oct 19, 2016"

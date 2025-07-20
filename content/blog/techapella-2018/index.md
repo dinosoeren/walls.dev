@@ -1,24 +1,26 @@
 ---
-date: 2018-10-15T00:00:00-07:00
+date: 2018-10-15 00:00:00-07:00
 title: Singing for 500 people at Techapella 2018
 slug: techapella-2018
-summary: Performing as a soloist with Google's Alphabeat at Techapella 2018 was
-  nerve-racking, exhilarating, and unforgettable. It led to my first
-  professional studio recording session and feature on an album.
+summary: Performing as a soloist with Google's Alphabeat at Techapella 2018 was nerve-racking,
+  exhilarating, and unforgettable. It led to my first professional studio recording
+  session and feature on an album.
 thumbnail: https://img.youtube.com/vi/N9CBpo_crKE/hqdefault.jpg
 thumbnailHd: https://img.youtube.com/vi/N9CBpo_crKE/maxresdefault.jpg
 tags:
-  - ACappella
-  - Solo
-  - Techapella
-  - Google
-  - Alphabeat
-  - DeltaRae
-  - Performance
-  - Spotify
-  - Growth
+- ACappella
+- Solo
+- Techapella
+- Google
+- Alphabeat
+- DeltaRae
+- Performance
+- Spotify
+- Growth
 categories:
-  - Music
+- Music
+images:
+- https://img.youtube.com/vi/N9CBpo_crKE/maxresdefault.jpg
 ---
 Late one October night in 2018, I stepped onto the stage at the Fox Theater in Redwood City, California, as a soloist for [Alphabeat](https://www.techapella.org/alphabeat)—one of Google’s a cappella groups—at the annual Techapella concert. The house was packed with over 500 people, my largest musical audience ever. My heart was pounding, my hands were shaking, and I was about to sing lead on "*Bottom of the River*" by Delta Rae, arranged by our then musical director, Michael Patashnik.
 

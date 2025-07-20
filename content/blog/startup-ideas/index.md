@@ -15,6 +15,8 @@ thumbnail: ''
 summary: A concise list of nine compelling reasons why entrepreneurs should share
   their startup ideas early rather than keeping them secret, emphasizing collaboration
   and execution over secrecy.
+images:
+- ''
 ---
 - Your idea may be genius, but it is (almost) certainly not unique. Someone else is thinking the same thing.
 - To see how people react to first hearing the idea. (this of course requires crafting a great elevator pitch)

@@ -21,6 +21,8 @@ summary: A custom PHP CMS built for a fencing business featuring product pages, 
   support (English/Spanish), custom admin backend, and user authentication system
   with full e-commerce capabilities.
 toc: true
+images:
+- /project/php-cms-business/images/homepage.png
 ---
 {{< project-details
   timeline="Summer 2012"

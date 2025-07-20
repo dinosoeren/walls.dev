@@ -20,6 +20,8 @@ toc: true
 summary: A weekend project creating a real-time collaborative drawing web app using
   Node.js, featuring pixel-level synchronization across multiple devices with conflict
   resolution based on recency of user actions.
+images:
+- /project/collaborative-canvas/images/featured.gif
 ---
 {{< project-details
   timeline="May 8-13, 2015"

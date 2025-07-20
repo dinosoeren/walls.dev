@@ -4,18 +4,20 @@ draft: false
 title: What's the Most Important Language for Web Development?
 slug: web-dev-language
 tags:
-  - HTML/CSS
-  - JavaScript
-  - PHP
-  - Programming
-  - WebDesign
+- HTML/CSS
+- JavaScript
+- PHP
+- Programming
+- WebDesign
 categories:
-  - Web
+- Web
 thumbnail: /blog/web-dev-language/images/featured.jpg
 thumbnailHd: /blog/web-dev-language/images/featured-hd.jpg
 summary: An analysis of programming language usage in web development, revealing that
   CSS makes up 42% of website code and highlighting the underestimated power of modern
   CSS3 features.
+images:
+- /blog/web-dev-language/images/featured-hd.jpg
 ---
 My compatriots and friends often ask me, "**Soeren, what's the best programming language to learn?**"
 

@@ -17,6 +17,8 @@ summary: A (sadly) Windows-only videogame created in a single weekend for Englis
   2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as
   Hillary as you fight yeti monsters and attempt to reach the summit. Download the
   .exe and relive the adventure.
+images:
+- /project/scaling-everest/images/featured-hd.gif
 ---
 {{< project-details
   timeline="Nov 13-15, 2010"

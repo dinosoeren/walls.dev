@@ -20,6 +20,8 @@ thumbnail: /project/two-sites/images/featured.jpg
 summary: Building two WordPress e-commerce sites for a chiropractor and his textbook
   publishing spinoff taught me a hard lesson about advocating for my own value as
   a developer, even when just starting out.
+images:
+- /project/two-sites/images/featured.jpg
 ---
 {{< project-details
   timeline="Oct 2012 - Jan 2013"

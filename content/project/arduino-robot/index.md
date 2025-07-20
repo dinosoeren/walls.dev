@@ -3,24 +3,26 @@ date: 2015-06-23 14:00:09-06:00
 draft: false
 title: My Arduino Bot Solved a Maze That It's Never Seen
 slug: arduino-robot
-summary: An Arduino-powered robot named Pyat that solves mazes using subsumption
-  architecture, featuring layered behaviors and a dynamic grid system to
-  navigate unknown mazes without prior knowledge of their structure.
+summary: An Arduino-powered robot named Pyat that solves mazes using subsumption architecture,
+  featuring layered behaviors and a dynamic grid system to navigate unknown mazes
+  without prior knowledge of their structure.
 thumbnail: /project/arduino-robot/images/featured.gif
 thumbnailHd: /project/arduino-robot/images/featured-hd.gif
 categories:
-  - Academic
-  - Games
-  - Robots
-  - Project
+- Academic
+- Games
+- Robots
+- Project
 tags:
-  - Education
-  - GameDevelopment
-  - OpenSource
-  - Programming
-  - Hardware
-  - Robotics
+- Education
+- GameDevelopment
+- OpenSource
+- Programming
+- Hardware
+- Robotics
 toc: true
+images:
+- /project/arduino-robot/images/featured-hd.gif
 ---
 {{< project-details
   timeline="April-May, 2015"

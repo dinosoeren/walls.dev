@@ -1,22 +1,26 @@
 ---
-title: "30 Days at Stash: 5 Lessons from My Startup Leap"
+title: '30 Days at Stash: 5 Lessons from My Startup Leap'
 slug: 30-days-at-stash
-date: 2025-04-30T00:00:00-06:00
-summary: "So, I've officially hit the 30-day mark at my new startup gig at Stash, and it's been a whirlwind! Leaving the comfort of a big company has been eye-opening. Here are my 5 biggest takeaways."
-redirectUrl: "https://www.linkedin.com/posts/soerenw_startup-softwareengineer-careeradvice-activity-7323459253476696065-yLuv"
+date: 2025-04-30 00:00:00-06:00
+summary: So, I've officially hit the 30-day mark at my new startup gig at Stash, and
+  it's been a whirlwind! Leaving the comfort of a big company has been eye-opening.
+  Here are my 5 biggest takeaways.
+redirectUrl: https://www.linkedin.com/posts/soerenw_startup-softwareengineer-careeradvice-activity-7323459253476696065-yLuv
 thumbnail: /blog/30-days-at-stash/images/featured.jpg
 thumbnailHd: /blog/30-days-at-stash/images/featured-hd.jpg
 categories:
-  - Career
-  - Reflection
+- Career
+- Reflection
 tags:
-  - Startup
-  - SoftwareEngineer
-  - CareerAdvice
-  - BigTech
-  - Learning
-  - GrowthMindset
-  - LinkedIn
+- Startup
+- SoftwareEngineer
+- CareerAdvice
+- BigTech
+- Learning
+- GrowthMindset
+- LinkedIn
+images:
+- /blog/30-days-at-stash/images/featured-hd.jpg
 ---
 
 {{% loading %}}

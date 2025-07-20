@@ -1,24 +1,26 @@
 ---
-date: 2025-07-18T13:37:00.000-06:00
+date: 2025-07-18 13:37:00-06:00
 draft: false
-title: "The Most Popular Question About Working at Stash"
+title: The Most Popular Question About Working at Stash
 slug: the-1-stash-question
-summary: The most common question I hear may surprise you. Stash also just
-  got nominated for an award, and your vote would mean a lot to us!
+summary: The most common question I hear may surprise you. Stash also just got nominated
+  for an award, and your vote would mean a lot to us!
 redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
 thumbnail: /blog/the-1-stash-question/images/featured.png
 thumbnailHd: /blog/the-1-stash-question/images/featured-hd.png
 categories:
-  - Career
+- Career
 tags:
-  - MobileGameAwards
-  - GamingIndustry
-  - PaymentProvider
-  - Startup
-  - Stash
-  - VoteNow
-  - MobileGaming
-  - SoftwareEngineer
+- MobileGameAwards
+- GamingIndustry
+- PaymentProvider
+- Startup
+- Stash
+- VoteNow
+- MobileGaming
+- SoftwareEngineer
+images:
+- /blog/the-1-stash-question/images/featured-hd.png
 ---
 {{% loading %}}
 

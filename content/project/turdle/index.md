@@ -1,30 +1,32 @@
 ---
 date: 2022-01-30 00:00:00-06:00
 draft: false
-title: "Turdle: A Wordle Clone with Animated Turtles"
+title: 'Turdle: A Wordle Clone with Animated Turtles'
 slug: turdle
-summary: A Wordle clone featuring animated turtles instead of letters, with 42
-  years of unique daily puzzles guaranteed through mathematical permutation
-  generation, built for Global Game Jam 2022.
+summary: A Wordle clone featuring animated turtles instead of letters, with 42 years
+  of unique daily puzzles guaranteed through mathematical permutation generation,
+  built for Global Game Jam 2022.
 thumbnail: /project/turdle/images/featured.gif
 thumbnailHd: /project/turdle/images/featured-hd.gif
 categories:
-  - App
-  - Games
-  - Mobile
-  - Project
-  - Web
+- App
+- Games
+- Mobile
+- Project
+- Web
 tags:
-  - 2DGraphics
-  - GameDevelopment
-  - HTML/CSS
-  - React
-  - MobileDevelopment
-  - PWA
-  - Programming
-  - Tailwind
-  - Typescript
-  - GlobalGameJam
+- 2DGraphics
+- GameDevelopment
+- HTML/CSS
+- React
+- MobileDevelopment
+- PWA
+- Programming
+- Tailwind
+- Typescript
+- GlobalGameJam
+images:
+- /project/turdle/images/featured-hd.gif
 ---
 {{< project-details 
   timeline="Jan 27-29, 2022" 

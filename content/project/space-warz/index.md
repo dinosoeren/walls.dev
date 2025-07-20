@@ -1,24 +1,26 @@
 ---
-date: 2013-11-23T02:12:13-06:00
+date: 2013-11-23 02:12:13-06:00
 draft: false
-title: "Space Warz: Java Game Inspired by Space Invaders"
+title: 'Space Warz: Java Game Inspired by Space Invaders'
 slug: space-warz
-summary: A 2D top-down space shooter game built in Java over a weekend for
-  Computer Science I, featuring waves of enemy ships, mini-bosses, shields, and
-  downloadable JAR/EXE versions for cross-platform play.
+summary: A 2D top-down space shooter game built in Java over a weekend for Computer
+  Science I, featuring waves of enemy ships, mini-bosses, shields, and downloadable
+  JAR/EXE versions for cross-platform play.
 thumbnail: /project/space-warz/images/featured.gif
 thumbnailHd: /project/space-warz/images/featured-hd.gif
 categories:
-  - Academic
-  - Games
-  - Project
+- Academic
+- Games
+- Project
 tags:
-  - 2DGraphics
-  - Education
-  - GameDevelopment
-  - Java
-  - OpenSource
-  - Programming
+- 2DGraphics
+- Education
+- GameDevelopment
+- Java
+- OpenSource
+- Programming
+images:
+- /project/space-warz/images/featured-hd.gif
 ---
 {{< project-details 
   timeline="Nov 16-20, 2013" 

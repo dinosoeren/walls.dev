@@ -16,6 +16,8 @@ thumbnail: /blog/learned-java/images/featured.jpg
 summary: A personal milestone announcement about learning Java as the 9th programming
   language, achieved through intensive 10-hour daily study sessions over 3 weeks,
   with a link to the first Java project.
+images:
+- /blog/learned-java/images/featured.jpg
 ---
 If there's anything dangerous about working in the Computer Science field, it's the prospect of getting left behind. Every day new technological advancements are being made, languages are being updated, and people are coming up with new and better ways to do crazier and more badass stuff.
 
