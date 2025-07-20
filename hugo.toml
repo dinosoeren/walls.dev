@@ -21,7 +21,7 @@ summaryLength = 30
   author = "Soeren Walls"
   description = "NJ-born Software Engineer from Pueblo, CO with a liberal arts degree in CS & Theatre, and a passion for storytelling, travel, and singing a-capella."
   profilePicture = "images/profile.jpg"
-  images = ["images/profile.jpg"] # og site feature image
+  images = ["images/profile-hd.jpg"] # og site feature image
 
   postSections = ["blog", "project"]
   mainSections = ["blog", "project"]
