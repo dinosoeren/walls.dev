@@ -22,11 +22,11 @@ toc: true
 images:
 - /project/friendlier/images/featured-hd.gif
 ---
-{{< project-details 
-  timeline="2014-2015" 
-  languages="Java (Android)" 
-  school="Colorado College" 
-  role="CEO, Mobile Developer, Big Idea Finalist" 
+{{< project-details
+  timeline="2014-2015"
+  languages="Java (Android)"
+  school="Colorado College"
+  role="CEO, Mobile Developer, Big Idea Finalist"
 >}}
 
 In our sophomore year at Colorado College, my best friend Anubrat and I set out to solve a problem we both felt deeply: how do you keep the connections you’ve made, when life and social media make it so easy to forget? The result was **Friendlier**—a mobile app that nudged you to reach out to friends you might otherwise lose touch with, using data, context, and a bit of gamification.
@@ -41,7 +41,7 @@ We poured our hearts into Friendlier, and it paid off—at least at first. We we
 
 The app analyzed your contacts, social media, and calendar to figure out who you hadn’t talked to in a while, then suggested timely, context-aware messages. It stored data securely on-device, assigned an “importance” score to each friend, and sent push notifications at the best moments. The more you reached out, the more points you earned—leveling up your social life, one nudge at a time.
 
-{{< figure src="/project/friendlier/images/Screenshot_2015-03-07-21-07-32.png" alt="A screenshot of the Android app" caption="A friend (Alexa) and a message you could send her with a single button click">}}
+{{< figure src="/project/friendlier/images/screenshot.jpg" alt="A screenshot of the Android app" caption="A friend (Alexa) and a message you could send her with a single button click">}}
 
 **Tech stack:** Java (Android), Facebook Graph API, SMS, Google Calendar, and more.
 

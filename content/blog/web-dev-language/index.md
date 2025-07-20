@@ -33,7 +33,7 @@ You see, I was browsing my Github repository, as one does in their spare time, a
 
 There's this handy feature on Github you may know about, which gives you a brief statistical overview of the languages used in your repository, like this:
 
-{{< figure src="images/languages.png" alt="Screenshot of Github repository language statistics" caption="Github repository language statistics: 42% CSS" >}}
+{{< figure src="images/languages.jpg" alt="Screenshot of Github repository language statistics" caption="Github repository language statistics: 42% CSS" >}}
 
 That's the private repository in which I keep the code for all the websites I've ever made, including this one. And if you didn't already notice, there's an interesting statistic lurking in there. Apparently, **42%** of the code that makes up all my websites is CSS. That's almost **half**!
 
