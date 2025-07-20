@@ -14,8 +14,15 @@ tags:
   - AI
   - MachineLearning
   - Robotics
+  - SelfDriving
+  - Automation
   - Python
   - C++
+  - Cars
+  - LaneFinding
+  - KalmanFilters
+  - PIDController
+  - MPC
 categories:
   - Academic
   - Project

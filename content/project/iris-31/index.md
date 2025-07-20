@@ -12,7 +12,7 @@ tags:
   - VR
   - Theatre
   - Unity
-  - C#
+  - C-sharp
   - PerformanceArt
   - Programming
   - ComputerScience

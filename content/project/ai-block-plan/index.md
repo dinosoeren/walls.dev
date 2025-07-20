@@ -15,6 +15,7 @@ tags:
 - MachineLearning
 categories:
 - Academic
+- AI
 - Games
 - Project
 toc: true
