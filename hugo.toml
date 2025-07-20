@@ -22,6 +22,7 @@ summaryLength = 30
   description = "NJ-born Software Engineer from Pueblo, CO with a liberal arts degree in CS & Theatre, and a passion for storytelling, travel, and singing a-capella."
   profilePicture = "images/profile.jpg"
   images = ["images/profile-hd.jpg"] # og site feature image
+  favicon = "favicons/"
 
   postSections = ["blog", "project"]
   mainSections = ["blog", "project"]
