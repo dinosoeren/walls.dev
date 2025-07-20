@@ -8,15 +8,20 @@ thumbnailHd: /project/iris-31/images/featured-hd.gif
 images:
   - /project/iris-31/images/featured-hd.gif
 tags:
-  - Virtual Reality
+  - VirtualReality
+  - VR
   - Theatre
   - Unity
   - C#
-  - Performance Art
-  - Computer Science
+  - PerformanceArt
+  - Programming
+  - ComputerScience
   - Storytelling
-  - HTC Vive
-  - Motion Tracking
+  - SteamVR
+  - Kinect
+  - HTCVive
+  - LeapMotion
+  - MotionTracking
 categories:
   - Academic
   - Performance
@@ -253,6 +258,10 @@ Chopin's *Nocturne* playing as dice float toward you showing '3' and '1' (1931),
 ## The Evolution of *Iris-31*: From Script to Performance
 
 *Iris-31* didn’t start out as the abstract, dreamlike experience it became. Early drafts of the script were much more literal, with dialogue between Yvon, his parents, and their servant Binadu, and scenes of family tension, gender identity, and the chaos of the hurricane. Over time, the project evolved into a series of immersive, symbolic scenes designed to be experienced rather than simply watched.
+
+### Artistic Influences
+
+A major influence on my approach was the work of video and performance artists like **Gary Hill**, whose explorations of technology, embodiment, and liveness in art challenged me to think beyond traditional theatre. Hill’s installations—along with the work of artists like Bill Viola and George Coates—demonstrated how technology could be used not just as a tool, but as an active participant in the creation of meaning and presence. Their work inspired me to use VR not for spectacle, but as a medium for genuine, unpredictable human connection.
 
 *Excerpt from an early draft:*
 
