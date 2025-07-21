@@ -47,7 +47,7 @@ That was the subject line of the email I received from Udacity in 2016, and I st
 
 ## The Road to Autonomy: A Personal Journey
 
-I started the program while juggling my senior year at Colorado College, two thesis projects, and a job search that would eventually land me at Google. (Spoiler: I didn’t finish the final project, but I did get my dream job.)
+I started the online extracurricular course while juggling my senior year at Colorado College, two thesis projects, and a job search that would eventually land me at Google. (Spoiler: I didn’t submit the final project to get my Udacity certificate, but I did get my dream job.)
 
 The Nanodegree was a wild ride through computer vision, deep learning, estimation, and control. Here’s how I went from drawing lines on road images to building a virtual car that could (mostly) drive itself.
 
@@ -548,15 +548,15 @@ output = tf.layers.conv2d_transpose(conv_1x1, num_classes, 4, strides=(2, 2), pa
   glob="images/u*.png" 
 >}}
 
-*Fun fact*: Watching your model color in the road like a giant, pixelated crayon is weirdly satisfying.
+*Fun fact*: Seeing the model color in the road beneath the cars is weirdly satisfying.
 
 - - -
 
 ## Reflections on Sacrifices Made
 
-The final project of the nanodegree was the only one I didn't complete, since I was too distracted by my new job in Google's Engineering Residency. Udacity had to take a back seat while I prioritized securing my conversion onto a team full-time, which I did successfully!
+The final project of the Nanodegree was the only one I didn't complete, since I was too distracted by my new job in Google's Engineering Residency. Udacity took a back seat while I prioritized converting onto my team as a FTE in Google Cloud, which I did successfully!
 
-It was supposed to be a combination of the major concepts from all 3 terms into one single self-driving car program to rule them all. That is now left as an exercise for both the reader and the author. ;)
+The final assignment was to combine the major concepts from all 3 terms into, you guessed it, a fully autonomous driving system for a virtual car. That is now left as an exercise for both the reader and the author. ;)
 
 - - -
 
