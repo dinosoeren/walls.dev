@@ -1,23 +1,24 @@
 ---
-date: '2013-05-09T18:25:27-06:00'
+date: 2013-05-09T18:25:27-06:00
 draft: false
-title: My 23mph 3D-Printed CO2-Powered X-Wing F1 Racer
+title: My 23mph 3D-Printed CO2-Powered Racecar
 slug: x-wing-racer
-tags:
-- 3DGraphics
-- 3DPrinting
-- Education
-categories:
-- Academic
-- CAD
-- Project
+summary: A 3D printed CO2-powered race car designed in Autodesk Inventor with an
+  X-Wing fighter theme for a racing competition in high school.
 thumbnail: /project/x-wing-racer/images/featured.webp
 thumbnailHd: /project/x-wing-racer/images/featured-hd.webp
-summary: A 3D printed CO2-powered race car designed in Autodesk Inventor with an X-Wing
-  fighter theme for F1 racing competitions.
-toc: true
 images:
-- /project/x-wing-racer/images/featured-hd.webp
+  - /project/x-wing-racer/images/featured-hd.webp
+categories:
+  - Academic
+  - CAD
+  - Project
+tags:
+  - 3DGraphics
+  - 3DPrinting
+  - 3DModeling
+  - Education
+toc: true
 ---
 {{< project-details
   timeline="Spring 2013"
