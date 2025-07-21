@@ -1,14 +1,13 @@
 ---
+date: 2018-02-14
 draft: false
+title: How I Made a Virtual Car Drive Itself
+slug: self-driving-car
 summary: A personal journey through the Udacity Self-Driving Car Nanodegree,
   from lane detection to deep learning, and the wild ride from PID to Model
   Predictive Control.
-toc: true
-thumbnailHd: /project/self-driving-car/images/featured-hd.webp
-date: 2018-02-14
-title: How To Make a Virtual Car Drive Itself
-slug: self-driving-car
 thumbnail: /project/self-driving-car/images/featured.webp
+thumbnailHd: /project/self-driving-car/images/featured-hd.webp
 images:
   - /project/self-driving-car/images/featured-hd.webp
 categories:
@@ -31,6 +30,7 @@ tags:
   - KalmanFilters
   - PIDController
   - MPC
+toc: true
 ---
 {{< project-details 
   timeline="2016-2018" 
