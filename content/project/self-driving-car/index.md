@@ -1,13 +1,21 @@
 ---
-title: "How To Make a Virtual Car Drive Itself"
-date: 2018-02-14
-slug: self-driving-car
-summary: "A personal journey through the Udacity Self-Driving Car Nanodegree, from lane detection to deep learning, and the wild ride from PID to Model Predictive Control."
 draft: false
-thumbnail: /project/self-driving-car/images/featured.webp
+summary: A personal journey through the Udacity Self-Driving Car Nanodegree,
+  from lane detection to deep learning, and the wild ride from PID to Model
+  Predictive Control.
+toc: true
 thumbnailHd: /project/self-driving-car/images/featured-hd.webp
+date: 2018-02-14
+title: How To Make a Virtual Car Drive Itself
+slug: self-driving-car
+thumbnail: /project/self-driving-car/images/featured.webp
 images:
   - /project/self-driving-car/images/featured-hd.webp
+categories:
+  - Academic
+  - Project
+  - AI
+  - Robotics
 tags:
   - Education
   - Programming
@@ -23,19 +31,12 @@ tags:
   - KalmanFilters
   - PIDController
   - MPC
-categories:
-  - Academic
-  - Project
-  - AI
-  - Robotics
-toc: true
 ---
-
-{{< project-details
-  timeline="2016-2018"
-  languages="Python, C++, TensorFlow, Keras, OpenCV"
-  school="Udacity (Nanodegree), Colorado College"
-  course="Self-Driving Car Engineer Nanodegree"
+{{< project-details 
+  timeline="2016-2018" 
+  languages="Python, C++, TensorFlow, Keras, OpenCV" 
+  school="Udacity (Nanodegree), Colorado College" 
+  course="Self-Driving Car Engineer Nanodegree" 
 >}}
 
 # Self-driven to Earn a Nanodegree
@@ -50,7 +51,7 @@ I started the program while juggling my senior year at Colorado College, two the
 
 The Nanodegree was a wild ride through computer vision, deep learning, estimation, and control. Here’s how I went from drawing lines on road images to building a virtual car that could (mostly) drive itself.
 
----
+- - -
 
 ## Starting with the Basics
 
@@ -58,9 +59,9 @@ The Nanodegree was a wild ride through computer vision, deep learning, estimatio
 
 Before a car can drive itself, it needs to understand the road. The first step is detecting lane lines—crucial for keeping the vehicle safely in its lane and navigating turns. Armed with OpenCV and a handful of image processing tricks, I built a pipeline that could find lines using color selection, Canny edge detection, and Hough transforms.
 
-{{< figure src="images/white.webp" alt="White lane line detection" caption="My results: Detecting a lane with a dashed white line on the left and solid white on the right" >}}
+{{< figure src="images/white.webp" alt="White lane line detection" caption="My results: Detecting a lane with a dashed white line on the left and solid white on the right">}}
 
-{{< figure src="images/yellow.webp" alt="Yellow lane line detection" caption="My results: Detecting a lane with a solid yellow line on the left and dashed white on the right" >}}
+{{< figure src="images/yellow.webp" alt="Yellow lane line detection" caption="My results: Detecting a lane with a solid yellow line on the left and dashed white on the right">}}
 
 ```python
 # Lane detection pipeline (P1.ipynb)
@@ -98,6 +99,7 @@ def draw_lines(img, lines, color=[255, 0, 0], thickness=2):
 ```
 
 Typical parameters:
+
 ```python
 rho = 1            # distance resolution in pixels
 theta = np.pi/180  # angular resolution in radians
@@ -107,6 +109,7 @@ max_line_gap = 300 # maximum allowed gap between line segments to treat them as 
 ```
 
 Usage in the pipeline:
+
 ```python
 edges = cv2.Canny(blurred_img, 50, 150)
 line_img = hough_lines(edges, rho, theta, threshold, min_line_len, max_line_gap)
@@ -123,19 +126,21 @@ Handling cases where the lane detection sanity check failed was another challeng
 
 *Reflection*: At first, I grouped line segments by slope (left/right), averaged their positions, and extrapolated to the bottom of the frame. Later, I improved robustness by clustering points and fitting lines of best fit, and even filtered for yellow/white in HSV color space for challenging lighting.
 
----
+- - -
 
 ### 2. Traffic Sign Recognition & Deep Learning
 
 Next up: teaching a neural network to recognize traffic signs from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This was [not my first](../ai-block-plan/) real foray into deep learning, but I still spent way too long tuning hyperparameters and staring at loss curves.
 
-{{< lightgallery glob="images/gtsrb*.png" >}}
+{{< lightgallery 
+  glob="images/gtsrb*.png" 
+>}}
 
 #### How the Classifier Works
 
-- **Data:** The model is trained on 32x32 RGB images, each labeled with one of 43 possible traffic sign classes. The dataset is diverse, with thousands of images per class, and includes real-world variations in lighting, angle, and occlusion.
-- **Preprocessing:** Images are normalized to the range [0.1, 0.9] for better convergence. I also shuffled the data before each epoch to help the model generalize.
-- **Architecture:** The network is a custom convolutional neural network (CNN) inspired by LeNet, but deeper and adapted for color images and more classes. It uses three convolutional layers, each followed by ReLU activations and max pooling, then flattens and passes through two dense layers before the final softmax output.
+* **Data:** The model is trained on 32x32 RGB images, each labeled with one of 43 possible traffic sign classes. The dataset is diverse, with thousands of images per class, and includes real-world variations in lighting, angle, and occlusion.
+* **Preprocessing:** Images are normalized to the range \[0.1, 0.9] for better convergence. I also shuffled the data before each epoch to help the model generalize.
+* **Architecture:** The network is a custom convolutional neural network (CNN) inspired by LeNet, but deeper and adapted for color images and more classes. It uses three convolutional layers, each followed by ReLU activations and max pooling, then flattens and passes through two dense layers before the final softmax output.
 
 #### Neural Network Architecture (TensorFlow)
 
@@ -182,18 +187,18 @@ def TrafficNet(x, dropout):
 
 #### Training & Results
 
-- The model was trained using cross-entropy loss and dropout for regularization. I monitored validation accuracy after each epoch and tweaked the learning rate and dropout to avoid overfitting.
-- After several rounds of tuning, the final model achieved high accuracy on the test set and could reliably classify real-world traffic sign images—even with noise and distortion.
+* The model was trained using cross-entropy loss and dropout for regularization. I monitored validation accuracy after each epoch and tweaked the learning rate and dropout to avoid overfitting.
+* After several rounds of tuning, the final model achieved high accuracy on the test set and could reliably classify real-world traffic sign images—even with noise and distortion.
 
 *Side note*: Building and tuning this network gave me a much deeper appreciation for the power (and quirks) of deep learning. Watching the model go from random guesses to near-perfect accuracy was like watching a child learn to read—except the child is a bundle of matrix multiplications.
 
----
+- - -
 
 ### 3. Behavioral Cloning: Teaching a Car to Drive Like Me
 
 To automate driving, the car needs to learn how to steer based on what it "sees." Behavioral cloning uses deep learning to mimic human driving by mapping camera images to steering commands.
 
-{{< figure src="images/bc-run1.webp" alt="First run results" caption="My first behavioral cloning results: jerky driving and dangerous on corners" >}}
+{{< figure src="images/bc-run1.webp" alt="First run results" caption="My first behavioral cloning results: jerky driving and dangerous on corners">}}
 
 I collected training data by manually driving laps in the Udacity simulator, focusing on center-lane driving, recovery from the sides, and even driving in reverse for robustness. Only the center camera images were used for simplicity. I experimented with different combinations of data: sometimes including recovery and reverse driving, sometimes just center lane, and even data from a second, more challenging track. Interestingly, the model trained only on center lane data performed best on the original track, while the more diverse data helped on the harder track but sometimes made the car less reliable on the first.
 
@@ -257,9 +262,9 @@ model.add(Dense(1))
 
 After much iteration, the best model could drive autonomously around the track without leaving the road—at least, most of the time!
 
-{{< figure src="images/bc-run2.webp" alt="First run results" caption="My behavioral cloning results: The final iteration, with smoother driving" >}}
+{{< figure src="images/bc-run2.webp" alt="First run results" caption="My behavioral cloning results: The final iteration, with smoother driving">}}
 
----
+- - -
 
 ### 4. Estimation & Localization: Kalman Filters and Particle Filters (Term 2)
 
@@ -322,7 +327,7 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 
 *Reflection*: Debugging the EKF was a crash course in linear algebra and sensor fusion. Getting the Jacobian and angle normalization right was tricky, but seeing the filter track a car’s position in real time was incredibly satisfying.
 
----
+- - -
 
 #### **Unscented Kalman Filter (UKF)**
 
@@ -362,7 +367,7 @@ void UKF::UpdateRadar(MeasurementPackage measurement_pack) {
 
 *Reflection*: The UKF felt like magic—no more linearization headaches, just a cloud of sigma points smoothly tracking the car. But tuning all those noise parameters and weights was a delicate balancing act.
 
----
+- - -
 
 #### **Particle Filter**
 
@@ -390,11 +395,11 @@ void ParticleFilter::resample() {
 
 *Reflection*: The particle filter was both conceptually simple and surprisingly powerful. Watching the “cloud” of particles converge on the true position was a great visual for how probabilistic localization works. The biggest challenge was making the filter robust to noisy data and ensuring it ran fast enough for real-time use.
 
----
+- - -
 
 **Summary**: Implementing these filters gave me a deep appreciation for estimation theory. Each approach—EKF, UKF, and particle filter—has its strengths and quirks, but all share the same goal: making sense of a noisy, uncertain world.
 
----
+- - -
 
 ### 5. PID Controller: My First Taste of Control
 
@@ -403,13 +408,15 @@ Controlling a car means more than just knowing where you are—you need to keep 
 {{< youtube dtlHIR4FkAI >}}
 
 This project made the math of PID finally "click" for me. Here’s what I learned:
-- **P (Proportional):** Controls how aggressively the car reacts to being off-center. Too high and the car wobbles; too low and it’s sluggish.
-- **I (Integral):** Only useful if there’s a consistent bias (like a wheel misalignment). For this project, I set it to zero.
-- **D (Derivative):** Smooths out the reaction, making steering more stable. Too low and the car oscillates; too high and it becomes unresponsive.
+
+* **P (Proportional):** Controls how aggressively the car reacts to being off-center. Too high and the car wobbles; too low and it’s sluggish.
+* **I (Integral):** Only useful if there’s a consistent bias (like a wheel misalignment). For this project, I set it to zero.
+* **D (Derivative):** Smooths out the reaction, making steering more stable. Too low and the car oscillates; too high and it becomes unresponsive.
 
 I manually tuned the parameters by trial and error in the simulator, aiming for a balance between quick correction and smooth driving. My best values:
-- **Steering:** P = -0.2, I = 0.0, D = -3.0
-- **Throttle:** P = -0.6, I = 0.0, D = 1.0
+
+* **Steering:** P = -0.2, I = 0.0, D = -3.0
+* **Throttle:** P = -0.6, I = 0.0, D = 1.0
 
 ```cpp
 // PID update (PID.cpp)
@@ -420,7 +427,7 @@ double steer = -Kp * cte - Kd * diff_cte - Ki * int_cte;
 
 I also used a PID controller for throttle, targeting a constant speed. The result? The car slowed down for sharp turns and sped up on straights—almost like a cautious human driver. Watching the effects of each parameter in real time was both enlightening and oddly satisfying.
 
----
+- - -
 
 ### 6. Model Predictive Control (MPC): The Big Leagues
 
@@ -429,17 +436,19 @@ For more advanced driving, the car must plan ahead, predicting its future path a
 {{< youtube w_9uhuP21es >}}
 
 My MPC model followed the Udacity approach closely. The state vector included:
-- x position
-- y position
-- steering angle (psi)
-- velocity
-- cross-track error
-- orientation (psi) error
+
+* x position
+* y position
+* steering angle (psi)
+* velocity
+* cross-track error
+* orientation (psi) error
 
 The actuators were steering and throttle. The cost function combined:
-- cross-track error
-- orientation error
-- actuator changes (to penalize rapid steering/throttle changes)
+
+* cross-track error
+* orientation error
+* actuator changes (to penalize rapid steering/throttle changes)
 
 I experimented with different prediction horizons and timestep lengths. After some trial and error, I settled on **N = 10** and **dt = 0.1** (so the prediction horizon T = 1 second). This was long enough for meaningful predictions but short enough for real-time computation. (Longer horizons were too slow; shorter ones didn’t give the car enough foresight.)
 
@@ -458,7 +467,7 @@ One of the trickiest parts was handling latency. The simulator introduced a 100m
 
 *Reflection*: The jump from PID to MPC felt like going from driving a go-kart to piloting a spaceship. Suddenly, I was thinking in terms of trajectories, constraints, and optimization. Tuning those hyperparameters was a balancing act between accuracy and computational cost, but when it worked, it felt like magic.
 
----
+- - -
 
 ### 7. Path Planning & Semantic Segmentation (Term 3)
 
@@ -467,10 +476,11 @@ A truly autonomous car must plan safe paths and understand its environment at a 
 #### Path Planning (C++)
 
 The path planning project is implemented in C++ and interfaces with a driving simulator. The core logic involves:
-- **Loading map waypoints** from a CSV file to define the road.
-- **Processing telemetry and sensor fusion data** to track the ego vehicle and other cars.
-- **Behavior planning** to decide when to change lanes or adjust speed, using a subsumption architecture to avoid collisions.
-- **Generating a smooth trajectory** using cubic spline interpolation, ensuring the car follows the lane and avoids abrupt maneuvers.
+
+* **Loading map waypoints** from a CSV file to define the road.
+* **Processing telemetry and sensor fusion data** to track the ego vehicle and other cars.
+* **Behavior planning** to decide when to change lanes or adjust speed, using a subsumption architecture to avoid collisions.
+* **Generating a smooth trajectory** using cubic spline interpolation, ensuring the car follows the lane and avoids abrupt maneuvers.
 
 ```cpp
 // Example: Find closest waypoint
@@ -507,10 +517,11 @@ This approach allows the car to follow lanes, make safe lane changes, and mainta
 #### Semantic Segmentation (Python/TensorFlow)
 
 The semantic segmentation project uses a Fully Convolutional Network (FCN) based on VGG16 to label each pixel in road images as "road" or "not road." The main steps are:
-- **Load a pretrained VGG16 model** and adapt it for segmentation.
-- **Train on the KITTI Road dataset** using TensorFlow.
-- **Use skip connections and upsampling layers** to produce pixel-wise predictions.
-- **Output segmented images** where the drivable area is highlighted.
+
+* **Load a pretrained VGG16 model** and adapt it for segmentation.
+* **Train on the KITTI Road dataset** using TensorFlow.
+* **Use skip connections and upsampling layers** to produce pixel-wise predictions.
+* **Output segmented images** where the drivable area is highlighted.
 
 ```python
 # Load VGG model and extract layers
@@ -530,14 +541,16 @@ conv_1x1 = tf.layers.conv2d(layer7_out, num_classes, 1, padding='same',
 output = tf.layers.conv2d_transpose(conv_1x1, num_classes, 4, strides=(2, 2), padding='same')
 ```
 
-- The model uses transfer learning, skip connections, and upsampling to achieve accurate segmentation.
-- L2 regularization is manually added to the loss function for better generalization.
+* The model uses transfer learning, skip connections, and upsampling to achieve accurate segmentation.
+* L2 regularization is manually added to the loss function for better generalization.
 
-{{< lightgallery glob="images/u*.png" >}}
+{{< lightgallery 
+  glob="images/u*.png" 
+>}}
 
 *Fun fact*: Watching your model color in the road like a giant, pixelated crayon is weirdly satisfying.
 
----
+- - -
 
 ## Reflections on Sacrifices Made
 
@@ -545,12 +558,14 @@ The final project of the nanodegree was the only one I didn't complete, since I 
 
 It was supposed to be a combination of the major concepts from all 3 terms into one single self-driving car program to rule them all. That is now left as an exercise for both the reader and the author. ;)
 
----
+- - -
 
 ## Source Code
 
-{{< github-button url="https://github.com/dinosoeren/SelfDrivingCarND" >}}
+{{< github-button 
+  url="https://github.com/dinosoeren/SelfDrivingCarND" 
+>}}
 
----
+- - -
 
-*No neural networks were harmed (permanently) in the making of these projects. If you have questions or want to try the code yourself, let me know!*
+*If you have any questions, let me know in the comments!*
