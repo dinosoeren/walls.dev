@@ -3,10 +3,10 @@ date: 2017-04-30
 title: "Iris-31: A Play in VR"
 slug: iris-31
 summary: "A groundbreaking virtual reality theatrical performance that combined live acting with VR and hand/body motion-tracking technology to tell the story of my grandfather surviving a catastrophic hurricane in 1931 British Honduras."
-thumbnail: /project/iris-31/images/featured.gif
-thumbnailHd: /project/iris-31/images/featured-hd.gif
+thumbnail: /project/iris-31/images/featured.webp
+thumbnailHd: /project/iris-31/images/featured-hd.webp
 images:
-  - /project/iris-31/images/featured-hd.gif
+  - /project/iris-31/images/featured-hd.webp
 tags:
   - VirtualReality
   - VR

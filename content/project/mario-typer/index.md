@@ -6,8 +6,8 @@ slug: mario-typer
 summary: A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario fighting
   Boo ghosts by typing words, with a detailed account of fixing critical bugs in the
   provided OBJ parser library to support custom 3D models.
-thumbnail: /project/mario-typer/images/featured.gif
-thumbnailHd: /project/mario-typer/images/featured-hd.gif
+thumbnail: /project/mario-typer/images/featured.webp
+thumbnailHd: /project/mario-typer/images/featured-hd.webp
 categories:
 - Academic
 - Games
@@ -21,13 +21,13 @@ tags:
 - OpenSource
 - Programming
 images:
-- /project/mario-typer/images/featured-hd.gif
+- /project/mario-typer/images/featured-hd.webp
 ---
-{{< project-details 
-  timeline="Nov 21-26, 2015" 
-  languages="C++ (OpenGL)" 
-  school="AIT at Budapest University of Technology and Economics" 
-  course="CP360 Computer Graphics" 
+{{< project-details
+  timeline="Nov 21-26, 2015"
+  languages="C++ (OpenGL)"
+  school="AIT at Budapest University of Technology and Economics"
+  course="CP360 Computer Graphics"
 >}}
 
 ## Watch the Demo
@@ -89,8 +89,8 @@ The other incorrect assumption made by the `Mesh.cpp` file, though far less fata
 
 So, just for fun, I made sure .OBJ files with **pentagonal** faces could also be successfully rendered from the code. Good luck finding a mesh that uses them, though. If you're interested, you can view the old code, and the changes I made to it, in the github repo linked below. The old file is aptly named `Mesh-old.cpp`.
 
-{{< github-button 
-  url="https://github.com/dinosoeren/MarioTyper" 
+{{< github-button
+  url="https://github.com/dinosoeren/MarioTyper"
 >}}
 
 Have anything to add? I left out some of the details of .OBJ's on purpose, but if you think there's something important I forgot to mention, please let me know in the comments.

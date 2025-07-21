@@ -6,8 +6,8 @@ slug: gravl-game
 summary: An independently developed Android puzzle platformer where players control
   astronaut Phil manipulating gravity to navigate icy terrain, built entirely in Java
   without game engines over 800 hours of development.
-thumbnail: /project/gravl-game/images/featured.gif
-thumbnailHd: /project/gravl-game/images/featured-hd.gif
+thumbnail: /project/gravl-game/images/featured.webp
+thumbnailHd: /project/gravl-game/images/featured-hd.webp
 categories:
 - App
 - Business
@@ -25,7 +25,7 @@ tags:
 - Physics
 - Professional
 images:
-- /project/gravl-game/images/featured-hd.gif
+- /project/gravl-game/images/featured-hd.webp
 ---
 {{< project-details
   timeline="Summer 2014"

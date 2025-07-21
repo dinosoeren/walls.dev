@@ -6,8 +6,8 @@ slug: turdle
 summary: A Wordle clone featuring animated turtles instead of letters, with 42 years
   of unique daily puzzles guaranteed through mathematical permutation generation,
   built for Global Game Jam 2022.
-thumbnail: /project/turdle/images/featured.gif
-thumbnailHd: /project/turdle/images/featured-hd.gif
+thumbnail: /project/turdle/images/featured.webp
+thumbnailHd: /project/turdle/images/featured-hd.webp
 categories:
 - App
 - Games
@@ -26,21 +26,21 @@ tags:
 - Typescript
 - GlobalGameJam
 images:
-- /project/turdle/images/featured-hd.gif
+- /project/turdle/images/featured-hd.webp
 ---
-{{< project-details 
-  timeline="Jan 27-29, 2022" 
-  languages="TypeScript, React, CSS, HTML" 
-  reason="To create a unique Wordle variant with mathematical puzzle generation" 
-  role="Indie Game Dev, UI/UX Designer" 
+{{< project-details
+  timeline="Jan 27-29, 2022"
+  languages="TypeScript, React, CSS, HTML"
+  reason="To create a unique Wordle variant with mathematical puzzle generation"
+  role="Indie Game Dev, UI/UX Designer"
 >}}
 
-{{< website-button 
-  url="https://turdle.xyz" 
+{{< website-button
+  url="https://turdle.xyz"
 >}}
 
-{{< github-button 
-  url="https://github.com/dinosoeren/turdle" 
+{{< github-button
+  url="https://github.com/dinosoeren/turdle"
 >}}
 
 ## Overview
@@ -234,8 +234,8 @@ The core innovation of mathematically generated unique puzzles has applications 
 
 ## Screenshots
 
-{{< lightgallery 
-  glob="images/*.png" 
+{{< lightgallery
+  glob="images/*.png"
 >}}
 
 - - -

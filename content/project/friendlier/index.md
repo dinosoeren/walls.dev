@@ -5,8 +5,8 @@ title: 'Friendlier: Letting a Startup Fail Fast'
 slug: friendlier
 summary: Reflections on building, pitching, and ultimately losing a promising social
   app to a single API dependency.
-thumbnail: /project/friendlier/images/featured.gif
-thumbnailHd: /project/friendlier/images/featured-hd.gif
+thumbnail: /project/friendlier/images/featured.webp
+thumbnailHd: /project/friendlier/images/featured-hd.webp
 categories:
 - Project
 - Business
@@ -20,7 +20,7 @@ tags:
 - API
 toc: true
 images:
-- /project/friendlier/images/featured-hd.gif
+- /project/friendlier/images/featured-hd.webp
 ---
 {{< project-details
   timeline="2014-2015"

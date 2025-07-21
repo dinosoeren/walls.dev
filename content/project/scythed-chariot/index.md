@@ -12,13 +12,13 @@ categories:
 - Academic
 - CAD
 - Project
-thumbnail: /project/scythed-chariot/images/featured.gif
-thumbnailHd: /project/scythed-chariot/images/featured-hd.gif
+thumbnail: /project/scythed-chariot/images/featured.webp
+thumbnailHd: /project/scythed-chariot/images/featured-hd.webp
 summary: A 12-inch functioning 3D scale model of Leonardo da Vinci's scythed chariot
   war machine, designed in Autodesk Inventor, 3D printed and laser engraved, with
   animated demonstration using 3dsMax Design.
 images:
-- /project/scythed-chariot/images/featured-hd.gif
+- /project/scythed-chariot/images/featured-hd.webp
 ---
 {{< project-details
   timeline="Jan-Feb, 2011"

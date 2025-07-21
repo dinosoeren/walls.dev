@@ -6,8 +6,8 @@ slug: space-warz
 summary: A 2D top-down space shooter game built in Java over a weekend for Computer
   Science I, featuring waves of enemy ships, mini-bosses, shields, and downloadable
   JAR/EXE versions for cross-platform play.
-thumbnail: /project/space-warz/images/featured.gif
-thumbnailHd: /project/space-warz/images/featured-hd.gif
+thumbnail: /project/space-warz/images/featured.webp
+thumbnailHd: /project/space-warz/images/featured-hd.webp
 categories:
 - Academic
 - Games
@@ -20,13 +20,13 @@ tags:
 - OpenSource
 - Programming
 images:
-- /project/space-warz/images/featured-hd.gif
+- /project/space-warz/images/featured-hd.webp
 ---
-{{< project-details 
-  timeline="Nov 16-20, 2013" 
-  languages="Java" 
-  school="Colorado College" 
-  course="CP122 Computer Science I" 
+{{< project-details
+  timeline="Nov 16-20, 2013"
+  languages="Java"
+  school="Colorado College"
+  course="CP122 Computer Science I"
 >}}
 
 ## Watch the Demo
@@ -37,22 +37,22 @@ In the fall of 2013, for my Computer Science I final project, I set out to build
 
 It was a whirlwind of a project, pushing my early Java skills to their limits, and while it had its share of bugs (as any weekend project might!), it was an incredibly fun and rewarding dive into game development.
 
-{{< github-button 
-  url="https://github.com/dinosoeren/SpaceWarz" 
+{{< github-button
+  url="https://github.com/dinosoeren/SpaceWarz"
 >}}
 
 If you're curious to try it out yourself, feel free to download the executable versions below (requires Java to run).
 
-{{< download-button 
-  url="../../bin/space-warz.jar" 
-  text="Download .jar" 
-  ext="jar" 
+{{< download-button
+  url="../../bin/space-warz.jar"
+  text="Download .jar"
+  ext="jar"
 >}}
 
-{{< download-button 
-  url="../../bin/space-warz.exe" 
-  text="Download .exe" 
-  ext="exe" 
+{{< download-button
+  url="../../bin/space-warz.exe"
+  text="Download .exe"
+  ext="exe"
 >}}
 
 ## Building Space Warz: Under the Hood
@@ -286,6 +286,6 @@ Space Warz, though simple, was a testament to what can be built in a short time 
 
 ## Screenshots
 
-{{< lightgallery 
-  glob="images/*.png" 
+{{< lightgallery
+  glob="images/*.png"
 >}}
