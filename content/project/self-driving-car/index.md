@@ -46,6 +46,8 @@ toc: true
 
 That was the subject line of the email I received from Udacity in 2016, and I still remember the jolt of excitement (and terror) that ran through me. Out of 11,000+ applicants, I was one of 250 accepted into the inaugural Self-Driving Car Engineer Nanodegree. The catch? I'd only driven a real car a handful of times.
 
+![Acceptance email](images/acceptance-email.png)
+
 ## The Road to Autonomy: A Personal Journey
 
 I started Udacity's online course while juggling my senior year at Colorado College, two thesis projects, and a job search that would eventually land me at Google.
