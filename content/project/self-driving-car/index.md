@@ -44,13 +44,13 @@ toc: true
 
 > “*You’re going to be one of our very first Self-Driving Car students!*”
 
-That was the subject line of the email I received from Udacity in 2016, and I still remember the jolt of excitement (and terror) that ran through me. Out of 11,000+ applicants, I was one of 250 accepted into the inaugural Self-Driving Car Engineer Nanodegree. The catch? I’d never even changed my own oil.
+That was the subject line of the email I received from Udacity in 2016, and I still remember the jolt of excitement (and terror) that ran through me. Out of 11,000+ applicants, I was one of 250 accepted into the inaugural Self-Driving Car Engineer Nanodegree. The catch? I'd only driven a real car a handful of times.
 
 ## The Road to Autonomy: A Personal Journey
 
-I started the online extracurricular course while juggling my senior year at Colorado College, two thesis projects, and a job search that would eventually land me at Google. (Spoiler: I didn’t submit the final project to get my Udacity certificate, but I did get my dream job.)
+I started Udacity's online course while juggling my senior year at Colorado College, two thesis projects, and a job search that would eventually land me at Google.
 
-The Nanodegree was a wild ride through computer vision, deep learning, estimation, and control. Here’s how I went from drawing lines on road images to building a virtual car that could (mostly) drive itself.
+The Nanodegree was a wild ride through computer vision, deep learning, estimation, and control. Here’s how I went from drawing lines on road images to unlocking the power of autonomous driving in a car simulator.
 
 - - -
 
@@ -555,7 +555,7 @@ output = tf.layers.conv2d_transpose(conv_1x1, num_classes, 4, strides=(2, 2), pa
 
 ## Reflections on Sacrifices Made
 
-The final project of the Nanodegree was the only one I didn't complete, since I was too distracted by my new job in Google's Engineering Residency. Udacity took a back seat while I prioritized converting onto my team as a FTE in Google Cloud, which I did successfully!
+The final project in Term 3 of the Nanodegree was the only one I didn't complete, since I was too distracted by my new job in Google's Engineering Residency. Udacity took a back seat while I prioritized converting onto my team as a FTE in Google Cloud, which I did successfully!
 
 The final assignment was to combine the major concepts from all 3 terms into, you guessed it, a fully autonomous driving system for a virtual car. That is now left as an exercise for both the reader and the author. ;)
 
