@@ -7,6 +7,7 @@ thumbnail: /project/iris-31/images/featured.webp
 thumbnailHd: /project/iris-31/images/featured-hd.webp
 images:
   - /project/iris-31/images/featured-hd.webp
+  - /project/iris-31/images/Scene8-07.jpg
 tags:
   - VirtualReality
   - VR

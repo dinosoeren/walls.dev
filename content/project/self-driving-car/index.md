@@ -10,6 +10,7 @@ thumbnail: /project/self-driving-car/images/featured.webp
 thumbnailHd: /project/self-driving-car/images/featured-hd.webp
 images:
   - /project/self-driving-car/images/featured-hd.webp
+  - /project/self-driving-car/images/frame-0.jpg
 categories:
   - Academic
   - Project
@@ -32,11 +33,11 @@ tags:
   - MPC
 toc: true
 ---
-{{< project-details 
-  timeline="2016-2018" 
-  languages="Python, C++, TensorFlow, Keras, OpenCV" 
-  school="Udacity (Nanodegree), Colorado College" 
-  course="Self-Driving Car Engineer Nanodegree" 
+{{< project-details
+  timeline="2016-2018"
+  languages="Python, C++, TensorFlow, Keras, OpenCV"
+  school="Udacity (Nanodegree), Colorado College"
+  course="Self-Driving Car Engineer Nanodegree"
 >}}
 
 # Self-driven to Earn a Nanodegree
@@ -132,8 +133,8 @@ Handling cases where the lane detection sanity check failed was another challeng
 
 Next up: teaching a neural network to recognize traffic signs from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This was [not my first](../ai-block-plan/) real foray into deep learning, but I still spent way too long tuning hyperparameters and staring at loss curves.
 
-{{< lightgallery 
-  glob="images/gtsrb*.png" 
+{{< lightgallery
+  glob="images/gtsrb*.png"
 >}}
 
 #### How the Classifier Works
@@ -544,8 +545,8 @@ output = tf.layers.conv2d_transpose(conv_1x1, num_classes, 4, strides=(2, 2), pa
 * The model uses transfer learning, skip connections, and upsampling to achieve accurate segmentation.
 * L2 regularization is manually added to the loss function for better generalization.
 
-{{< lightgallery 
-  glob="images/u*.png" 
+{{< lightgallery
+  glob="images/u*.png"
 >}}
 
 *Fun fact*: Seeing the model color in the road beneath the cars is weirdly satisfying.
@@ -562,8 +563,8 @@ The final assignment was to combine the major concepts from all 3 terms into, yo
 
 ## Source Code
 
-{{< github-button 
-  url="https://github.com/dinosoeren/SelfDrivingCarND" 
+{{< github-button
+  url="https://github.com/dinosoeren/SelfDrivingCarND"
 >}}
 
 - - -
