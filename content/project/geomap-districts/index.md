@@ -26,7 +26,7 @@ toc: true
 {{< project-details
   timeline="Apr 12, 2025"
   languages="Python"
-  purpose="Academic Presentation Tool"
+  reason="Academic Presentation Tool"
   software="Pandas, Seaborn, Matplotlib, Geocodio API"
 >}}
 
