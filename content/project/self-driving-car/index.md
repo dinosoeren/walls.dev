@@ -438,6 +438,8 @@ For more advanced driving, the car must plan ahead, predicting its future path a
 
 {{< youtube w_9uhuP21es >}}
 
+*Note*: In the simulation above, the yellow line represents the "ideal" trajectory at the center of the road, while the green line shows the car's actual computed trajectory.
+
 My MPC model followed the Udacity approach closely. The state vector included:
 
 * x position
