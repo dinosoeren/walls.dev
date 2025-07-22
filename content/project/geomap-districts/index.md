@@ -2,9 +2,9 @@
 date: 2025-04-12T00:00:00.000-06:00
 title: "Geomap Districts: Understanding Alumni Voter Demographics"
 slug: geomap-districts
-summary: How I built a Python tool in a day to quickly geocode college alumni addresses
-  and visualize their congressional districts for a professor's presentation to
-  a congressperson.
+summary: How I built a Python tool in a day to quickly geocode college alumni
+  addresses and visualize their congressional districts for a professor's
+  presentation to a congressperson.
 thumbnail: /project/geomap-districts/images/geomap.png
 thumbnailHd: /project/geomap-districts/images/geomap.png
 images:
@@ -23,11 +23,11 @@ tags:
   - Seaborn
 toc: true
 ---
-{{< project-details
-  timeline="Apr 12, 2025"
-  languages="Python"
-  reason="Academic Presentation Tool"
-  software="Pandas, Seaborn, Matplotlib, Geocodio API"
+{{< project-details 
+  timeline="Apr 12, 2025" 
+  languages="Python" 
+  reason="Academic Presentation Tool" 
+  software="Pandas, Seaborn, Matplotlib, Geocodio API" 
 >}}
 
 Picture this: It's a beautiful Spring day in Colorado, and a good friend (who also happens to be a professor) texts to see if I know anyone who could code up a small project for a good cause. He needs a compelling visual for a presentation to a congressperson, something that screams, "Look how many of our alumni are spread across the country!"
@@ -167,12 +167,12 @@ Watching that heatmap pop up, clearly showing the concentrations of alumni, was 
 * **A Weekend Project's Superpower:** Sometimes, the most valuable tools aren't grand, sprawling applications, but small, focused scripts that solve a very specific, immediate problem.
 * **Data Storytelling:** Translating raw data (a list of addresses) into a clear, visual story (a heatmap of district concentrations) is pretty powerful, especially when you're trying to make a point to, say, a congressperson.
 
-If you've got a list of addresses and want to see their congressional districts come to life, grab a free API key from Geocodio's website and try it yourself! And remember, every successful project usually has a few "why is this not working?!" moments behind it.
+If you've got a list of addresses and want to see their congressional districts come to life, grab a [free API key](https://www.geocod.io/free-geocoding/) and try it yourself! And remember, every successful project usually has a few "why is this not working?!" moments behind it.
 
 - - -
 
 ## Source Code
 
-{{< github-button
-  url="https://github.com/dinosoeren/geomap-districts"
+{{< github-button 
+  url="https://github.com/dinosoeren/geomap-districts" 
 >}}
