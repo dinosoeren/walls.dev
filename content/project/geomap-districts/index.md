@@ -2,14 +2,14 @@
 date: 2025-04-12T00:00:00.000-06:00
 title: "Geomap Districts: Understanding Alumni Voter Demographics"
 slug: geomap-districts
-summary: How I built a Python tool to quickly geocode college alumni addresses
+summary: How I built a Python tool in a day to quickly geocode college alumni addresses
   and visualize their congressional districts for a professor's presentation to
   a congressperson.
 thumbnail: /project/geomap-districts/images/geomap.png
 thumbnailHd: /project/geomap-districts/images/geomap.png
-images: /project/geomap-districts/images/geomap.png
+images:
+  - /project/geomap-districts/images/geomap.png
 categories:
-  - Academic
   - Data Science
   - Project
 tags:
@@ -23,11 +23,11 @@ tags:
   - Seaborn
 toc: true
 ---
-{{< project-details 
-  timeline="Apr 12, 2025" 
-  languages="Python" 
-  purpose="Academic Presentation Tool" 
-  software="Pandas, Seaborn, Matplotlib, Geocodio API" 
+{{< project-details
+  timeline="Apr 12, 2025"
+  languages="Python"
+  purpose="Academic Presentation Tool"
+  software="Pandas, Seaborn, Matplotlib, Geocodio API"
 >}}
 
 Picture this: It's a beautiful Spring day in Colorado, and a good friend (who also happens to be a professor) texts to see if I know anyone who could code up a small project for a good cause. He needs a compelling visual for a presentation to a congressperson, something that screams, "Look how many of our alumni are spread across the country!"
@@ -126,13 +126,13 @@ def analyze_districts(district_list):
         district_counts['DistrictNum'].replace({'AL': 9999, 'Unknown': -1}),
         errors='coerce' # In case of other unexpected values
     )
-    
+
     # Sort for better visualization: by State, then by DistrictNum
     district_counts = district_counts.sort_values(by=['State', 'DistrictSort']).reset_index(drop=True)
 
     # Create pivot table for heatmap
     pivot_table = district_counts.pivot_table(index='State', columns='DistrictNum', values='Count').fillna(0)
-    
+
     # Re-sort columns (districts) numerically for the heatmap
     sorted_columns = sorted([col for col in pivot_table.columns if col.isdigit()], key=int)
     if 'AL' in pivot_table.columns:
@@ -141,7 +141,7 @@ def analyze_districts(district_list):
         sorted_columns.append('Unknown')
     if 'No District Info' in pivot_table.columns:
         sorted_columns.append('No District Info')
-    
+
     pivot_table = pivot_table[sorted_columns].copy()
 
     return district_counts, pivot_table
@@ -173,6 +173,6 @@ If you've got a list of addresses and want to see their congressional districts 
 
 ## Source Code
 
-{{< github-button 
-  url="https://github.com/dinosoeren/geomap-districts" 
+{{< github-button
+  url="https://github.com/dinosoeren/geomap-districts"
 >}}
