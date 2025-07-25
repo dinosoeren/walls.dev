@@ -27,6 +27,7 @@ Usage:
     padding: 1rem;
     background-color: rgba(17, 24, 39, 0.8); /* bg-gray-900 with opacity */
     border-radius: 0.5rem;
+    cursor: pointer;
     max-width: 350px;
     border: 1px solid #374151; /* border-gray-700 */
     transition: all 0.3s ease-in-out;
@@ -106,9 +107,8 @@ Usage:
       </svg>
     </button>
     <h2>Skyscraper Sudoku</h2>
-    <p>This is a 3D visualization of a Skyscraper Sudoku puzzle. The numbers in the grid and on the buildings represent building heights.</p>
-    <p>The numbers on the perimeter are clues: they tell you how many buildings are visible from that vantage point. Taller buildings block the view of shorter ones behind them.</p>
-    <p class="mt-4 font-bold">Controls: Click and drag to rotate. Scroll to zoom.</p>
+    <p>Grid numbers represent building heights. Numbers on the perimiter tell you how many buildings are visible from that vantage point.</p>
+    <p class="mt-4 font-bold">Controls: <em>Click and drag to rotate. Scroll to zoom. Click this panel to minimize it.</em></p>
     <div id="skys-validation-status"></div>
   </div>
 </div>
@@ -347,11 +347,15 @@ Usage:
       const minIcon = document.getElementById('skys-minimize-icon');
       const maxIcon = document.getElementById('skys-maximize-icon');
 
-      toggleBtn.addEventListener('click', () => {
+      const minimize = (e) => {
           infoPanel.classList.toggle('minimized');
           minIcon.classList.toggle('hidden');
           maxIcon.classList.toggle('hidden');
-      });
+          e.stopPropagation();
+      };
+
+      toggleBtn.addEventListener('click', minimize);
+      infoPanel.addEventListener('click', minimize);
   }
 
   function onWindowResize() {
