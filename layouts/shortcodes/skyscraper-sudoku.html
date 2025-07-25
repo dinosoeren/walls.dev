@@ -109,7 +109,8 @@ Usage:
     </button>
     <h2>Skyscraper Sudoku</h2>
     <p>Grid numbers represent building heights. Numbers on the perimiter tell you how many buildings are visible from that vantage point.</p>
-    <p class="mt-4 font-bold">Controls: <em>Click and drag to rotate. Scroll to zoom. Click this panel to minimize it.</em></p>
+    <p id="skys-loading" class="mt-4 font-bold">Loading interactive scene...</p>
+    <p id="skys-controls" class="mt-4 font-bold hidden">Controls: <em>Click and drag to rotate. Scroll to zoom. Click this panel to minimize it.</em></p>
     <div id="skys-validation-status"></div>
   </div>
 </div>
@@ -133,7 +134,9 @@ Usage:
   let scene, camera, renderer, controls;
   const frame = document.getElementById('skys-frame');
   const container = document.getElementById('skys-container');
-  const placeholder = document.getElementById('skys-placeholder');
+  const placeholderImg = document.getElementById('skys-placeholder');
+  const loadingText = document.getElementById('skys-loading');
+  const controlsText = document.getElementById('skys-controls');
 
   // --- CORRECTED PUZZLE DATA (4x4 Example) ---
   const puzzleSize = 4;
@@ -170,7 +173,6 @@ Usage:
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.shadowMap.enabled = true;
       container.appendChild(renderer.domElement);
-      placeholder.classList.toggle('hidden');
 
       // Controls
       controls = new OrbitControls(camera, renderer.domElement);
@@ -207,6 +209,11 @@ Usage:
 
       // Event Listeners
       window.addEventListener('resize', onWindowResize);
+
+      // Set state: done loading
+      placeholderImg.classList.toggle('hidden');
+      loadingText.classList.toggle('hidden');
+      controlsText.classList.toggle('hidden');
   }
 
   function createGrid() {
