@@ -32,7 +32,8 @@ toc: true
 
 {{< project-details
     timeline="Sep 2016 - Apr 2017"
-    languages="C#, Unity, SteamVR, Leap Motion SDK"
+    languages="C#"
+    software="Unity, SteamVR, Leap Motion SDK, Kinect SDK"
     school="Colorado College"
     course="TH404 Senior Thesis"
 >}}
@@ -43,7 +44,7 @@ toc: true
 
 What began as my impulse to tell a story resulted in the creation of a new form of performance. I wanted to make a cookie, so naturally I built a whole new chocolate factory. The name of my new factory is **Cybernetically Augmented Theatre (CAT)**, and the cookie is ***Iris-31***.
 
-It's my attempt to create art with a traditionally non-artistic medium: virtual reality (VR). Despite feeling like I was continually laying the railroad tracks in front of me as I chugged along, I'm proud to say the development of *Iris-31* took a very natural progression into a final form that, although perhaps not fully matured, nonetheless managed to achieve two feats: the final performance remained true to my initial aesthetic intentions, and even after sixty performances, it maintained a sense of unpredictability and liveness through a constantly fluctuating three-way synergy between each individual participant, the actor, and the audience.
+It's my attempt to create art with a traditionally non-artistic medium: virtual reality (VR). Despite feeling like I was continually laying the railroad tracks in front of me as I chugged along, I'm proud to say the development of *Iris-31* took a very natural progression into a final form that, although perhaps not fully matured, nonetheless managed to achieve two feats: the final performance remained true to my initial aesthetic intentions, and even after 60+ performances, it maintained a sense of unpredictability and liveness through a constantly fluctuating three-way synergy between each individual participant, the actor, and the audience.
 
 ## Performance Footage
 
@@ -56,7 +57,7 @@ One of over 75 individuals who participated in the performance over the course o
 > *Apr 14, 2017* — Emily participates in *Iris-31*, an original two-person play that used Leap Motion hand sensors & Kinect body motion-sensors to capture the movements & sound of the actor and render them as a fully emotive virtual character in view of the single audience participant wearing an HTC Vive VR headset.
 >
 > For one of his senior thesis projects at Colorado College, Soeren Walls designed, programmed, scripted, and directed Iris-31 as a visceral re-imagining of the true story of his grandfather surviving the [1931 Belize hurricane](https://en.wikipedia.org/wiki/1931_British_Honduras_hurricane) tragedy as a child.
-> The word "iris" has multiple relevant meanings: it's related to water, the physical eye of an animal, and the calm center point of a storm.
+> The word "iris" has multiple relevant meanings: it's related to water, the physical eye of a person/animal, and the calm center point of a storm.
 
 ### *Inside the Headset (Participant 1)*
 
@@ -258,7 +259,7 @@ Chopin's *Nocturne* playing as dice float toward you showing '3' and '1' (1931),
 
 ## The Evolution of *Iris-31*: From Script to Performance
 
-*Iris-31* didn’t start out as the abstract, dreamlike experience it became. Early drafts of the script were much more literal, with dialogue between Yvon, his parents, and their servant Binadu, and scenes of family tension, gender identity, and the chaos of the hurricane. Over time, the project evolved into a series of immersive, symbolic scenes designed to be experienced rather than simply watched.
+*Iris-31* didn’t start out as the abstract, dreamlike experience it became. Early drafts of the script were much more literal, with dialogue between Yvon (*pronounced `"Ivo"`*), his parents, and their servant (who I called "Binadu") and scenes of family tension, gender identity, and the chaos of the hurricane. Over time, the project evolved into a series of immersive, symbolic scenes designed to be experienced rather than simply watched.
 
 ### Artistic Influences
 
@@ -272,7 +273,7 @@ As the project matured, the script became more focused on emotional resonance an
 
 ## Family, Identity, and Survival
 
-At its heart, *Iris-31* is about my grandfather Yvon’s survival during the [1931 hurricane in British Honduras](https://en.wikipedia.org/wiki/1931_British_Honduras_hurricane) (modern-day Belize)—a story passed down through my family. But it’s also about the complexity of family, identity, and memory. The performance explores not just physical survival, but the psychological limbo of trauma, the ambiguity of identity, and the struggle to connect across generations.
+At its heart, *Iris-31* is about my grandfather Yvon’s (*Yvon is pronounced `"Ivo"`*) survival during the [1931 hurricane in British Honduras](https://en.wikipedia.org/wiki/1931_British_Honduras_hurricane) (modern-day Belize)—a story passed down through my family. But it’s also about the complexity of family, identity, and memory. The performance explores not just physical survival, but the psychological limbo of trauma, the ambiguity of identity, and the struggle to connect across generations.
 
 *Excerpt from the final script:*
 
