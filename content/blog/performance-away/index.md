@@ -1,6 +1,6 @@
 ---
 date: 2016-05-15
-title: "25 Plays in 23 Days: The Best and Worst Theatre in London"
+title: "23 Plays in 23 Days: The Best and Worst Theatre in London"
 slug: performance-away
 summary: "Reflecting on my 'Performance Away' class in my junior year of college - from sci-fi nightmares that changed my perspective on theatre to documentary dramas that nearly put me to sleep... and meeting celebrity actors, of course!"
 draft: false
@@ -196,7 +196,7 @@ For those curious about the full scope of my London theatre immersion, here's ev
 3. **Ma Rainey's Black Bottom** - Lyttelton Theatre *(Apr 19, 2016)*
 4. **Smoke & Mirrors** - Jacksons Lane *(Apr 20, 2016)*
 5. **The Beanfield** - Battersea Arts Centre *(Apr 21, 2016)*
-6. **Life** (BalletBoyz) - Saddlers Wells Theatre *(Apr 22, 2016)*
+6. **Life** by *BalletBoyz* - Saddlers Wells Theatre *(Apr 22, 2016)*
 7. **KLIP** - Southbank Centre *(Apr 23, 2016)*
 8. **The Iphigenia Quartet** - Gate Theatre *(Apr 25, 2016)*
 9. **Mark Thomas' TRESPASS** - The Tricycle Theatre *(Apr 26, 2016)*
@@ -205,25 +205,24 @@ For those curious about the full scope of my London theatre immersion, here's ev
 12. **Cyrus Ave** - Royal Court Theatre *(Apr 28, 2016)*
 13. **The Shakespeare Walk** - Bankside *(Apr 29, 2016)*
 14. **Kings of War** - Barbican Theatre *(Apr 29, 2016)*
-15. **Son of Saul** (*Bonus Film*) - Cinema *(Apr 29, 2016)*
-16. **In the Heights** - Kings Cross Theatre *(Apr 30, 2016)*
-17. **The Last Supper** - Southbank Centre *(May 2, 2016)*
-18. **A Midsummer Nights Dream** - Globe Theatre *(May 3, 2016)*
-19. **Les Blancs** - Olivier Theatre *(May 3, 2016)*
-20. **The Destroyed Room** - Battersea Arts Centre *(May 4, 2016)*
-21. **Matilda** (*Bonus*) - Cambridge Theatre *(May 4, 2016)*
-22. **Cleansed** - Dorfman Theatre *(May 5, 2016)*
-23. **Another World: Losing Our Children To Islamic State** - Temporary Theatre *(May 5, 2016)*
-24. **Boy** - Almeida Theatre *(May 6, 2016)*
-25. **The Flick** (*Bonus*) - Dorfman Theatre *(May 10, 2016)*
-26. **Doctor Faustus** (*Bonus*) - Duke of York's *(May 10, 2016)*
-27. **Les Miserables** (*Bonus*) - Queen's Theatre *(May 11, 2016)*
+15. **In the Heights** - Kings Cross Theatre *(Apr 30, 2016)*
+16. **The Last Supper** - Southbank Centre *(May 2, 2016)*
+17. **A Midsummer Nights Dream** - Globe Theatre *(May 3, 2016)*
+18. **Les Blancs** - Olivier Theatre *(May 3, 2016)*
+19. **The Destroyed Room** - Battersea Arts Centre *(May 4, 2016)*
+20. **Matilda** (*Bonus*) - Cambridge Theatre *(May 4, 2016)*
+21. **Son of Saul** (*Bonus Film*) - Cinema *(May 5, 2016)*
+22. **Another World: Losing Our Children To Islamic State** - Temporary Theatre *(May 5, 2016)*
+23. **Boy** - Almeida Theatre *(May 6, 2016)*
+24. **The Flick** (*Bonus*) - Dorfman Theatre *(May 10, 2016)*
+25. **Doctor Faustus** (*Bonus*) - Duke of York's *(May 10, 2016)*
+26. **Les Miserables** (*Bonus*) - Queen's Theatre *(May 11, 2016)*
 {{< /details >}}
 
 ## Photo Gallery
 
-{{< lightgallery glob="images/*.jpg" >}}
+{{< lightgallery glob="images/gallery/*.jpg" >}}
 
 ---
 
-*Special thanks to all the artists who put their work on stage - even the ones I didn't connect with taught me something valuable about the craft. Ever seen a performance that blew your mind or changed your perspective on something? Let me know in the comments!*
+*Special thanks to Professor Andrew Manley for teaching this wonderful class, and to all the artists who put their work on stage - even the ones I didn't connect with taught me something valuable about the craft. Ever seen a performance that blew your mind or changed your perspective on something? Let me know in the comments!*
