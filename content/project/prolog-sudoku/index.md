@@ -93,7 +93,7 @@ This declarative approach is the beauty of Prolog. We don't implement a step-by-
 
 To push myself further, I tackled Skyscraper Sudoku. This variant adds a new layer of constraints. Imagine the numbers in the grid represent the heights of buildings. The numbers outside the grid tell you how many buildings are visible from that vantage point in that row or column. A taller building hides any shorter ones behind it.
 
-{{< figure src="images/skyscraper-sudoku.png" title="Skyscraper Sudoku" alt="An isometric view of a Skyscraper Sudoku puzzle." >}}
+{{< skyscraper-sudoku "images/skyscraper-sudoku.png" >}}
 
 This required a more advanced approach. My first solver was a "generate-and-test" model: it would generate a complete grid and then test if it was valid. For Skyscraper Sudoku, this is incredibly inefficient. The solution was to use **Constraint Logic Programming over Finite Domains (CLP(FD))**, a library that turns Prolog into a powerful constraint solver.
 
