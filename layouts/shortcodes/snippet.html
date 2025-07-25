@@ -1,0 +1,7 @@
+{{/*
+Usage:
+{{< snippet file="static/code/example.go" lang="go" >}}
+*/}}
+```{{ .Get "lang" }}
+{{ readFile (.Get "file") }}
+```
