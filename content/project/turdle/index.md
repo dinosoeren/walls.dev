@@ -8,6 +8,9 @@ summary: A Wordle clone featuring animated turtles instead of letters, with 42 y
   built for Global Game Jam 2022.
 thumbnail: /project/turdle/images/featured.webp
 thumbnailHd: /project/turdle/images/featured-hd.webp
+images:
+- /project/turdle/images/featured-hd.webp
+- /project/turdle/images/featured-frame.png
 categories:
 - App
 - Games
@@ -25,8 +28,6 @@ tags:
 - Tailwind
 - Typescript
 - GlobalGameJam
-images:
-- /project/turdle/images/featured-hd.webp
 ---
 {{< project-details
   timeline="Jan 27-29, 2022"

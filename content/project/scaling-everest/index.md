@@ -3,6 +3,10 @@ date: '2010-11-16'
 draft: false
 title: 'Scaling Everest: A Videogame Created for an English Assignment'
 slug: scaling-everest
+summary: A Windows-only videogame created in a single weekend for English
+  2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as
+  Hillary as you fight yeti monsters and attempt to reach the summit. Download the
+  .exe and relive the adventure.
 tags:
 - GameDevelopment
 - Education
@@ -13,12 +17,9 @@ categories:
 - Project
 thumbnail: /project/scaling-everest/images/featured.webp
 thumbnailHd: /project/scaling-everest/images/featured-hd.webp
-summary: A Windows-only videogame created in a single weekend for English
-  2, inspired by Edmund Hillary's historic climb of Mount Everest in 1953. Play as
-  Hillary as you fight yeti monsters and attempt to reach the summit. Download the
-  .exe and relive the adventure.
 images:
 - /project/scaling-everest/images/featured-hd.webp
+- /project/scaling-everest/images/everest-gameplay.jpg
 ---
 {{< project-details
   timeline="Nov 13-15, 2010"

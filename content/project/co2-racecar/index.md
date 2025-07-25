@@ -9,6 +9,7 @@ thumbnail: /project/co2-racecar/images/featured.webp
 thumbnailHd: /project/co2-racecar/images/featured-hd.webp
 images:
   - /project/co2-racecar/images/featured-hd.webp
+  - /project/co2-racecar/images/featured-frame.png
 categories:
   - Academic
   - CAD

@@ -8,6 +8,9 @@ summary: A 3D typing game inspired by Ztype and Super Mario 64, featuring Mario 
   provided OBJ parser library to support custom 3D models.
 thumbnail: /project/mario-typer/images/featured.webp
 thumbnailHd: /project/mario-typer/images/featured-hd.webp
+images:
+- /project/mario-typer/images/featured-hd.webp
+- /project/mario-typer/images/featured-frame.png
 categories:
 - Academic
 - Games
@@ -20,8 +23,6 @@ tags:
 - GameDevelopment
 - OpenSource
 - Programming
-images:
-- /project/mario-typer/images/featured-hd.webp
 ---
 {{< project-details
   timeline="Nov 21-26, 2015"

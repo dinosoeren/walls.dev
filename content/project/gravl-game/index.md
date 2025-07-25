@@ -8,6 +8,9 @@ summary: An independently developed Android puzzle platformer where players cont
   without game engines over 800 hours of development.
 thumbnail: /project/gravl-game/images/featured.webp
 thumbnailHd: /project/gravl-game/images/featured-hd.webp
+images:
+- /project/gravl-game/images/featured-hd.webp
+- /project/gravl-game/images/screenshot0.png
 categories:
 - App
 - Business
@@ -24,8 +27,6 @@ tags:
 - MobileDevelopment
 - Physics
 - Professional
-images:
-- /project/gravl-game/images/featured-hd.webp
 ---
 {{< project-details
   timeline="Summer 2014"

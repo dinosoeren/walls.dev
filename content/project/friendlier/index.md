@@ -7,6 +7,9 @@ summary: Reflections on building, pitching, and ultimately losing a promising so
   app to a single API dependency.
 thumbnail: /project/friendlier/images/featured.webp
 thumbnailHd: /project/friendlier/images/featured-hd.webp
+images:
+- /project/friendlier/images/featured-hd.webp
+- /project/friendlier/images/featured-frame.png
 categories:
 - Project
 - Business
@@ -19,8 +22,6 @@ tags:
 - Failure
 - API
 toc: true
-images:
-- /project/friendlier/images/featured-hd.webp
 ---
 {{< project-details
   timeline="2014-2015"

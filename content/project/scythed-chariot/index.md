@@ -10,6 +10,7 @@ slug: scythed-chariot
 thumbnail: /project/scythed-chariot/images/featured.webp
 images:
   - /project/scythed-chariot/images/featured-hd.webp
+  - /project/scythed-chariot/images/featured-frame.png
 categories:
   - Academic
   - CAD
@@ -20,11 +21,11 @@ tags:
   - Hardware
   - Education
 ---
-{{< project-details 
-  timeline="Jan-Feb, 2011" 
-  school="School of Engineering & Biomedical Science" 
-  course="Integrated Project" 
-  software="Autodesk Inventor, Autodesk 3dsMax Design" 
+{{< project-details
+  timeline="Jan-Feb, 2011"
+  school="School of Engineering & Biomedical Science"
+  course="Integrated Project"
+  software="Autodesk Inventor, Autodesk 3dsMax Design"
 >}}
 
 ## Watch the Animation

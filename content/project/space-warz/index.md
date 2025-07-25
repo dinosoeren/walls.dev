@@ -8,6 +8,9 @@ summary: A 2D top-down space shooter game built in Java over a weekend for Compu
   JAR/EXE versions for cross-platform play.
 thumbnail: /project/space-warz/images/featured.webp
 thumbnailHd: /project/space-warz/images/featured-hd.webp
+images:
+- /project/space-warz/images/featured-hd.webp
+- /project/space-warz/images/screenshot1.png
 categories:
 - Academic
 - Games
@@ -19,8 +22,6 @@ tags:
 - Java
 - OpenSource
 - Programming
-images:
-- /project/space-warz/images/featured-hd.webp
 ---
 {{< project-details
   timeline="Nov 16-20, 2013"
