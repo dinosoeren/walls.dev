@@ -43,7 +43,7 @@ In the fall of my sophomore year at SEBS, our English 2 class was given a creati
 
 With just a few days to make something worth presenting to the class, I locked myself in my room and set out to build a game in Game Maker that would capture the spirit of the climb. The result: **Scaling Everest**, a platformer where you play as Hillary, dodging avalanches, braving the cold, and making your way to the summit. The graphics were... let's call them "retro" (read: MS Paint chic), and the gameplay was simple, but it was mine.
 
-I wish I could share the source code, but somewhere between high school and adulthood, it vanished into the digital ether. All that's left is the original Windows executable. So, if you're on a Mac or Linux, you'll have to borrow a friend's PC (or try your luck with Wine).
+I wish I could share the source code, but somewhere between high school and adulthood, it vanished into the digital ether. All that's left is the original Windows executable. If you're on Mac or Linux, use [**Wine**](https://www.winehq.org/) to run it!
 
 {{< download-button url="../../bin/ScalingEverest.exe" text="Download .exe" ext="exe" >}}
 
