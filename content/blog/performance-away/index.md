@@ -45,9 +45,7 @@ After seeing everything from intimate 50-seat basement productions to grand pros
 
 ### 1. *X* at Royal Court Theatre *(Apr 28 & May 7, 2016)*
 
-{{< notice "info" >}}
-***The only play I saw twice***
-{{< /notice >}}
+> ***The only play I saw twice***
 
 Before seeing Alistair McDowall's *X*, I would have never believed that science fiction horror could work on stage. I was wrong - spectacularly wrong.
 
@@ -61,9 +59,7 @@ The technical achievement was staggering. Merle Hensel's set design captured eve
 
 ### 2. *Kings of War* at Barbican Theatre *(Apr 29, 2016)*
 
-{{< notice "info" >}}
-***Four and a half hours that felt like a thrill ride***
-{{< /notice >}}
+> ***Four and a half hours that felt like a thrill ride***
 
 Toneelgroep Amsterdam's adaptation of Shakespeare's Henry V, Henry VI, and Richard III was the most stimulating portrayal of history I've ever witnessed. Director Ivo van Hove took massive creative risks that paid off categorically.
 
@@ -77,9 +73,7 @@ Even performed in Dutch, the physical storytelling was so compelling that I unde
 
 ### 3. *The Flick* at Dorfman Theatre *(May 10, 2016)*
 
-{{< notice "info" >}}
-***The power of absolutely nothing happening***
-{{< /notice >}}
+> ***The power of absolutely nothing happening***
 
 Annie Baker's *The Flick* shouldn't work. It's three and a half hours of people cleaning a run-down movie theatre. A college student gets a job, has a fling with a coworker, gets fired for taking extra money. The end.
 
@@ -95,9 +89,7 @@ The acting was extraordinary. Despite painfully long pauses, I never stopped bel
 
 ### Honorary Mention: *Son of Saul* Film Screening
 
-{{< notice "info" >}}
-***Technically not theatre, but unforgettable cinema***
-{{< /notice >}}
+> ***Technically not theatre, but unforgettable cinema***
 
 While not technically a theatrical performance, I have to mention the *Son of Saul* screening I attended - one of the most uniquely creative, expertly crafted, and emotionally moving films I've ever experienced.
 
@@ -111,9 +103,7 @@ László Nemes' masterpiece is filmed to appear as a single continuous shot, ent
 
 ### 1. *The Beanfield* at Battersea Arts Centre *(Apr 21, 2016)*
 
-{{< notice "info" >}}
-***Documentary drama at its most tedious***
-{{< /notice >}}
+> ***Documentary drama at its most tedious***
 
 I'll be blunt: documentary dramas are the least viscerally and intellectually engaging form of performance I've ever experienced. *The Beanfield*, which attempted to recreate the 1985 Battle of the Beanfield through testimonials and reenactments, exemplified everything wrong with this format.
 
@@ -127,9 +117,7 @@ All I ask is that you decide whether you're doing fiction or documentary - you c
 
 ### 2. Mark Thomas' *TRESPASS* at Tricycle Theatre *(Apr 26, 2016)*
 
-{{< notice "info" >}}
-***Self-indulgence disguised as activism***
-{{< /notice >}}
+> ***Self-indulgence disguised as activism***
 
 Mark Thomas captured my attention and got some laughs, but his blend of stand-up comedy and political performance left me feeling patronized rather than inspired.
 
@@ -143,9 +131,7 @@ I got a few good laughs and learned about some creative forms of protest, but ov
 
 ### 3. *Boy* at Almeida Theatre *(May 6, 2016)*
 
-{{< notice "info" >}}
-***Technical brilliance, narrative emptiness***
-{{< /notice >}}
+> ***Technical brilliance, narrative emptiness***
 
 Leo Butler's *Boy* featured one of the most impressive set designs I saw all block. The entire stage was bordered by a giant conveyor belt that never stopped running, with actors seemingly levitating as they were carried around the curved edges. The production simulated London street life brilliantly - either you move with the flow or struggle to stay upright as it flows past you.
 
@@ -159,9 +145,7 @@ While the play succeeds in showing how systems fail adolescent boys, the overall
 
 ### Honorary Mention: *Doctor Faustus* at Duke of York's *(May 10, 2016)*
 
-{{< notice "info" >}}
-***When star power can't save poor direction***
-{{< /notice >}}
+> ***When star power can't save poor direction***
 
 *Doctor Faustus* deserves a dishonorable mention for proving that even the most recognizable actors can't overcome terrible directorial choices. This production starred Kit Harington at the peak of *Game of Thrones* popularity - just before Season 6 premiered with one of the highest-rated TV episodes of all time.
 
