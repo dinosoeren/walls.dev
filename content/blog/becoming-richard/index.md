@@ -1,12 +1,12 @@
 ---
 date: 2022-01-29T00:00:00.000-07:00
 draft: false
-title: "Becoming Richard Hendricks: How I Let a Director at Google Destroy my Project"
+title: "Becoming Richard Hendricks: How I Accidentally Gave Away my Favorite
+  Project at Google"
 slug: becoming-richard
-summary: The painful story of how I had my project and ideas stolen by a senior
-  staff engineer at Google, which he used to secure his promotion to director, a
-  scenario I'd later see play out almost exactly in an episode of HBO's Silicon
-  Valley.
+summary: The lessons I learned from watching my project get destroyed from the
+  inside out, when a senior staff engineer used my ideas to secure his promotion
+  to director. It felt like I was in an episode of HBO's Silicon Valley.
 thumbnail: /blog/becoming-richard/images/featured-hd.jpg
 thumbnailHd: /blog/becoming-richard/images/featured-hd.jpg
 images:
