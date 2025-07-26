@@ -20,9 +20,10 @@ tags:
 - C++
 - ComputerGraphics
 - Education
-- GameDevelopment
+- GameDev
 - OpenSource
 - Programming
+- Desktop
 ---
 {{< project-details
   timeline="Nov 21-26, 2015"

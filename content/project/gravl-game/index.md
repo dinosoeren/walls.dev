@@ -21,10 +21,10 @@ categories:
 tags:
 - 2DGraphics
 - ComputerGraphics
-- GameDevelopment
+- GameDev
 - HTML/CSS
 - Java
-- MobileDevelopment
+- MobileDev
 - Physics
 - Professional
 ---

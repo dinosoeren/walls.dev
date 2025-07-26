@@ -19,10 +19,10 @@ categories:
 - Web
 tags:
 - 2DGraphics
-- GameDevelopment
+- GameDev
 - HTML/CSS
 - React
-- MobileDevelopment
+- MobileDev
 - PWA
 - Programming
 - Tailwind

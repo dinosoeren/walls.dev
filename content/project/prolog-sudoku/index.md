@@ -17,18 +17,18 @@ categories:
 tags:
   - Programming
   - Prolog
-  - DeclarativeProgramming
+  - Declarative
   - LogicProgramming
   - AI
   - Puzzles
   - Sudoku
 toc: true
 ---
-{{< project-details 
-  timeline="Oct-Nov 2015" 
-  languages="Prolog" 
-  school="AIT at Budapest University of Technology and Economics" 
-  course="Semantic and Declarative Technologies" 
+{{< project-details
+  timeline="Oct-Nov 2015"
+  languages="Prolog"
+  school="AIT at Budapest University of Technology and Economics"
+  course="Semantic and Declarative Technologies"
 >}}
 
 # How I Learned to Stop Worrying and Love Logic Programming

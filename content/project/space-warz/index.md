@@ -18,10 +18,11 @@ categories:
 tags:
 - 2DGraphics
 - Education
-- GameDevelopment
+- GameDev
 - Java
 - OpenSource
 - Programming
+- Desktop
 ---
 {{< project-details
   timeline="Nov 16-20, 2013"

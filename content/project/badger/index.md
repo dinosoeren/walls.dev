@@ -19,7 +19,7 @@ tags:
 - .NET
 - VB
 - JavaScript
-- MobileDevelopment
+- MobileDev
 - Professional
 - Programming
 - WebDesign

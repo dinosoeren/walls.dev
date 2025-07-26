@@ -17,15 +17,16 @@ tags:
 - C++
 - Education
 - Programming
+- GameDev
 toc: true
 images:
 - /project/raytracing-engine/images/chessboard.png
 ---
-{{< project-details 
-  timeline="Nov 10-24, 2015" 
-  languages="C++" 
-  school="AIT at Budapest University of Technology and Economics" 
-  course="CP360 Computer Graphics" 
+{{< project-details
+  timeline="Nov 10-24, 2015"
+  languages="C++"
+  school="AIT at Budapest University of Technology and Economics"
+  course="CP360 Computer Graphics"
 >}}
 
 ## Project Overview
@@ -194,14 +195,14 @@ If you want to see more examples of materials (like glass, metal, or dielectric)
 
 ## Screenshots
 
-{{< lightgallery 
-  glob="images/*.png" 
+{{< lightgallery
+  glob="images/*.png"
 >}}
 
 ## Source Code
 
-{{< github-button 
-  url="https://github.com/dinosoeren/raycaster" 
+{{< github-button
+  url="https://github.com/dinosoeren/raycaster"
 >}}
 
 ## Reflections

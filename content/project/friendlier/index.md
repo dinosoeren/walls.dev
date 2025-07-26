@@ -17,6 +17,7 @@ categories:
 tags:
 - Startup
 - Android
+- MobileDev
 - Social
 - Business
 - Failure
