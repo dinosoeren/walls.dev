@@ -42,7 +42,7 @@ toc: true
 
 # Self-driven to Earn a Nanodegree
 
-> “*You’re going to be one of our very first Self-Driving Car students!*”
+> ✅ “*You’re going to be one of our very first Self-Driving Car students!*”
 
 That was the subject line of the email I received from Udacity in 2016, and I still remember the jolt of excitement (and terror) that ran through me. Out of 11,000+ applicants, I was one of 250 accepted into the inaugural Self-Driving Car Engineer Nanodegree. The catch? I'd only driven a real car a handful of times.
 
