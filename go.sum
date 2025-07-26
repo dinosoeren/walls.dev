@@ -34,6 +34,8 @@ github.com/dinosoeren/anatole v0.0.0-20250726192137-64cd1b466a68 h1:25f2IhzMbT8v
 github.com/dinosoeren/anatole v0.0.0-20250726192137-64cd1b466a68/go.mod h1:WOEDMSMefv/IjxXB+kZH6oYcpZHhTBNML9pX6y1BWt8=
 github.com/dinosoeren/anatole v0.0.0-20250726211819-ab179725360b h1:AcYvXU69Zxat4hB3pQxgJKqwTCfQEPTE7Ca57qNFtZU=
 github.com/dinosoeren/anatole v0.0.0-20250726211819-ab179725360b/go.mod h1:WOEDMSMefv/IjxXB+kZH6oYcpZHhTBNML9pX6y1BWt8=
+github.com/dinosoeren/anatole v0.0.0-20250726214530-759c7a25a062 h1:cK68Wl8bsfV4cPoMoyUMjHJPITcH/2eDI2hafcO+dYg=
+github.com/dinosoeren/anatole v0.0.0-20250726214530-759c7a25a062/go.mod h1:WOEDMSMefv/IjxXB+kZH6oYcpZHhTBNML9pX6y1BWt8=
 github.com/flypenguin/hugo-shortcode-gallery v0.0.0-20220316102403-aa70814e461b h1:h8BSNx7WE5fDJde4PGlIPWENnlCO0+QmU/mlLXHAuaU=
 github.com/flypenguin/hugo-shortcode-gallery v0.0.0-20220316102403-aa70814e461b/go.mod h1:Eg2GFDFpah8r36D/D3DnPdukFHUiv1jwa2NJ0FsTl5Q=
 github.com/lxndrblz/anatole v1.17.1 h1:mvAWo1EnEVK8JNbKvkixigLdPcOHIs3nQzFeVhsnnfo=
