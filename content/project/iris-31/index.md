@@ -38,7 +38,7 @@ toc: true
     course="TH404 Senior Thesis"
 >}}
 
-> *"Reality is wrong. Dreams are for real."* — Tupac Shakur
+> 💡 *"Reality is wrong. Dreams are for real."* — Tupac Shakur
 
 # When I Built a Chocolate Factory to Make a Cookie
 
@@ -54,7 +54,9 @@ One of over 75 individuals who participated in the performance over the course o
 
 {{< youtube fJAeXN1F7C8 >}}
 
-> *Apr 14, 2017* — Emily participates in *Iris-31*, an original two-person play that used Leap Motion hand sensors & Kinect body motion-sensors to capture the movements & sound of the actor and render them as a fully emotive virtual character in view of the single audience participant wearing an HTC Vive VR headset.
+> *Apr 14, 2017*
+>
+> Emily participates in *Iris-31*, an original two-person play that used Leap Motion hand sensors & Kinect body motion-sensors to capture the movements & sound of the actor and render them as a fully emotive virtual character in view of the single audience participant wearing an HTC Vive VR headset.
 >
 > For one of his senior thesis projects at Colorado College, Soeren Walls designed, programmed, scripted, and directed Iris-31 as a visceral re-imagining of the true story of his grandfather surviving the [1931 Belize hurricane](https://en.wikipedia.org/wiki/1931_British_Honduras_hurricane) tragedy as a child.
 > The word "iris" has multiple relevant meanings: it's related to water, the physical eye of a person/animal, and the calm center point of a storm.
@@ -267,7 +269,9 @@ A major influence on my approach was the work of video and performance artists l
 
 *Excerpt from an early draft:*
 
-> "YVON gets up and goes out the side door. He is met by vast golden fields of wheat and corn. Further in the distance, he sees two water towers atop a sunlit hill... To his right, ocean waves beat ominously against the shore."
+> YVON gets up and goes out the side door.
+>
+> He is met by vast golden fields of wheat and corn. Further in the distance, he sees two water towers atop a sunlit hill... To his right, ocean waves beat ominously against the shore.
 
 As the project matured, the script became more focused on emotional resonance and participant agency, using VR’s unique capabilities to blur the lines between memory, dream, and reality.
 
@@ -275,11 +279,15 @@ As the project matured, the script became more focused on emotional resonance an
 
 At its heart, *Iris-31* is about my grandfather Yvon’s (*Yvon is pronounced `"Ivo"`*) survival during the [1931 hurricane in British Honduras](https://en.wikipedia.org/wiki/1931_British_Honduras_hurricane) (modern-day Belize)—a story passed down through my family. But it’s also about the complexity of family, identity, and memory. The performance explores not just physical survival, but the psychological limbo of trauma, the ambiguity of identity, and the struggle to connect across generations.
 
-*Excerpt from the final script:*
+*Excerpts from the final script:*
 
-> "A man is yelling at you. 'How could this happen?! I remember his sweet hands, his face. Nothing is the same now. Nothing is the same. You could have saved him! You could have saved him!'"
+> A man is yelling at you.
+>
+> "How could this happen?! I remember his sweet hands, his face. Nothing is the same now. Nothing is the same. You could have saved him! You could have saved him!"
 
-> "Old man lying on a hospital bed in front of you. He says: 'His name was Alec, not Alex. A L E C. A Greek name. Alec was my cousin. 2 years old. He was swept away. His family and their house were consumed by the waves.'"
+> Old man lying on a hospital bed in front of you. He says:
+>
+> "His name was Alec, not Alex. A-L-E-C. A Greek name. Alec was my cousin. 2 years old. He was swept away. His family and their house were consumed by the waves."
 
 ## Symbolic Scenes and Motifs
 
@@ -290,27 +298,39 @@ The final performance was structured as a series of symbolic, interactive scenes
 - **The Book and the Dice:** The performance ends with a book inscribed "Hope you like it. Love, Granddad" and dice showing "3" and "1"—a direct reference to 1931, the year of the hurricane.
 - **The TV and News:** Scenes with a TV and news broadcast ground the story in historical reality, while the TV’s static and flooding studio blur the line between past and present.
 
-*Excerpt from the final script:*
+*Excerpts from the final script:*
 
-> "A book appears in his place. It falls to the ground. You go to pick it up, and it avoids your hand, like a magnet. It floats upward in front of you, it opens, and there’s something written on the first page. It says, 'Hope you like it. Love, Granddad.'"
+> A book appears in his place.
+>
+> It falls to the ground. You go to pick it up, and it avoids your hand, like a magnet. It floats upward in front of you, it opens, and there’s something written on the first page.
+>
+> It says, *"Hope you like it. Love, Granddad."*
 
-> "You’re standing on the edge of a cliff, and there’s a huge storm in the distance. A hurricane. It’s slowly coming toward you... Just before the hurricane reaches you, the storm immediately calms, the hurricane dissipates into the water, the sun comes out, and you’re left standing there in the sunlight. Birds. Wind. Silence. Peace."
+> You’re standing on the edge of a cliff...
+>
+> ...and there’s a huge storm in the distance. A hurricane. It’s slowly coming toward you... Just before the hurricane reaches you, the storm immediately calms, the hurricane dissipates into the water, the sun comes out, and you’re left standing there in the sunlight. Birds. Wind. Silence. Peace.
 
 ## Exploring Identity
 
 The early scripts also touched on issues of gender and racial identity, reflecting my own journey to understand my family’s past and my place within it. These themes, while less explicit in the final performance, informed the emotional landscape of *Iris-31*.
 
-*Excerpt from an early draft:*
-
-> "EDWARD: Your skin’s dark. AVICE: A bit. EDWARD: Too much sunlight. Be smart about it, like Yvon. He knows if he spends too much time in the sun, his friends won’t play with him at school. AVICE: Yvon is a good girl. She stays inside and keeps her skin fair, like a good girl."
+> *Dialog from an early draft:*
+>
+> EDWARD: Your skin’s dark.
+>
+> AVICE: A bit.
+>
+> EDWARD: Too much sunlight. Be smart about it, like Yvon. He knows if he spends too much time in the sun, his friends won’t play with him at school.
+>
+> AVICE: Yvon is a good girl. She stays inside and keeps her skin fair, like a good girl.
 
 ## The Role of Binadu and Family Dynamics
 
 The family servant, who I named Binadu out of ignorance of his real name, plays a crucial role in the survival story. He physically saved Yvon and his family during the hurricane by tying them with rope to the water towers near their home, where they remained for days. The scripts show Binadu’s care and the family’s complex dynamics under stress.
 
-*Excerpt from an early draft:*
-
-> "BINADU: I won’t let you take him. If you have a death wish, so be it, but I am taking Yvon now!"
+> *Line from an early draft:*
+>
+> BINADU: I won’t let you take him. If you have a death wish, so be it, but I am taking Yvon now!
 
 ## Final Thoughts
 

@@ -26,9 +26,9 @@ tags:
 toc: false
 ---
 
-{{< notice "disclaimer" >}}
-***Disclaimer**: The opinions expressed here are my own and not Google's.*
-{{< /notice >}}
+> 📣 Disclaimer
+>
+> *The opinions expressed here are my own and not Google's.*
 
 Have you ever had an experience so absurdly specific that it felt like it was ripped from a TV show? For me, that show was HBO's *Silicon Valley*, and the scene was an infamous moment from Season 2. I lived through my own version of it between 2018 and 2022, regrettably before I ever saw the show (*I know, I was late!*). It was a painful, disillusioning, and ultimately transformative lesson in corporate politics at Google.
 
