@@ -26,13 +26,17 @@ tags:
 toc: false
 ---
 
+{{< notice "info" >}}
+The opinions expressed here are my own and not Google's.
+{{< /notice >}}
+
 Have you ever had an experience so absurdly specific that it felt like it was ripped from a TV show? For me, that show was HBO's *Silicon Valley*, and the scene was an infamous moment from Season 2. I lived through my own version of it between 2018 and 2022, regrettably before I ever saw the show (*I know, I was late!*). It was a painful, disillusioning, and ultimately transformative lesson in corporate politics at Google.
 
 ## The Idea and The Project
 
-It started with an idea I was passionate about. Fresh on a new team, I saw an opportunity to solve a major problem. I poured my energy into a proposal, pitched it to an Engineering Director, and to my surprise, he not only funded it but also entrusted me with the role of Tech Lead (TL) to see it through. **GlassPane** was born: a metrics dashboard acting as a single pane of glass for Cloud's Reliability.
+It started with an idea I was passionate about. Fresh on a new team, I saw an opportunity to solve a major problem. I poured my energy into a proposal, pitched it to an Engineering Director, and to my surprise, he not only funded it but also entrusted me with the role of Tech Lead (TL) to see it through. **GlassPane** was born: a metrics platform acting as a single pane of glass for GCP's reliability.
 
-{{< figure src="images/glasspane.jpg" title="GlassPane" >}}
+{{< figure src="images/glasspane.jpg" caption="**GlassPane**'s elevator pitch." alt="An internal metrics platform to help directors and managers understand the health of their projects and teams." attr="*Image: Google, 2019*" attrlink="https://www.youtube.com/watch?v=_azoxefUs_Y" >}}
 
 This was a dream scenario. Within six months, I was leading a project I had conceived, backed by leadership, and working to build something I truly believed would have a massive impact. We were making great progress, and I was incredibly proud of what my team and I were accomplishing. I even [presented GlassPane's architecture to 800+ people](/project/cloud-next-talk/) at Cloud Next '19.
 
