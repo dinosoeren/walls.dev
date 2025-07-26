@@ -1,47 +1,47 @@
 ---
-date: 2022-01-30 00:00:00-06:00
+date: 2022-02-28T23:00:00.000-07:00
 draft: false
-title: 'Turdle: A Wordle Clone with Animated Turtles'
+title: "Turdle: A Wordle Clone with Animated Turtles"
 slug: turdle
-summary: A Wordle clone featuring animated turtles instead of letters, with 42 years
-  of unique daily puzzles guaranteed through mathematical permutation generation,
-  built for Global Game Jam 2022.
+summary: A Wordle clone featuring animated turtles instead of letters, with 42
+  years of unique daily puzzles guaranteed through mathematical permutation
+  generation, built for Global Game Jam 2022.
 thumbnail: /project/turdle/images/featured.webp
 thumbnailHd: /project/turdle/images/featured-hd.webp
 images:
-- /project/turdle/images/featured-hd.webp
-- /project/turdle/images/featured-frame.png
+  - /project/turdle/images/featured-hd.webp
+  - /project/turdle/images/featured-frame.png
 categories:
-- App
-- Games
-- Mobile
-- Project
-- Web
+  - App
+  - Games
+  - Mobile
+  - Project
+  - Web
 tags:
-- 2DGraphics
-- GameDev
-- HTML/CSS
-- React
-- MobileDev
-- PWA
-- Programming
-- Tailwind
-- Typescript
-- GlobalGameJam
+  - 2DGraphics
+  - GameDev
+  - HTML/CSS
+  - React
+  - MobileDev
+  - PWA
+  - Programming
+  - Tailwind
+  - Typescript
+  - GlobalGameJam
 ---
-{{< project-details
-  timeline="Jan 27-29, 2022"
-  languages="TypeScript, React, CSS, HTML"
-  reason="To create a unique Wordle variant with mathematical puzzle generation"
-  role="Indie Game Dev, UI/UX Designer"
+{{< project-details 
+  timeline="Jan 27-29, 2022" 
+  languages="TypeScript, React, CSS, HTML" 
+  reason="To create a unique Wordle variant with mathematical puzzle generation" 
+  role="Indie Game Dev, UI/UX Designer" 
 >}}
 
-{{< website-button
-  url="https://turdle.xyz"
+{{< website-button 
+  url="https://turdle.xyz" 
 >}}
 
-{{< github-button
-  url="https://github.com/dinosoeren/turdle"
+{{< github-button 
+  url="https://github.com/dinosoeren/turdle" 
 >}}
 
 ## Overview
@@ -235,8 +235,8 @@ The core innovation of mathematically generated unique puzzles has applications 
 
 ## Screenshots
 
-{{< lightgallery
-  glob="images/*.png"
+{{< lightgallery 
+  glob="images/*.png" 
 >}}
 
 - - -
