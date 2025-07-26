@@ -108,13 +108,13 @@ We explored the pros and cons of both architectures, and why Louhi and GlassPane
 * **Costly Migration:** Migrating from a monolithic application to microservices can be a costly process.
 * **Risk of Nanoservices:** There is a danger of creating services that are too fine-grained (nanoservices). This anti-pattern leads to excessive complexity, network latency, and operational overhead that outweighs the benefits.
 
-  {{< notice "" >}}
+  {{< notice "tip" >}}
   We gave an example of falling into the nanoservices trap with GlassPane's metric data collectors, before we adjusted our service granularity.
   {{< /notice >}}
 
 * **Risk of Increased Operational Overhead:** Depending on your tech stack, setting up the infrastructure - e.g. binary release orchestration, monitoring, load balancing, configuration, etc - for each new service can be a pain.
 
-  {{< notice "" >}}
+  {{< notice "tip" >}}
   We mentioned specific tools like API Gateway, Service Registry, Micrometer, Stackdriver, and Envoy & Istio, as well as [helpful patterns](#migration-patterns) you can use to reduce operational overhead.
   {{< /notice >}}
 
