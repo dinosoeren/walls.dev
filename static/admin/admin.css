@@ -9,6 +9,42 @@
   #nc-root > div:last-child > div > main > div:last-child > ul > li {
     flex: 0 0 calc(100% - 12px);
   }
+  /* ToolbarSubSectionFirst has stacked buttons */
+  #nc-root
+    > div:last-child
+    > div
+    > div:first-child
+    > div:first-of-type
+    > div:first-child {
+    flex-direction: column;
+    gap: 4px;
+  }
+  #nc-root
+    > div:last-child
+    > div
+    > div:first-child
+    > div:first-of-type
+    > div:first-child
+    button,
+  #nc-root
+    > div:last-child
+    > div
+    > div:first-child
+    > div:first-of-type
+    > div:first-child
+    span[role="button"] {
+    line-height: 24px;
+    height: 24px;
+  }
+  #nc-root
+    > div:last-child
+    > div
+    > div:first-child
+    > div:first-of-type
+    > div:first-child
+    span[role="button"]:after {
+    top: 8px;
+  }
   /* BackCollection has small font */
   #nc-root
     > div:last-child
@@ -43,6 +79,11 @@
 
 /* Improvements for all mobile devices */
 @media (max-width: 815px) {
+  /* Prevent invisible nav from influencing page size */
+  #nc-root > header nav {
+    overflow: hidden;
+  }
+
   /* AppMainContainer and AppHeaderContent has no min width */
   #nc-root > div:last-child,
   #nc-root > header > div {
@@ -59,6 +100,7 @@
   #nc-root > div:last-child > div > div:first-child {
     min-width: unset;
   }
+
   /* EditorContainer with preview has min width */
   #nc-root > div:last-child > div:has(.SplitPane) {
     display: block;
