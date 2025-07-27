@@ -1,34 +1,36 @@
 ---
 date: 2015-04-10
 draft: false
-title: 'Friendlier: Letting a Startup Fail Fast'
+title: "Friendlier: Letting a Startup Fail Fast"
 slug: friendlier
-summary: Reflections on building, pitching, and ultimately losing a promising social
-  app to a single API dependency.
+summary: Reflections on building, pitching, and ultimately losing a promising
+  social app to a single API dependency.
 thumbnail: /project/friendlier/images/featured.webp
 thumbnailHd: /project/friendlier/images/featured-hd.webp
 images:
-- /project/friendlier/images/featured-hd.webp
-- /project/friendlier/images/featured-frame.png
+  - /project/friendlier/images/featured-hd.webp
+  - /project/friendlier/images/featured-frame.png
 categories:
-- Project
-- Business
-- Reflection
+  - Project
+  - Business
+  - Reflection
+  - Mobile
+  - App
 tags:
-- Startup
-- Android
-- MobileDev
-- Social
-- Business
-- Failure
-- API
+  - Startup
+  - Android
+  - MobileDev
+  - Social
+  - Business
+  - Failure
+  - API
 toc: true
 ---
-{{< project-details
-  timeline="2014-2015"
-  languages="Java (Android)"
-  school="Colorado College"
-  role="CEO, Mobile Developer, Big Idea Finalist"
+{{< project-details 
+  timeline="2014-2015" 
+  languages="Java (Android)" 
+  school="Colorado College" 
+  role="CEO, Mobile Developer, Big Idea Finalist" 
 >}}
 
 In our sophomore year at Colorado College, my best friend Anubrat and I set out to solve a problem we both felt deeply: how do you keep the connections you’ve made, when life and social media make it so easy to forget? The result was **Friendlier**—a mobile app that nudged you to reach out to friends you might otherwise lose touch with, using data, context, and a bit of gamification.
