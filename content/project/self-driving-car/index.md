@@ -33,11 +33,11 @@ tags:
   - MPC
 toc: true
 ---
-{{< project-details
-  timeline="2016-2018"
-  languages="Python, C++, TensorFlow, Keras, OpenCV"
-  school="Udacity (Nanodegree), Colorado College"
-  course="Self-Driving Car Engineer Nanodegree"
+{{< project-details 
+  timeline="2016-2018" 
+  languages="Python, C++, TensorFlow, Keras, OpenCV" 
+  school="Udacity (Nanodegree), Colorado College" 
+  course="Self-Driving Car Engineer Nanodegree" 
 >}}
 
 # Self-driven to Earn a Nanodegree
@@ -135,8 +135,8 @@ Handling cases where the lane detection sanity check failed was another challeng
 
 Next up: teaching a neural network to recognize traffic signs from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This was [not my first](../ai-block-plan/) real foray into deep learning, but I still spent way too long tuning hyperparameters and staring at loss curves.
 
-{{< lightgallery
-  glob="images/gtsrb*.png"
+{{< lightgallery 
+  glob="images/gtsrb*.png" 
 >}}
 
 #### How the Classifier Works
@@ -476,48 +476,120 @@ One of the trickiest parts was handling latency. The simulator introduced a 100m
 
 ### 7. Path Planning & Semantic Segmentation (Term 3)
 
-A truly autonomous car must plan safe paths and understand its environment at a pixel level. Path planning and semantic segmentation allow the car to navigate complex roads and identify drivable space.
+> 💡 Core Idea
+>
+> A truly autonomous car must plan safe paths and understand its environment at a pixel level. Path planning and semantic segmentation allow the car to navigate complex roads and identify drivable space.
 
 #### Path Planning (C++)
 
-The path planning project is implemented in C++ and interfaces with a driving simulator. The core logic involves:
+The path planning project felt like the final exam, bringing together localization, prediction, and control into one C++ application. The goal was to build a "brain" that could safely navigate a busy highway, and the simulator didn't pull any punches.
 
-* **Loading map waypoints** from a CSV file to define the road.
-* **Processing telemetry and sensor fusion data** to track the ego vehicle and other cars.
-* **Behavior planning** to decide when to change lanes or adjust speed, using a subsumption architecture to avoid collisions.
-* **Generating a smooth trajectory** using cubic spline interpolation, ensuring the car follows the lane and avoids abrupt maneuvers.
+The challenge, as laid out in the project goals, was to make a car that drove *politely* but *efficiently*. It had to:
+
+* Stay as close as possible to the 50 MPH speed limit.
+* Automatically detect and overtake slower traffic by changing lanes.
+* Avoid collisions at all costs.
+* And crucially, do it all smoothly, without exceeding strict limits on acceleration and jerk. No one likes a jerky robot driver.
+
+At every time step (every 0.02 seconds, to be exact!), the simulator fed my C++ program a stream of data: my car's precise location and speed, and a `sensor_fusion` list detailing the position and velocity of every other car on my side of the road.
+
+My code's job was to act as a behavior planner. It would parse the sensor data to answer key questions:
+
+* Is there a car directly ahead of me? If so, how far?
+* Should I slow down to match its speed?
+* Or, is the lane to my left or right clear for a pass?
+
+Once the planner decided on an action (e.g., "prepare for a left lane change"), the next step was generating a smooth path. For this, I used a fantastic C++ spline library that was recommended in the project tips. It allowed me to take a few key waypoints—based on the car's current state and its target destination—and interpolate a fluid, continuous trajectory for the car to follow.
 
 ```cpp
-// Example: Find closest waypoint
+// Example: Find closest waypoint to start the path planning
 int ClosestWaypoint(double x, double y, const vector<double> &maps_x, const vector<double> &maps_y) {
-    double closestLen = 100000;
-    int closestWaypoint = 0;
-    for (int i = 0; i < maps_x.size(); i++) {
-        double dist = distance(x, y, maps_x[i], maps_y[i]);
-        if (dist < closestLen) {
-            closestLen = dist;
-            closestWaypoint = i;
-        }
-    }
+    // ... logic to find the nearest map waypoint ...
     return closestWaypoint;
 }
 ```
 
 ```cpp
-// Spline interpolation for smooth path
+// Using the spline library to generate the trajectory
 #include "spline.h"
-spline s;
-s.set_points(ptsx, ptsy); // ptsx, ptsy are anchor points
+tk::spline s;
+// Set anchor points for the spline based on current state and target
+s.set_points(ptsx, ptsy);
+
+// Populate the next path points by evaluating the spline
 vector<double> next_x_vals, next_y_vals;
-for (int i = 1; i <= PATH_SIZE; i++) {
-    double x_point = ...; // calculated along the spline
-    double y_point = s(x_point);
+for (int i = 0; i < 50; i++) {
+    // ... calculate points along the spline ...
     next_x_vals.push_back(x_point);
-    next_y_vals.push_back(y_point);
+    next_y_vals.push_back(s(x_point));
 }
 ```
 
-This approach allows the car to follow lanes, make safe lane changes, and maintain a target velocity, all while responding to dynamic traffic.
+The beating heart of the project was a giant lambda function inside `main.cpp`: the `h.onMessage` handler. This function was called every 0.02 seconds with a fresh batch of telemetry data. This is where the magic happened: my code had to parse the car's state, analyze the positions of all other cars on the road, and generate a safe and smooth trajectory—all in a fraction of a second.
+
+Here’s a look at the structure of that handler, with pseudo-code outlining my decision-making logic:
+
+```cpp
+// main.cpp
+h.onMessage([&map_waypoints_x,...](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
+    // ... JSON parsing ...
+    if (event == "telemetry") {
+        // Get main car's localization data
+        double car_x = j[1]["x"];
+        double car_y = j[1]["y"];
+        double car_s = j[1]["s"];
+        double car_d = j[1]["d"];
+        double car_speed = j[1]["speed"];
+
+        // Get sensor fusion data: a list of all other cars
+        auto sensor_fusion = j[1]["sensor_fusion"];
+        
+        // --- My Logic Started Here ---
+
+        // 1. Analyze the current situation using sensor_fusion data
+        bool car_ahead = false;
+        bool car_left = false;
+        bool car_right = false;
+        for (int i = 0; i < sensor_fusion.size(); i++) {
+            // Check if a car is in my lane, too close
+            // Check if cars are in the left/right lanes, blocking a change
+        }
+
+        // 2. Behavior Planning: Decide what to do
+        double target_speed = 49.5; // MPH
+        int target_lane = 1; // 0=left, 1=center, 2=right
+        if (car_ahead) {
+            if (!car_left) {
+                target_lane = 0; // Change to left lane
+            } else if (!car_right) {
+                target_lane = 2; // Change to right lane
+            } else {
+                target_speed -= .224; // Slow down to match car ahead
+            }
+        } else if (car_speed < 49.5) {
+            target_speed += .224; // Speed up to limit
+        }
+
+        // 3. Trajectory Generation using the spline library
+        // Create anchor points for the spline based on current state and target_lane/target_speed
+        // ... (as described in the spline example) ...
+        tk::spline s;
+        s.set_points(anchor_pts_x, anchor_pts_y);
+
+        // Populate next_x_vals and next_y_vals with points from the spline
+        // ...
+
+        // Send the new path back to the simulator
+        json msgJson;
+        msgJson["next_x"] = next_x_vals;
+        msgJson["next_y"] = next_y_vals;
+        auto msg = "42[\"control\","+ msgJson.dump()+"]";
+        ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
+    }
+});
+```
+
+This approach of behavior planning combined with spline-based trajectory generation created a system that could navigate dynamic traffic safely and effectively. It was incredibly satisfying to watch my car make its own decisions to speed up, slow down, and weave through traffic to complete a full lap of the 6946-meter highway loop.
 
 #### Semantic Segmentation (Python/TensorFlow)
 
@@ -549,8 +621,8 @@ output = tf.layers.conv2d_transpose(conv_1x1, num_classes, 4, strides=(2, 2), pa
 * The model uses transfer learning, skip connections, and upsampling to achieve accurate segmentation.
 * L2 regularization is manually added to the loss function for better generalization.
 
-{{< lightgallery
-  glob="images/u*.png"
+{{< lightgallery 
+  glob="images/u*.png" 
 >}}
 
 *Fun fact*: Seeing the model color in the road beneath the cars is weirdly satisfying.
@@ -567,8 +639,8 @@ The final assignment was to combine the major concepts from all 3 terms into, yo
 
 ## Source Code
 
-{{< github-button
-  url="https://github.com/dinosoeren/SelfDrivingCarND"
+{{< github-button 
+  url="https://github.com/dinosoeren/SelfDrivingCarND" 
 >}}
 
 - - -
