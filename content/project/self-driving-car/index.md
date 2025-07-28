@@ -60,7 +60,11 @@ The Nanodegree was a wild ride through computer vision, deep learning, estimatio
 
 ### 1. Finding Lane Lines (Term 1)
 
-Before a car can drive itself, it needs to understand the road. The first step is detecting lane lines—crucial for keeping the vehicle safely in its lane and navigating turns. Armed with OpenCV and a handful of image processing tricks, I built a pipeline that could find lines using color selection, Canny edge detection, and Hough transforms.
+> 💡 Core Idea
+>
+> Before a car can drive itself, it needs to understand the road. The first step is detecting lane lines—crucial for keeping the vehicle safely in its lane and navigating turns.
+
+Armed with OpenCV and a handful of image processing tricks, I built a pipeline that could find lines using color selection, Canny edge detection, and Hough transforms.
 
 {{< figure src="images/white.webp" alt="White lane line detection" caption="My results: Detecting a lane with a dashed white line on the left and solid white on the right">}}
 
@@ -199,11 +203,15 @@ def TrafficNet(x, dropout):
 
 ### 3. Behavioral Cloning: Teaching a Car to Drive Like Me
 
-To automate driving, the car needs to learn how to steer based on what it "sees." Behavioral cloning uses deep learning to mimic human driving by mapping camera images to steering commands.
+> 💡 Core Idea
+>
+> To automate driving, the car needs to learn how to steer based on what it "sees." Behavioral cloning uses deep learning to mimic human driving by mapping camera images to steering commands.
+
+I collected training data by manually driving laps in the Udacity simulator, focusing on center-lane driving, recovery from the sides, and even driving in reverse for robustness. Only the center camera images were used for simplicity.
 
 {{< figure src="images/bc-run1.webp" alt="First run results" caption="My first behavioral cloning results: jerky driving and dangerous on corners">}}
 
-I collected training data by manually driving laps in the Udacity simulator, focusing on center-lane driving, recovery from the sides, and even driving in reverse for robustness. Only the center camera images were used for simplicity. I experimented with different combinations of data: sometimes including recovery and reverse driving, sometimes just center lane, and even data from a second, more challenging track. Interestingly, the model trained only on center lane data performed best on the original track, while the more diverse data helped on the harder track but sometimes made the car less reliable on the first.
+I experimented with different combinations of data: sometimes including recovery and reverse driving, sometimes just center lane, and even data from a second, more challenging track. Interestingly, the model trained only on center lane data performed best on the original track, while the more diverse data helped on the harder track but sometimes made the car less reliable on the first.
 
 To augment the dataset, I flipped images and steering angles, effectively doubling the data and helping the model generalize:
 
@@ -271,7 +279,9 @@ After much iteration, the best model could drive autonomously around the track w
 
 ### 4. Estimation & Localization: Kalman Filters and Particle Filters (Term 2)
 
-In robotics and autonomous vehicles, knowing exactly where you are is surprisingly hard. Sensors are noisy, the world is unpredictable, and GPS alone isn’t nearly accurate enough. That’s where estimation algorithms like Kalman filters and particle filters come in...
+> 💡 Core Idea
+>
+> In robotics and autonomous vehicles, knowing exactly where you are is surprisingly hard. Sensors are noisy, the world is unpredictable, and GPS alone isn’t nearly accurate enough. That’s where estimation algorithms like Kalman filters and particle filters come in...
 
 They combine noisy sensor data and a model of the system to estimate the true state of the vehicle—such as its position, velocity, and orientation—over time. Kalman filters are optimal for linear systems with Gaussian noise, while particle filters can handle highly nonlinear, non-Gaussian problems by representing the state as a set of random samples (particles).
 
@@ -406,7 +416,9 @@ void ParticleFilter::resample() {
 
 ### 5. PID Controller: My First Taste of Control
 
-Controlling a car means more than just knowing where you are—you need to keep the car on track. PID controllers are a classic way to minimize errors and keep the vehicle centered and stable.
+> 💡 Core Idea
+>
+> Controlling a car means more than just knowing where you are—you need to keep the car on track. PID controllers are a classic way to minimize errors and keep the vehicle centered and stable.
 
 {{< youtube dtlHIR4FkAI >}}
 
@@ -434,7 +446,9 @@ I also used a PID controller for throttle, targeting a constant speed. The resul
 
 ### 6. Model Predictive Control (MPC): The Big Leagues
 
-For more advanced driving, the car must plan ahead, predicting its future path and optimizing control inputs. MPC enables this by solving an optimization problem at every step: predicting future states and optimizing control inputs over a time horizon. It’s like chess, but for cars.
+> 💡 Core Idea
+>
+> For more advanced driving, the car must plan ahead, predicting its future path and optimizing control inputs. MPC enables this by solving an optimization problem at every step: predicting future states and optimizing control inputs over a time horizon. It’s like chess, but for cars.
 
 {{< youtube w_9uhuP21es >}}
 
@@ -493,7 +507,7 @@ The challenge, as laid out in the project goals, was to make a car that drove *p
 
 At every time step (every 0.02 seconds, to be exact!), the simulator fed my C++ program a stream of data: my car's precise location and speed, and a `sensor_fusion` list detailing the position and velocity of every other car on my side of the road.
 
-My code's job was to act as a behavior planner. It would parse the sensor data to answer key questions:
+My code's job was to act as a behavior planner using [subsumption architecture](/project/arduino-robot/#how-it-works). It would parse the sensor data to answer key questions:
 
 * Is there a car directly ahead of me? If so, how far?
 * Should I slow down to match its speed?
