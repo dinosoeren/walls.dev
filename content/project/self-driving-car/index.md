@@ -36,7 +36,7 @@ toc: true
 {{< project-details 
   timeline="2016-2018" 
   languages="Python, C++, TensorFlow, Keras, OpenCV" 
-  school="Udacity (Nanodegree), Colorado College" 
+  school="Udacity, Colorado College" 
   course="Self-Driving Car Engineer Nanodegree" 
 >}}
 
@@ -48,17 +48,13 @@ That was the subject line of the email I received from Udacity in 2016, and I st
 
 ![Acceptance email](images/acceptance-email.png)
 
-## The Road to Autonomy: A Personal Journey
-
 I started Udacity's online course while juggling my senior year at Colorado College, two thesis projects, and a job search that would eventually land me at Google.
 
 The Nanodegree was a wild ride through computer vision, deep learning, estimation, and control. Here’s how I went from drawing lines on road images to unlocking the power of autonomous driving in a car simulator.
 
 - - -
 
-## Starting with the Basics
-
-### 1. Finding Lane Lines (Term 1)
+## 1. Finding Lane Lines (Term 1)
 
 > 💡 Core Idea
 >
@@ -80,7 +76,7 @@ def pipeline(image):
     return result
 ```
 
-#### The Hough Transform for Lane Detection
+### The Hough Transform for Lane Detection
 
 After edge detection, the Hough transform is used to find straight line segments that likely correspond to lane lines. The probabilistic Hough transform (`cv2.HoughLinesP`) maps edge points to a parameter space and finds the most likely lines by looking for intersections (votes) in this space.
 
@@ -123,7 +119,7 @@ line_img = hough_lines(edges, rho, theta, threshold, min_line_len, max_line_gap)
 result = weighted_img(line_img, original_img)
 ```
 
-#### Advanced Lane Detection
+### Advanced Lane Detection
 
 Beyond this, creating a robust solution for advanced lane detection involved iteratively tuning the color and gradient thresholds to create a robust binary image, experimenting with different combinations until the lane lines were reliably detected under varying lighting and road conditions. Key improvements included applying erosion and dilation to the directional binary output to remove isolated noise pixels, and using a positional mask to focus only on the relevant road area.
 
@@ -135,7 +131,7 @@ Handling cases where the lane detection sanity check failed was another challeng
 
 - - -
 
-### 2. Traffic Sign Recognition & Deep Learning
+## 2. Traffic Sign Recognition & Deep Learning
 
 Next up: teaching a neural network to recognize traffic signs from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This was [not my first](../ai-block-plan/) real foray into deep learning, but I still spent way too long tuning hyperparameters and staring at loss curves.
 
@@ -143,13 +139,13 @@ Next up: teaching a neural network to recognize traffic signs from the [German T
   glob="images/gtsrb*.png" 
 >}}
 
-#### How the Classifier Works
+### How the Classifier Works
 
 * **Data:** The model is trained on 32x32 RGB images, each labeled with one of 43 possible traffic sign classes. The dataset is diverse, with thousands of images per class, and includes real-world variations in lighting, angle, and occlusion.
 * **Preprocessing:** Images are normalized to the range \[0.1, 0.9] for better convergence. I also shuffled the data before each epoch to help the model generalize.
 * **Architecture:** The network is a custom convolutional neural network (CNN) inspired by LeNet, but deeper and adapted for color images and more classes. It uses three convolutional layers, each followed by ReLU activations and max pooling, then flattens and passes through two dense layers before the final softmax output.
 
-#### Neural Network Architecture (TensorFlow)
+### Neural Network Architecture (TensorFlow)
 
 ```mermaid
 graph LR
@@ -192,7 +188,7 @@ def TrafficNet(x, dropout):
     return logits
 ```
 
-#### Training & Results
+### Training & Results
 
 * The model was trained using cross-entropy loss and dropout for regularization. I monitored validation accuracy after each epoch and tweaked the learning rate and dropout to avoid overfitting.
 * After several rounds of tuning, the final model achieved high accuracy on the test set and could reliably classify real-world traffic sign images—even with noise and distortion.
@@ -201,7 +197,7 @@ def TrafficNet(x, dropout):
 
 - - -
 
-### 3. Behavioral Cloning: Teaching a Car to Drive Like Me
+## 3. Behavioral Cloning: Teaching a Car to Drive Like Me
 
 > 💡 Core Idea
 >
@@ -277,7 +273,7 @@ After much iteration, the best model could drive autonomously around the track w
 
 - - -
 
-### 4. Estimation & Localization: Kalman Filters and Particle Filters (Term 2)
+## 4. Estimation & Localization: Kalman Filters and Particle Filters (Term 2)
 
 > 💡 Core Idea
 >
@@ -287,7 +283,7 @@ They combine noisy sensor data and a model of the system to estimate the true st
 
 Term 2 was where things got real. I implemented:
 
-#### **Extended Kalman Filter (EKF)**
+### Extended Kalman Filter (EKF)
 
 The EKF fuses noisy lidar and radar data to estimate a moving object's state. The core update and prediction steps look like this:
 
@@ -342,7 +338,7 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 
 - - -
 
-#### **Unscented Kalman Filter (UKF)**
+### Unscented Kalman Filter (UKF)
 
 The UKF handles nonlinearities better by propagating a set of sigma points through the process and measurement models:
 
@@ -382,7 +378,7 @@ void UKF::UpdateRadar(MeasurementPackage measurement_pack) {
 
 - - -
 
-#### **Particle Filter**
+### Particle Filter
 
 For the “kidnapped vehicle” project, I implemented a 2D particle filter in C++. The filter maintains a set of particles, each representing a possible state. At each step, it predicts, updates weights based on sensor observations, and resamples:
 
@@ -414,7 +410,7 @@ void ParticleFilter::resample() {
 
 - - -
 
-### 5. PID Controller: My First Taste of Control
+## 5. PID Controller: My First Taste of Control
 
 > 💡 Core Idea
 >
@@ -444,7 +440,7 @@ I also used a PID controller for throttle, targeting a constant speed. The resul
 
 - - -
 
-### 6. Model Predictive Control (MPC): The Big Leagues
+## 6. Model Predictive Control (MPC): The Big Leagues
 
 > 💡 Core Idea
 >
@@ -488,13 +484,13 @@ One of the trickiest parts was handling latency. The simulator introduced a 100m
 
 - - -
 
-### 7. Path Planning & Semantic Segmentation (Term 3)
+## 7. Path Planning & Semantic Segmentation (Term 3)
 
 > 💡 Core Idea
 >
 > A truly autonomous car must plan safe paths and understand its environment at a pixel level. Path planning and semantic segmentation allow the car to navigate complex roads and identify drivable space.
 
-#### Path Planning (C++)
+### Path Planning (C++)
 
 The path planning project felt like the final exam, bringing together localization, prediction, and control into one C++ application. The goal was to build a "brain" that could safely navigate a busy highway, and the simulator didn't pull any punches.
 
@@ -605,7 +601,7 @@ h.onMessage([&map_waypoints_x,...](uWS::WebSocket<uWS::SERVER> ws, char *data, s
 
 This approach of behavior planning combined with spline-based trajectory generation created a system that could navigate dynamic traffic safely and effectively. It was incredibly satisfying to watch my car make its own decisions to speed up, slow down, and weave through traffic to complete a full lap of the 6946-meter highway loop.
 
-#### Semantic Segmentation (Python/TensorFlow)
+### Semantic Segmentation (Python/TensorFlow)
 
 The semantic segmentation project uses a Fully Convolutional Network (FCN) to label each pixel in an image as "road" or "not road." This is where the magic of deep learning gets visual.
 
