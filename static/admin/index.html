@@ -10,6 +10,8 @@
   <body>
     <!-- Include Markdown renderer (marked) for custom editors -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Purify unsafe HTML before rendering arbitrary markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.6/purify.min.js"></script>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <!-- Custom Editor Components for Standard Hugo Shortcodes-->
@@ -26,8 +28,8 @@
     <script src="editors/fa-editor.js"></script>
     <!-- Custom AI Chat Widget -->
     <script type="module" src="widgets/ai-chat/index.js"></script>
-    <link rel="stylesheet" href="widgets/ai-chat/css/main.css">
+    <link rel="stylesheet" href="widgets/ai-chat/css/main.css" />
     <!-- Mobile Responsive Admin Styles -->
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="admin.css" />
   </body>
 </html>
