@@ -607,33 +607,57 @@ This approach of behavior planning combined with spline-based trajectory generat
 
 #### Semantic Segmentation (Python/TensorFlow)
 
-The semantic segmentation project uses a Fully Convolutional Network (FCN) based on VGG16 to label each pixel in road images as "road" or "not road." The main steps are:
+The semantic segmentation project uses a Fully Convolutional Network (FCN) to label each pixel in an image as "road" or "not road." This is where the magic of deep learning gets visual.
 
-* **Load a pretrained VGG16 model** and adapt it for segmentation.
-* **Train on the KITTI Road dataset** using TensorFlow.
-* **Use skip connections and upsampling layers** to produce pixel-wise predictions.
-* **Output segmented images** where the drivable area is highlighted.
+> 💡 Core Idea
+>
+> The goal isn't just to classify an image, like we were doing [with traffic signs in Term 1](#2-traffic-sign-recognition--deep-learning), but rather to understand its content at a granular level.
 
-```python
-# Load VGG model and extract layers
-vgg_tag = 'vgg16'
-tf.saved_model.loader.load(sess, [vgg_tag], vgg_path)
-graph = tf.get_default_graph()
-image_input = graph.get_tensor_by_name('image_input:0')
-layer3_out = graph.get_tensor_by_name('layer3_out:0')
-layer4_out = graph.get_tensor_by_name('layer4_out:0')
-layer7_out = graph.get_tensor_by_name('layer7_out:0')
-```
+The architecture is an FCN-8, a network famous for this kind of task, built on top of a pre-trained VGG16 model. A key tip from the project documentation was that the provided VGG model wasn't vanilla; it was already a "fully convolutional version," meaning its dense final layers had been swapped for 1x1 convolutions. This was a huge head start, as it meant I could directly tap into the rich feature maps from deep within the network.
+
+The core of my implementation was the `layers` function, which reconstructs the final output by upsampling and combining layers from VGG. This is where the skip connections come in, merging the coarse, semantic information from deep layers with the fine, spatial information from shallower ones.
 
 ```python
-# Example: 1x1 convolution and upsampling for segmentation
-conv_1x1 = tf.layers.conv2d(layer7_out, num_classes, 1, padding='same',
-                            kernel_regularizer=tf.contrib.layers.l2_regularizer(1e-3))
-output = tf.layers.conv2d_transpose(conv_1x1, num_classes, 4, strides=(2, 2), padding='same')
+# main.py
+def layers(vgg_layer3_out, vgg_layer4_out, vgg_layer7_out, num_classes):
+    """
+    Create the layers for a fully convolutional network.  Build skip-layers using the vgg layers.
+    """
+    # 1x1 convolution of vgg layer 7
+    conv_7 = tf.layers.conv2d(vgg_layer7_out, num_classes, 1, strides=(1,1),
+                                padding='same', kernel_regularizer=tf.contrib.layers.l2_regularizer(1e-3))
+    # Upsample layer 7 output
+    output_7 = tf.layers.conv2d_transpose(conv_7, num_classes, 4, strides=(2,2),
+                                            padding='same')
+
+    # 1x1 convolution of vgg layer 4
+    conv_4 = tf.layers.conv2d(vgg_layer4_out, num_classes, 1, strides=(1,1),
+                                padding='same', kernel_regularizer=tf.contrib.layers.l2_regularizer(1e-3))
+    # Skip connection: add upsampled layer 7 to layer 4
+    skip_4 = tf.add(output_7, conv_4)
+    # Upsample the combined layer
+    output_4 = tf.layers.conv2d_transpose(skip_4, num_classes, 4, strides=(2,2),
+                                            padding='same')
+
+    # 1x1 convolution of vgg layer 3
+    conv_3 = tf.layers.conv2d(vgg_layer3_out, num_classes, 1, strides=(1,1),
+                                padding='same', kernel_regularizer=tf.contrib.layers.l2_regularizer(1e-3))
+    # Skip connection: add upsampled layer 4 to layer 3
+    skip_3 = tf.add(output_4, conv_3)
+    # Final upsample to restore original image size
+    output_3 = tf.layers.conv2d_transpose(skip_3, num_classes, 16, strides=(8,8),
+                                            padding='same')
+
+    return output_3
 ```
 
-* The model uses transfer learning, skip connections, and upsampling to achieve accurate segmentation.
-* L2 regularization is manually added to the loss function for better generalization.
+I trained the network on the [KITTI Road dataset](https://www.cvlibs.net/datasets/kitti/eval_road.php) for 50 epochs with a batch size of 5. One of the trickiest parts was getting the L2 regularization right.
+
+> 💡 Tip
+>
+> Udacity's project instructions had a crucial tip: simply adding `kernel_regularizer` to the `tf.layers` calls isn't enough in TensorFlow 1.x. You have to *manually* fetch the regularization losses and add them to your main cross-entropy loss function. It's a classic "gotcha" that could easily go unnoticed.
+
+The final model, trained with an Adam optimizer and a learning rate of `0.0008`, produced some beautifully segmented images where the drivable area is highlighted.
 
 {{< lightgallery 
   glob="images/u*.png" 
