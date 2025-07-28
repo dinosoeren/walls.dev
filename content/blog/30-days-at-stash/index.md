@@ -8,6 +8,8 @@ summary: So, I've officially hit the 30-day mark at my new startup gig at Stash,
 redirectUrl: https://www.linkedin.com/posts/soerenw_startup-softwareengineer-careeradvice-activity-7323459253476696065-yLuv
 thumbnail: /blog/30-days-at-stash/images/featured.jpg
 thumbnailHd: /blog/30-days-at-stash/images/featured-hd.jpg
+images:
+- /blog/30-days-at-stash/images/featured-hd.jpg
 categories:
 - Career
 - Reflection
@@ -19,8 +21,6 @@ tags:
 - Learning
 - GrowthMindset
 - LinkedIn
-images:
-- /blog/30-days-at-stash/images/featured-hd.jpg
 ---
 
 {{% loading %}}

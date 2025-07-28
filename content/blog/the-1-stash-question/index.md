@@ -8,6 +8,8 @@ summary: The most common question I hear may surprise you. Stash also just got n
 redirectUrl: https://www.linkedin.com/posts/soerenw_the-question-ive-been-asked-most-since-joining-activity-7352064916356280320-5uVs
 thumbnail: /blog/the-1-stash-question/images/featured.jpg
 thumbnailHd: /blog/the-1-stash-question/images/featured-hd.jpg
+images:
+- /blog/the-1-stash-question/images/featured-hd.jpg
 categories:
 - Career
 tags:
@@ -19,8 +21,7 @@ tags:
 - VoteNow
 - MobileGaming
 - SoftwareEngineer
-images:
-- /blog/the-1-stash-question/images/featured-hd.jpg
+- LinkedIn
 ---
 {{% loading %}}
 

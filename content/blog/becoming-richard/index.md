@@ -12,8 +12,8 @@ thumbnailHd: /blog/becoming-richard/images/featured-hd.jpg
 images:
   - /blog/becoming-richard/images/featured-hd.jpg
 categories:
-  - Blog
-  - Business
+  - Opinion
+  - Career
 tags:
   - Career
   - Programming
