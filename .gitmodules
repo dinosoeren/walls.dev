@@ -1,0 +1,3 @@
+[submodule "static/admin/widgets/ai-chat"]
+	path = static/admin/widgets/ai-chat
+	url = https://github.com/dinosoeren/decap-ai-chat-widget.git
