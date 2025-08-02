@@ -1,7 +1,7 @@
 ---
 date: 2017-05-02T12:25:00.000-06:00
 draft: true
-title: Javaish Haskell
+title: "Lexing and Parsing: Building a Java(ish) Interpreter in Haskell"
 slug: javaish-haskell
 summary: "A look back at my final project for Programming Languages at Colorado
   College: building an interpreter for a Java-like language using Haskell. It
@@ -19,8 +19,6 @@ tags:
   - Lexing
 toc: true
 ---
-# Lexing and Parsing: Building a Java(ish) Interpreter in Haskell
-
 {{< project-details 
   timeline="April 2017" 
   languages="Haskell" 
